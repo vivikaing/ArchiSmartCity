@@ -1,6 +1,6 @@
 
 
-# Archi - ArchiMate Modelling Editor
+# Archi - ArchiMate Modelling Editor for Smart Cities
 
 Archi® is a free, open source, cross-platform tool and editor to create ArchiMate models.
 
