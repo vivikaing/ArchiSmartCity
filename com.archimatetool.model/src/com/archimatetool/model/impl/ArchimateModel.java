@@ -36,6 +36,7 @@ import com.archimatetool.model.IArchimatePackage;
 import com.archimatetool.model.IArchimateRelationship;
 import com.archimatetool.model.IBusinessElement;
 import com.archimatetool.model.IDiagramModel;
+import com.archimatetool.model.IDomain;
 import com.archimatetool.model.IFeature;
 import com.archimatetool.model.IFeatures;
 import com.archimatetool.model.IFeaturesEList;
@@ -336,7 +337,7 @@ public class ArchimateModel extends EObjectImpl implements IArchimateModel {
         if(object instanceof IImplementationMigrationElement) {
             return getFolder(FolderType.IMPLEMENTATION_MIGRATION);
         }
-        if(object instanceof IJunction || object instanceof ILocation || object instanceof IGrouping) {
+        if(object instanceof IJunction || object instanceof ILocation || object instanceof IGrouping || object instanceof IDomain) {
             return getFolder(FolderType.OTHER);
         }
         if(object instanceof IArchimateRelationship) {
