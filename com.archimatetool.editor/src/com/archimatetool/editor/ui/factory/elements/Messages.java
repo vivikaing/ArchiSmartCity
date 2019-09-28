@@ -75,6 +75,8 @@ public class Messages extends NLS {
     public static String GoalUIProvider_0;
 
     public static String GroupingUIProvider_0;
+    
+    public static String DomainUIProvider_0;
 
     public static String ImplementationEventUIProvider_0;
 

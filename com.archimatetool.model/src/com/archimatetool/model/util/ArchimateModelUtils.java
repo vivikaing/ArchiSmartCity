@@ -283,7 +283,8 @@ public class ArchimateModelUtils {
     public static EClass[] getOtherClasses() {
         return new EClass[] {
                 IArchimatePackage.eINSTANCE.getLocation(),
-                IArchimatePackage.eINSTANCE.getGrouping()
+                IArchimatePackage.eINSTANCE.getGrouping(),
+                IArchimatePackage.eINSTANCE.getDomain()
         };
     }
 

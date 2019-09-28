@@ -1005,6 +1005,10 @@
             id="com.archimatetool.editor.GroupingUIProvider">
       </uiProvider>
       <uiProvider
+            class="com.archimatetool.editor.ui.factory.elements.DomainUIProvider"
+            id="com.archimatetool.editor.DomainUIProvider">
+      </uiProvider>
+      <uiProvider
             class="com.archimatetool.editor.ui.factory.elements.ImplementationEventUIProvider"
             id="com.archimatetool.editor.ImplementationEventUIProvider">
       </uiProvider>
