@@ -1,13 +1,21 @@
 package com.archimatetool.editor.diagram.figures.elements;
 
+import java.io.InputStream;
+
 import org.eclipse.draw2d.ChopboxAnchor;
+import org.eclipse.draw2d.ColorConstants;
 import org.eclipse.draw2d.ConnectionAnchor;
 import org.eclipse.draw2d.Graphics;
 import org.eclipse.draw2d.IFigure;
 import org.eclipse.draw2d.geometry.Point;
+import org.eclipse.draw2d.geometry.PointList;
 import org.eclipse.draw2d.geometry.Rectangle;
 import org.eclipse.swt.SWT;
+import org.eclipse.swt.graphics.Device;
+import org.eclipse.swt.graphics.Image;
+import org.eclipse.swt.graphics.Path;
 import org.eclipse.swt.graphics.Pattern;
+import org.eclipse.swt.widgets.Display;
 
 import com.archimatetool.editor.diagram.figures.AbstractTextControlContainerFigure;
 import com.archimatetool.editor.diagram.figures.FigureUtils;
@@ -99,6 +107,7 @@ public class DomainFigure extends AbstractTextControlContainerFigure {
 	        graphics.drawPolygon(mainRectangle);
 	        
 	        graphics.popState();
+	        drawIconImage(graphics);
 	    }
 	    
 	    @Override
@@ -153,4 +162,32 @@ public class DomainFigure extends AbstractTextControlContainerFigure {
 	        return new DomainFigureConnectionAnchor(this);
 	    }
 
+	    /**
+	     * Draw the icon image
+	     */
+	    protected void drawIconImage(Graphics graphics) {
+	    	graphics.pushState();
+	        graphics.setForegroundColor(isEnabled() ? ColorConstants.black : ColorConstants.gray); 
+	    	// Start at top right 
+	    	Point pt = getIconOrigin(); 
+	    	
+	    	final Display display = Display.getDefault();
+	        //InputStream path = getClass().getResourceAsStream("img/about.png"); 
+	        
+	        Image imagen = new Image(display, "D:\\domain.png");	    		    	      
+	        int w = imagen.getImageData().width;
+	        int h = imagen.getImageData().height;
+	        graphics.drawImage(imagen, 0, 0, w, h, pt.x, pt.y, 25, 25);
+	        graphics.popState();
+	        imagen.dispose();
+	    }
+	    
+	    /**
+	     * @return The icon start position
+	     */
+	    protected Point getIconOrigin() {
+	        Rectangle bounds = getBounds();
+	        return new Point(bounds.getRight().x - 29, bounds.y + 4);
+	    }
+	    
 }

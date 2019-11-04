@@ -5,6 +5,11 @@
  */
 package com.archimatetool.editor.diagram.figures.elements;
 
+import java.awt.image.BufferedImage;
+import java.io.File;
+
+import javax.imageio.ImageIO;
+
 import org.eclipse.draw2d.ChopboxAnchor;
 import org.eclipse.draw2d.ColorConstants;
 import org.eclipse.draw2d.ConnectionAnchor;
@@ -12,12 +17,15 @@ import org.eclipse.draw2d.EllipseAnchor;
 import org.eclipse.draw2d.Graphics;
 import org.eclipse.draw2d.geometry.Point;
 import org.eclipse.draw2d.geometry.Rectangle;
+import org.eclipse.swt.graphics.Device;
+import org.eclipse.swt.graphics.Image;
 
 import com.archimatetool.editor.diagram.figures.AbstractTextControlContainerFigure;
 import com.archimatetool.editor.diagram.figures.EllipseFigureDelegate;
 import com.archimatetool.editor.diagram.figures.IFigureDelegate;
 import com.archimatetool.editor.diagram.figures.RectangleFigureDelegate;
 import com.archimatetool.model.IDiagramModelArchimateObject;
+
 
 
 /**
@@ -60,11 +68,13 @@ public class InterfaceFigure extends AbstractTextControlContainerFigure {
         
         // circle
         graphics.drawOval(rect);
-        
         // line
         graphics.drawLine(pt.x, pt.y + 5, pt.x - 7, pt.y + 5);
         
         graphics.popState();
+        
+        
+
     }
     
     /**
