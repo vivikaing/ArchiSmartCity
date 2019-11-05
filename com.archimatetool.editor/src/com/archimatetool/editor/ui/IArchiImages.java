@@ -87,7 +87,7 @@ public interface IArchiImages {
     String ICON_GROUPING = ARCHIMATE_IMGPATH + "grouping.png"; //$NON-NLS-1$
     
     String ICON_DOMAIN = ARCHIMATE_IMGPATH + "domain.png"; //$NON-NLS-1$
-
+    String ICON_DOMAIN_IMAGE = ARCHIMATE_IMGPATH + "domain@2x.png"; //$NON-NLS-1$
     
     String ICON_IMPLEMENTATION_EVENT = ARCHIMATE_IMGPATH + "implementation-event.png"; //$NON-NLS-1$
     String ICON_LOCATION = ARCHIMATE_IMGPATH + "location.png"; //$NON-NLS-1$
