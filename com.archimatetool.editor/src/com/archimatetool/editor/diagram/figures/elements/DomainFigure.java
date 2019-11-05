@@ -1,21 +1,16 @@
 package com.archimatetool.editor.diagram.figures.elements;
 
 import java.io.File;
-import java.io.InputStream;
-
 import org.eclipse.draw2d.ChopboxAnchor;
 import org.eclipse.draw2d.ColorConstants;
 import org.eclipse.draw2d.ConnectionAnchor;
 import org.eclipse.draw2d.Graphics;
 import org.eclipse.draw2d.IFigure;
 import org.eclipse.draw2d.geometry.Point;
-import org.eclipse.draw2d.geometry.PointList;
 import org.eclipse.draw2d.geometry.Rectangle;
 import org.eclipse.swt.SWT;
-import org.eclipse.swt.graphics.Device;
 import org.eclipse.swt.graphics.Image;
 import org.eclipse.swt.graphics.ImageData;
-import org.eclipse.swt.graphics.Path;
 import org.eclipse.swt.graphics.Pattern;
 import org.eclipse.swt.widgets.Display;
 
@@ -24,7 +19,6 @@ import com.archimatetool.editor.diagram.figures.FigureUtils;
 import com.archimatetool.editor.preferences.IPreferenceConstants;
 import com.archimatetool.editor.preferences.Preferences;
 import com.archimatetool.editor.ui.IArchiImages;
-import com.archimatetool.editor.ui.ImageFactory;
 import com.archimatetool.model.IDiagramModelArchimateObject;
 import com.archimatetool.model.ITextPosition;
 
@@ -34,8 +28,6 @@ import com.archimatetool.model.ITextPosition;
  * @author Viviana Bastidas
  */
 public class DomainFigure extends AbstractTextControlContainerFigure {
-	private static final int TOPBAR_HEIGHT = 18;
-	private static final float INSET = 1.4f;
 
 	public DomainFigure() {
 		super(TEXT_FLOW_CONTROL);
@@ -63,34 +55,16 @@ public class DomainFigure extends AbstractTextControlContainerFigure {
 			graphics.setBackgroundPattern(gradient);
 		}
 
-		int type = getDiagramModelObject().getType();
+//		type 0 = rectangle with a border on the top  type 1 = rectangle
+//		int type = getDiagramModelObject().getType();
 
 		int[] mainRectangle;
 
-		if (type == 1) {
-			mainRectangle = new int[] { bounds.x, bounds.y, bounds.x + bounds.width - 1, bounds.y,
-					bounds.x + bounds.width - 1, bounds.y + bounds.height - 1, bounds.x, bounds.y + bounds.height - 1 };
+		mainRectangle = new int[] { bounds.x, bounds.y, bounds.x + bounds.width - 1, bounds.y,
+				bounds.x + bounds.width - 1, bounds.y + bounds.height - 1, bounds.x, bounds.y + bounds.height - 1 };
 
-			graphics.fillPolygon(mainRectangle);
-		} else {
-			mainRectangle = new int[] { bounds.x, bounds.y + TOPBAR_HEIGHT, bounds.x + bounds.width - 1,
-					bounds.y + TOPBAR_HEIGHT, bounds.x + bounds.width - 1, bounds.y + bounds.height - 1, bounds.x,
-					bounds.y + bounds.height - 1 };
-
-			int[] fillShape = new int[] { bounds.x, bounds.y, (int) (bounds.x + (bounds.width / INSET)), bounds.y,
-					(int) (bounds.x + (bounds.width / INSET)), bounds.y + TOPBAR_HEIGHT, bounds.getRight().x,
-					bounds.y + TOPBAR_HEIGHT, bounds.getRight().x, bounds.getBottom().y, bounds.x,
-					bounds.getBottom().y };
-
-			graphics.fillPolygon(fillShape);
-
-			graphics.setAlpha(getLineAlpha());
-			graphics.drawLine(bounds.x, bounds.y, bounds.x, bounds.y + TOPBAR_HEIGHT);
-			graphics.drawLine(bounds.x, bounds.y, (int) (bounds.x + (bounds.width / INSET)), bounds.y);
-			graphics.drawLine((int) (bounds.x + (bounds.width / INSET)), bounds.y,
-					(int) (bounds.x + (bounds.width / INSET)), bounds.y + TOPBAR_HEIGHT);
-		}
-
+		graphics.fillPolygon(mainRectangle);
+		
 		if (gradient != null) {
 			gradient.dispose();
 		}
@@ -111,7 +85,7 @@ public class DomainFigure extends AbstractTextControlContainerFigure {
 		if (textPosition == ITextPosition.TEXT_POSITION_TOP) {
 			bounds.y -= 3;
 		}
-
+		
 		return bounds;
 	}
 
@@ -126,22 +100,6 @@ public class DomainFigure extends AbstractTextControlContainerFigure {
 		@Override
 		public Point getLocation(Point reference) {
 			Point pt = super.getLocation(reference);
-
-			int type = getDiagramModelObject().getType();
-
-			if (type == 1) {
-				return pt;
-			}
-
-			Rectangle r = getBox().getCopy();
-			getOwner().translateToAbsolute(r);
-
-			int shiftY = TOPBAR_HEIGHT - (pt.y - r.y) - 1;
-
-			if (pt.x > r.x + (r.width / INSET) && shiftY > 0) {
-				pt.y += shiftY;
-			}
-
 			return pt;
 		};
 	}
