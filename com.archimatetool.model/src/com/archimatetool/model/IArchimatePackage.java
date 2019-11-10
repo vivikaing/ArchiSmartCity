@@ -9348,6 +9348,70 @@ public interface IArchimatePackage extends EPackage {
 	int DOMAIN_FEATURE_COUNT = COMPOSITE_ELEMENT_FEATURE_COUNT + 0;
 
 				/**
+	 * The meta object id for the '{@link com.archimatetool.model.impl.Objective <em>Objective</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.archimatetool.model.impl.Objective
+	 * @see com.archimatetool.model.impl.ArchimatePackage#getObjective()
+	 * @generated
+	 */
+	int OBJECTIVE = 134;
+
+				/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OBJECTIVE__NAME = MOTIVATION_ELEMENT__NAME;
+
+				/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OBJECTIVE__ID = MOTIVATION_ELEMENT__ID;
+
+				/**
+	 * The feature id for the '<em><b>Features</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OBJECTIVE__FEATURES = MOTIVATION_ELEMENT__FEATURES;
+
+				/**
+	 * The feature id for the '<em><b>Documentation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OBJECTIVE__DOCUMENTATION = MOTIVATION_ELEMENT__DOCUMENTATION;
+
+				/**
+	 * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OBJECTIVE__PROPERTIES = MOTIVATION_ELEMENT__PROPERTIES;
+
+				/**
+	 * The number of structural features of the '<em>Objective</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OBJECTIVE_FEATURE_COUNT = MOTIVATION_ELEMENT_FEATURE_COUNT + 0;
+
+				/**
 	 * The meta object id for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -9355,7 +9419,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFolderType()
 	 * @generated
 	 */
-    int FOLDER_TYPE = 134;
+    int FOLDER_TYPE = 135;
 
     /**
 	 * The meta object id for the '<em>File</em>' data type.
@@ -9365,7 +9429,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFile()
 	 * @generated
 	 */
-    int FILE = 135;
+    int FILE = 136;
 
 
     /**
@@ -11369,6 +11433,16 @@ public interface IArchimatePackage extends EPackage {
 	EClass getDomain();
 
 				/**
+	 * Returns the meta object for class '{@link com.archimatetool.model.IObjective <em>Objective</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Objective</em>'.
+	 * @see com.archimatetool.model.IObjective
+	 * @generated
+	 */
+	EClass getObjective();
+
+				/**
 	 * Returns the meta object for enum '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}'.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -13230,6 +13304,16 @@ public interface IArchimatePackage extends EPackage {
 		 * @generated
 		 */
 		EClass DOMAIN = eINSTANCE.getDomain();
+
+								/**
+		 * The meta object literal for the '{@link com.archimatetool.model.impl.Objective <em>Objective</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.archimatetool.model.impl.Objective
+		 * @see com.archimatetool.model.impl.ArchimatePackage#getObjective()
+		 * @generated
+		 */
+		EClass OBJECTIVE = eINSTANCE.getObjective();
 
 								/**
 		 * The meta object literal for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.

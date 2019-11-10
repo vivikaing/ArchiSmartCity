@@ -84,6 +84,7 @@ public interface IArchiImages {
     String ICON_FACILITY = ARCHIMATE_IMGPATH + "facility.png"; //$NON-NLS-1$
     String ICON_GAP = ARCHIMATE_IMGPATH + "gap.png"; //$NON-NLS-1$
     String ICON_GOAL = ARCHIMATE_IMGPATH + "goal.png"; //$NON-NLS-1$
+    String ICON_OBJECTIVE = ARCHIMATE_IMGPATH + "objective.png"; //$NON-NLS-1$
     String ICON_GROUPING = ARCHIMATE_IMGPATH + "grouping.png"; //$NON-NLS-1$
     
     String ICON_DOMAIN = ARCHIMATE_IMGPATH + "domain.png"; //$NON-NLS-1$

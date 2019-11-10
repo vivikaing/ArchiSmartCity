@@ -101,6 +101,7 @@ import com.archimatetool.model.IMetadata;
 import com.archimatetool.model.IMotivationElement;
 import com.archimatetool.model.INameable;
 import com.archimatetool.model.INode;
+import com.archimatetool.model.IObjective;
 import com.archimatetool.model.IOtherRelationship;
 import com.archimatetool.model.IOutcome;
 import com.archimatetool.model.IPassiveStructureElement;
@@ -2294,6 +2295,23 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.OBJECTIVE: {
+				IObjective objective = (IObjective)theEObject;
+				T result = caseObjective(objective);
+				if (result == null) result = caseMotivationElement(objective);
+				if (result == null) result = caseArchimateElement(objective);
+				if (result == null) result = caseArchimateConcept(objective);
+				if (result == null) result = caseArchimateModelObject(objective);
+				if (result == null) result = caseCloneable(objective);
+				if (result == null) result = caseDocumentable(objective);
+				if (result == null) result = caseProperties(objective);
+				if (result == null) result = caseAdapter(objective);
+				if (result == null) result = caseNameable(objective);
+				if (result == null) result = caseIdentifier(objective);
+				if (result == null) result = caseFeatures(objective);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -3645,6 +3663,21 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseDomain(IDomain object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Objective</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Objective</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseObjective(IObjective object) {
 		return null;
 	}
 

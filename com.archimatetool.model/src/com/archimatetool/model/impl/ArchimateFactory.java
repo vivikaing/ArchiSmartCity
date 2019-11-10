@@ -78,6 +78,7 @@ import com.archimatetool.model.IMaterial;
 import com.archimatetool.model.IMeaning;
 import com.archimatetool.model.IMetadata;
 import com.archimatetool.model.INode;
+import com.archimatetool.model.IObjective;
 import com.archimatetool.model.IOutcome;
 import com.archimatetool.model.IPath;
 import com.archimatetool.model.IPlateau;
@@ -241,6 +242,7 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.SKETCH_MODEL_STICKY: return createSketchModelSticky();
 			case IArchimatePackage.SKETCH_MODEL_ACTOR: return createSketchModelActor();
 			case IArchimatePackage.DOMAIN: return createDomain();
+			case IArchimatePackage.OBJECTIVE: return createObjective();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1132,6 +1134,17 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public IDomain createDomain() {
 		Domain domain = new Domain();
 		return domain;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IObjective createObjective() {
+		Objective objective = new Objective();
+		return objective;
 	}
 
 				/* (non-Javadoc)

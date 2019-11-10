@@ -449,4 +449,5 @@
   <eClassifiers xsi:type="ecore:EClass" name="SketchModelSticky" eSuperTypes="#//DiagramModelObject #//DiagramModelContainer #//TextContent #//Properties #//TextPosition"/>
   <eClassifiers xsi:type="ecore:EClass" name="SketchModelActor" eSuperTypes="#//DiagramModelObject #//Documentable #//Properties"/>
   <eClassifiers xsi:type="ecore:EClass" name="Domain" eSuperTypes="#//CompositeElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Objective" eSuperTypes="#//MotivationElement"/>
 </ecore:EPackage>

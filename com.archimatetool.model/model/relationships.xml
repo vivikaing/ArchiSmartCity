@@ -36,6 +36,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -100,6 +101,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -164,6 +166,7 @@
         <target concept="Facility" relations="fot" derived="ft" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorst" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afnort" derived="" />
@@ -228,6 +231,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afnortv" derived="" />
@@ -292,6 +296,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afnortv" derived="" />
@@ -356,6 +361,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -420,6 +426,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afnortv" derived="" />
@@ -484,6 +491,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorstv" derived="" />
         <target concept="Domain" relations="acfgnorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
@@ -549,6 +557,7 @@
         <target concept="Facility" relations="forv" derived="frv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorsv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afnorv" derived="" />
@@ -613,6 +622,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="no" derived="n" />
+        <target concept="Objective" relations="no" derived="n" />
         <target concept="Grouping" relations="cgnos" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="no" derived="" />
@@ -677,6 +687,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -741,6 +752,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />        
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -805,6 +817,7 @@
         <target concept="Facility" relations="fot" derived="ft" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorst" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afnort" derived="" />
@@ -869,6 +882,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afnortv" derived="" />
@@ -933,6 +947,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afnortv" derived="" />
@@ -997,6 +1012,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -1061,6 +1077,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="cgnors" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="nor" derived="" />
@@ -1125,6 +1142,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afnortv" derived="" />
@@ -1189,6 +1207,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="io" derived="i" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -1253,6 +1272,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorstv" derived="" />
         <target concept="Domain" relations="acfgnorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
@@ -1318,6 +1338,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="cfgnorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="fnortv" derived="" />
@@ -1382,6 +1403,7 @@
         <target concept="Facility" relations="fgiortv" derived="fgirtv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -1446,6 +1468,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="cgnors" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="nor" derived="" />
@@ -1510,6 +1533,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="cgnors" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="nor" derived="" />
@@ -1574,6 +1598,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="cfgnorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="fnortv" derived="" />
@@ -1638,6 +1663,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="cgnors" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="nor" derived="" />
@@ -1702,6 +1728,7 @@
         <target concept="Facility" relations="or" derived="r" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="cgnors" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="nor" derived="" />
@@ -1766,6 +1793,7 @@
         <target concept="Facility" relations="cfgiorstv" derived="cfgirtv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -1830,6 +1858,7 @@
         <target concept="Facility" relations="fgiortv" derived="fgirtv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -1894,6 +1923,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="no" derived="n" />
+        <target concept="Objective" relations="no" derived="n" />
         <target concept="Grouping" relations="cgnos" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="no" derived="" />
@@ -1958,6 +1988,7 @@
         <target concept="Facility" relations="cfgiorstv" derived="cfgirtv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -2022,6 +2053,7 @@
         <target concept="Facility" relations="cfgiorstv" derived="cfgirtv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -2086,6 +2118,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="cgos" derived="cg" />
         <target concept="Goal" relations="o" derived="" />
+        <target concept="Objective" relations="o" derived="" />
         <target concept="Grouping" relations="cgos" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="o" derived="" />
@@ -2150,6 +2183,72 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="cgnos" derived="cgn" />
+        <target concept="Objective" relations="o" derived="cgn" />
+        <target concept="Grouping" relations="cgnos" derived="" />
+        <target concept="ImplementationEvent" relations="o" derived="" />
+        <target concept="Junction" relations="no" derived="" />
+        <target concept="Location" relations="o" derived="" />
+        <target concept="Material" relations="o" derived="" />
+        <target concept="Meaning" relations="no" derived="n" />
+        <target concept="Node" relations="o" derived="" />
+        <target concept="Outcome" relations="no" derived="n" />
+        <target concept="Path" relations="o" derived="" />
+        <target concept="Plateau" relations="o" derived="" />
+        <target concept="Principle" relations="no" derived="n" />
+        <target concept="Product" relations="o" derived="" />
+        <target concept="Relationship" relations="o" />
+        <target concept="Representation" relations="o" derived="" />
+        <target concept="Requirement" relations="no" derived="n" />
+        <target concept="Resource" relations="o" derived="" />
+        <target concept="Stakeholder" relations="o" derived="" />
+        <target concept="SystemSoftware" relations="o" derived="" />
+        <target concept="TechnologyCollaboration" relations="o" derived="" />
+        <target concept="TechnologyEvent" relations="o" derived="" />
+        <target concept="TechnologyFunction" relations="o" derived="" />
+        <target concept="TechnologyInteraction" relations="o" derived="" />
+        <target concept="TechnologyInterface" relations="o" derived="" />
+        <target concept="TechnologyProcess" relations="o" derived="" />
+        <target concept="TechnologyService" relations="o" derived="" />
+        <target concept="Value" relations="no" derived="n" />
+        <target concept="WorkPackage" relations="o" derived="" />
+    </source>
+    
+    <source concept="Objective">
+        <target concept="ApplicationCollaboration" relations="o" derived="" />
+        <target concept="ApplicationComponent" relations="o" derived="" />
+        <target concept="ApplicationEvent" relations="o" derived="" />
+        <target concept="ApplicationFunction" relations="o" derived="" />
+        <target concept="ApplicationInteraction" relations="o" derived="" />
+        <target concept="ApplicationInterface" relations="o" derived="" />
+        <target concept="ApplicationProcess" relations="o" derived="" />
+        <target concept="ApplicationService" relations="o" derived="" />
+        <target concept="Artifact" relations="o" derived="" />
+        <target concept="Assessment" relations="no" derived="n" />
+        <target concept="BusinessActor" relations="o" derived="" />
+        <target concept="BusinessCollaboration" relations="o" derived="" />
+        <target concept="BusinessEvent" relations="o" derived="" />
+        <target concept="BusinessFunction" relations="o" derived="" />
+        <target concept="BusinessInteraction" relations="o" derived="" />
+        <target concept="BusinessInterface" relations="o" derived="" />
+        <target concept="BusinessObject" relations="o" derived="" />
+        <target concept="BusinessProcess" relations="o" derived="" />
+        <target concept="BusinessRole" relations="o" derived="" />
+        <target concept="BusinessService" relations="o" derived="" />
+        <target concept="Capability" relations="o" derived="" />
+        <target concept="CommunicationNetwork" relations="o" derived="" />
+        <target concept="Constraint" relations="no" derived="n" />
+        <target concept="Contract" relations="o" derived="" />
+        <target concept="CourseOfAction" relations="o" derived="" />
+        <target concept="DataObject" relations="o" derived="" />
+        <target concept="Deliverable" relations="o" derived="" />
+        <target concept="Device" relations="o" derived="" />
+        <target concept="DistributionNetwork" relations="o" derived="" />
+        <target concept="Driver" relations="no" derived="n" />
+        <target concept="Equipment" relations="o" derived="" />
+        <target concept="Facility" relations="o" derived="" />
+        <target concept="Gap" relations="o" derived="" />
+        <target concept="Goal" relations="cgnos" derived="cgn" />
+        <target concept="Objective" relations="cgnos" derived="cgn" />
         <target concept="Grouping" relations="cgnos" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="no" derived="" />
@@ -2214,6 +2313,7 @@
         <target concept="Facility" relations="cfgiorstv" derived="" />
         <target concept="Gap" relations="cgos" derived="" />
         <target concept="Goal" relations="cgnors" derived="" />
+        <target concept="Objective" relations="cgnors" derived="" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="cfgiost" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -2278,6 +2378,7 @@
         <target concept="Facility" relations="cfgiorstv" derived="" />
         <target concept="Gap" relations="cgos" derived="" />
         <target concept="Goal" relations="cgnors" derived="" />
+        <target concept="Objective" relations="cgnors" derived="" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="Domain" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="cfgiost" derived="" />
@@ -2343,6 +2444,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="no" derived="n" />
+        <target concept="Objective" relations="no" derived="n" />
         <target concept="Grouping" relations="acfgnost" derived="" />
         <target concept="ImplementationEvent" relations="cfgost" derived="cfgt" />
         <target concept="Junction" relations="afnot" derived="" />
@@ -2407,6 +2509,7 @@
         <target concept="Facility" relations="fiortv" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="" />
+        <target concept="Objective" relations="nor" derived="" />
         <target concept="Grouping" relations="afinortv" derived="" />
         <target concept="ImplementationEvent" relations="fiot" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -2471,6 +2574,7 @@
         <target concept="Facility" relations="cfgiortv" derived="cfgirtv" />
         <target concept="Gap" relations="cgo" derived="cg" />
         <target concept="Goal" relations="cgnor" derived="cgnr" />
+        <target concept="Objective" relations="cgnor" derived="cgnr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="Domain" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="cgo" derived="cg" />
@@ -2536,6 +2640,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="cgnors" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="nor" derived="" />
@@ -2600,6 +2705,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="no" derived="n" />
+        <target concept="Objective" relations="no" derived="n" />
         <target concept="Grouping" relations="cgnos" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="no" derived="" />
@@ -2664,6 +2770,7 @@
         <target concept="Facility" relations="cfgiorstv" derived="cfgirtv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -2728,6 +2835,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="cgnors" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="nor" derived="" />
@@ -2792,6 +2900,7 @@
         <target concept="Facility" relations="fgiortv" derived="fgirtv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -2856,6 +2965,7 @@
         <target concept="Facility" relations="cgor" derived="cgr" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="cgnor" derived="cgnr" />
+        <target concept="Objective" relations="cgnor" derived="cgnr" />
         <target concept="Grouping" relations="cgnorst" derived="" />
         <target concept="ImplementationEvent" relations="ot" derived="t" />
         <target concept="Junction" relations="nort" derived="" />
@@ -2920,6 +3030,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="cgnors" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="nor" derived="" />
@@ -2984,6 +3095,7 @@
         <target concept="Facility" relations="forv" derived="frv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorsv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afnorv" derived="" />
@@ -3048,6 +3160,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="o" derived="" />
+        <target concept="Objective" relations="o" derived="" />
         <target concept="Grouping" relations="o" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="" derived="" />
@@ -3112,6 +3225,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="cgnors" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="nor" derived="" />
@@ -3176,6 +3290,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="cgnors" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="nor" derived="" />
@@ -3240,6 +3355,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="cfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="finortv" derived="" />
@@ -3304,6 +3420,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="o" derived="" />
+        <target concept="Objective" relations="o" derived="" />
         <target concept="Grouping" relations="cgnos" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="no" derived="" />
@@ -3368,6 +3485,7 @@
         <target concept="Facility" relations="cfgiorstv" derived="cfgirtv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -3432,6 +3550,7 @@
         <target concept="Facility" relations="cfgiorstv" derived="cfgirtv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -3496,6 +3615,7 @@
         <target concept="Facility" relations="fot" derived="ft" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorst" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afnort" derived="" />
@@ -3560,6 +3680,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afnortv" derived="" />
@@ -3624,6 +3745,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afnortv" derived="" />
@@ -3688,6 +3810,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfginorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afinortv" derived="" />
@@ -3752,6 +3875,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afnortv" derived="" />
@@ -3816,6 +3940,7 @@
         <target concept="Facility" relations="fotv" derived="ftv" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorstv" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="afnortv" derived="" />
@@ -3880,6 +4005,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="no" derived="n" />
+        <target concept="Objective" relations="no" derived="n" />
         <target concept="Grouping" relations="cgnos" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="no" derived="" />
@@ -3944,6 +4070,7 @@
         <target concept="Facility" relations="or" derived="r" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="nor" derived="nr" />
+        <target concept="Objective" relations="nor" derived="nr" />
         <target concept="Grouping" relations="acfgnorst" derived="" />
         <target concept="ImplementationEvent" relations="fot" derived="ft" />
         <target concept="Junction" relations="afnort" derived="" />

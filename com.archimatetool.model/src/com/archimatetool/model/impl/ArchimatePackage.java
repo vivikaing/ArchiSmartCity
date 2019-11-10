@@ -103,6 +103,7 @@ import com.archimatetool.model.IMetadata;
 import com.archimatetool.model.IMotivationElement;
 import com.archimatetool.model.INameable;
 import com.archimatetool.model.INode;
+import com.archimatetool.model.IObjective;
 import com.archimatetool.model.IOtherRelationship;
 import com.archimatetool.model.IOutcome;
 import com.archimatetool.model.IPassiveStructureElement;
@@ -790,6 +791,13 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 	 * @generated
 	 */
 	private EClass domainEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass objectiveEClass = null;
 
 				/**
 	 * <!-- begin-user-doc -->
@@ -2656,6 +2664,16 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 				/**
 	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getObjective() {
+		return objectiveEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -3491,6 +3509,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 		domainEClass = createEClass(DOMAIN);
 
+		objectiveEClass = createEClass(OBJECTIVE);
+
 		// Create enums
 		folderTypeEEnum = createEEnum(FOLDER_TYPE);
 
@@ -3734,6 +3754,7 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		sketchModelActorEClass.getESuperTypes().add(this.getDocumentable());
 		sketchModelActorEClass.getESuperTypes().add(this.getProperties());
 		domainEClass.getESuperTypes().add(this.getCompositeElement());
+		objectiveEClass.getESuperTypes().add(this.getMotivationElement());
 
 		// Initialize classes and features; add operations and parameters
 		initEClass(adapterEClass, IAdapter.class, "Adapter", IS_ABSTRACT, IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
@@ -4136,6 +4157,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		initEClass(sketchModelActorEClass, ISketchModelActor.class, "SketchModelActor", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		initEClass(domainEClass, IDomain.class, "Domain", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(objectiveEClass, IObjective.class, "Objective", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		// Initialize enums and add enum literals
 		initEEnum(folderTypeEEnum, FolderType.class, "FolderType"); //$NON-NLS-1$

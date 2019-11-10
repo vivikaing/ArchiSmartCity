@@ -73,6 +73,8 @@ public class Messages extends NLS {
     public static String GapUIProvider_0;
 
     public static String GoalUIProvider_0;
+    
+    public static String ObjectiveUIProvider_0;
 
     public static String GroupingUIProvider_0;
     

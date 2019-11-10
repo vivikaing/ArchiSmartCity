@@ -728,6 +728,15 @@ public interface IArchimateFactory extends EFactory {
 	IDomain createDomain();
 
 				/**
+	 * Returns a new object of class '<em>Objective</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Objective</em>'.
+	 * @generated
+	 */
+	IObjective createObjective();
+
+				/**
      * Create a new Bounds object
      * @param x
      * @param y

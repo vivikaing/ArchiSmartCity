@@ -319,5 +319,6 @@
     <genClasses ecoreClass="archimate.ecore#//SketchModelSticky"/>
     <genClasses ecoreClass="archimate.ecore#//SketchModelActor"/>
     <genClasses ecoreClass="archimate.ecore#//Domain"/>
+    <genClasses ecoreClass="archimate.ecore#//Objective"/>
   </genPackages>
 </genmodel:GenModel>

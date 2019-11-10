@@ -101,6 +101,7 @@ import com.archimatetool.model.IMetadata;
 import com.archimatetool.model.IMotivationElement;
 import com.archimatetool.model.INameable;
 import com.archimatetool.model.INode;
+import com.archimatetool.model.IObjective;
 import com.archimatetool.model.IOtherRelationship;
 import com.archimatetool.model.IOutcome;
 import com.archimatetool.model.IPassiveStructureElement;
@@ -737,6 +738,10 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseDomain(IDomain object) {
 				return createDomainAdapter();
+			}
+			@Override
+			public Adapter caseObjective(IObjective object) {
+				return createObjectiveAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2015,6 +2020,20 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createDomainAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IObjective <em>Objective</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IObjective
+	 * @generated
+	 */
+	public Adapter createObjectiveAdapter() {
 		return null;
 	}
 

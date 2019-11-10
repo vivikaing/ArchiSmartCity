@@ -255,6 +255,7 @@ public class ArchimateModelUtils {
                 IArchimatePackage.eINSTANCE.getDriver(),
                 IArchimatePackage.eINSTANCE.getAssessment(),
                 IArchimatePackage.eINSTANCE.getGoal(),
+                IArchimatePackage.eINSTANCE.getObjective(),
                 IArchimatePackage.eINSTANCE.getOutcome(),
                 IArchimatePackage.eINSTANCE.getPrinciple(),
                 IArchimatePackage.eINSTANCE.getRequirement(),

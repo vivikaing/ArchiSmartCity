@@ -1001,6 +1001,10 @@
             id="com.archimatetool.editor.GoalUIProvider">
       </uiProvider>
       <uiProvider
+            class="com.archimatetool.editor.ui.factory.elements.ObjectiveUIProvider"
+            id="com.archimatetool.editor.ObjectiveUIProvider">
+      </uiProvider>
+      <uiProvider
             class="com.archimatetool.editor.ui.factory.elements.GroupingUIProvider"
             id="com.archimatetool.editor.GroupingUIProvider">
       </uiProvider>
