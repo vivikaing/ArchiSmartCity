@@ -1,11 +1,23 @@
 package com.archimatetool.editor.diagram.figures.elements;
 
+import java.io.File;
+
+
 import org.eclipse.draw2d.ColorConstants;
 import org.eclipse.draw2d.Graphics;
 import org.eclipse.draw2d.geometry.Point;
 import org.eclipse.draw2d.geometry.Rectangle;
+import org.eclipse.swt.graphics.Image;
+import org.eclipse.swt.graphics.ImageData;
 import org.eclipse.swt.graphics.Path;
+import org.eclipse.swt.widgets.Display;
+import com.archimatetool.editor.ui.IArchiImages;
 
+/**
+ * Objective Figure
+ * 
+ * @author Viviana Bastidas
+ */
 public class ObjectiveFigure extends AbstractMotivationFigure {
 	 public ObjectiveFigure() {
 	    }
@@ -13,7 +25,8 @@ public class ObjectiveFigure extends AbstractMotivationFigure {
 	    @Override
 	    protected void drawFigure(Graphics graphics) {
 	        super.drawFigure(graphics);
-	        drawIcon(graphics);
+	        //drawIcon(graphics);
+	        drawIconImage(graphics);
 	    }
 	    
 	    /**
@@ -44,11 +57,33 @@ public class ObjectiveFigure extends AbstractMotivationFigure {
 	    }
 	    
 	    /**
+		 * Draw the icon image
+		 */
+		protected void drawIconImage(Graphics graphics) {
+			graphics.pushState();
+			graphics.setForegroundColor(isEnabled() ? ColorConstants.black : ColorConstants.gray);
+			// Start at top right
+			Point pt = getIconOrigin();
+			
+			final File path = new File(this.getClass().getProtectionDomain().getCodeSource().getLocation().getPath());		
+			final Display display = Display.getDefault();
+			
+			ImageData data = new ImageData(path+ "/" + IArchiImages.ICON_OBJECTIVE_IMAGE);      		
+			Image image = new Image(display, data);
+			
+			int w = image.getImageData().width;
+			int h = image.getImageData().height;
+			graphics.drawImage(image, 0, 0, w, h, pt.x, pt.y, 20, 20);
+			graphics.popState();
+			image.dispose();
+		}
+	    
+	    /**
 	     * @return The icon start position
 	     */
 	    protected Point getIconOrigin() {
 	        Rectangle bounds = getBounds();
-	        return new Point(bounds.x + bounds.width - 20, bounds.y + 6);
+	        return new Point(bounds.x + bounds.width - 25, bounds.y + 6);
 	    }
 	    
 	    @Override

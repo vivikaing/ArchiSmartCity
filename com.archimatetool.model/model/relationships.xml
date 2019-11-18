@@ -2183,7 +2183,7 @@
         <target concept="Facility" relations="o" derived="" />
         <target concept="Gap" relations="o" derived="" />
         <target concept="Goal" relations="cgnos" derived="cgn" />
-        <target concept="Objective" relations="o" derived="cgn" />
+		<target concept="Objective" relations="cg" derived="cgn" />
         <target concept="Grouping" relations="cgnos" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="no" derived="" />
@@ -2246,9 +2246,9 @@
         <target concept="Driver" relations="no" derived="n" />
         <target concept="Equipment" relations="o" derived="" />
         <target concept="Facility" relations="o" derived="" />
-        <target concept="Gap" relations="o" derived="" />
-        <target concept="Goal" relations="cgnos" derived="cgn" />
-        <target concept="Objective" relations="cgnos" derived="cgn" />
+        <target concept="Gap" relations="cgnos" derived="" />
+        <target concept="Goal" relations="no" derived="cgn" />
+        <target concept="Objective" relations="cgnos" derived="cgn" />    
         <target concept="Grouping" relations="cgnos" derived="" />
         <target concept="ImplementationEvent" relations="o" derived="" />
         <target concept="Junction" relations="no" derived="" />
