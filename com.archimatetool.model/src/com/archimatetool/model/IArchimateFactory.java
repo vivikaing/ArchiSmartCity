@@ -737,6 +737,15 @@ public interface IArchimateFactory extends EFactory {
 	IObjective createObjective();
 
 				/**
+	 * Returns a new object of class '<em>Indicator</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Indicator</em>'.
+	 * @generated
+	 */
+	IIndicator createIndicator();
+
+				/**
      * Create a new Bounds object
      * @param x
      * @param y

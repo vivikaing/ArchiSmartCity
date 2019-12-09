@@ -90,6 +90,7 @@ import com.archimatetool.model.IGrouping;
 import com.archimatetool.model.IIdentifier;
 import com.archimatetool.model.IImplementationEvent;
 import com.archimatetool.model.IImplementationMigrationElement;
+import com.archimatetool.model.IIndicator;
 import com.archimatetool.model.IInfluenceRelationship;
 import com.archimatetool.model.IJunction;
 import com.archimatetool.model.ILineObject;
@@ -742,6 +743,10 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseObjective(IObjective object) {
 				return createObjectiveAdapter();
+			}
+			@Override
+			public Adapter caseIndicator(IIndicator object) {
+				return createIndicatorAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2034,6 +2039,20 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createObjectiveAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IIndicator <em>Indicator</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IIndicator
+	 * @generated
+	 */
+	public Adapter createIndicatorAdapter() {
 		return null;
 	}
 

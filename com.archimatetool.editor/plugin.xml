@@ -1017,6 +1017,10 @@
             id="com.archimatetool.editor.ImplementationEventUIProvider">
       </uiProvider>
       <uiProvider
+            class="com.archimatetool.editor.ui.factory.elements.IndicatorUIProvider"
+            id="com.archimatetool.editor.IndicatorUIProvider">
+      </uiProvider>
+      <uiProvider
             class="com.archimatetool.editor.ui.factory.elements.LocationUIProvider"
             id="com.archimatetool.editor.LocationUIProvider">
       </uiProvider>

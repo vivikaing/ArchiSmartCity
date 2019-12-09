@@ -9412,6 +9412,70 @@ public interface IArchimatePackage extends EPackage {
 	int OBJECTIVE_FEATURE_COUNT = MOTIVATION_ELEMENT_FEATURE_COUNT + 0;
 
 				/**
+	 * The meta object id for the '{@link com.archimatetool.model.impl.Indicator <em>Indicator</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.archimatetool.model.impl.Indicator
+	 * @see com.archimatetool.model.impl.ArchimatePackage#getIndicator()
+	 * @generated
+	 */
+	int INDICATOR = 135;
+
+				/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INDICATOR__NAME = MOTIVATION_ELEMENT__NAME;
+
+				/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INDICATOR__ID = MOTIVATION_ELEMENT__ID;
+
+				/**
+	 * The feature id for the '<em><b>Features</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INDICATOR__FEATURES = MOTIVATION_ELEMENT__FEATURES;
+
+				/**
+	 * The feature id for the '<em><b>Documentation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INDICATOR__DOCUMENTATION = MOTIVATION_ELEMENT__DOCUMENTATION;
+
+				/**
+	 * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INDICATOR__PROPERTIES = MOTIVATION_ELEMENT__PROPERTIES;
+
+				/**
+	 * The number of structural features of the '<em>Indicator</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INDICATOR_FEATURE_COUNT = MOTIVATION_ELEMENT_FEATURE_COUNT + 0;
+
+				/**
 	 * The meta object id for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -9419,7 +9483,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFolderType()
 	 * @generated
 	 */
-    int FOLDER_TYPE = 135;
+    int FOLDER_TYPE = 136;
 
     /**
 	 * The meta object id for the '<em>File</em>' data type.
@@ -9429,7 +9493,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFile()
 	 * @generated
 	 */
-    int FILE = 136;
+    int FILE = 137;
 
 
     /**
@@ -11443,6 +11507,16 @@ public interface IArchimatePackage extends EPackage {
 	EClass getObjective();
 
 				/**
+	 * Returns the meta object for class '{@link com.archimatetool.model.IIndicator <em>Indicator</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Indicator</em>'.
+	 * @see com.archimatetool.model.IIndicator
+	 * @generated
+	 */
+	EClass getIndicator();
+
+				/**
 	 * Returns the meta object for enum '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}'.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -13314,6 +13388,16 @@ public interface IArchimatePackage extends EPackage {
 		 * @generated
 		 */
 		EClass OBJECTIVE = eINSTANCE.getObjective();
+
+								/**
+		 * The meta object literal for the '{@link com.archimatetool.model.impl.Indicator <em>Indicator</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.archimatetool.model.impl.Indicator
+		 * @see com.archimatetool.model.impl.ArchimatePackage#getIndicator()
+		 * @generated
+		 */
+		EClass INDICATOR = eINSTANCE.getIndicator();
 
 								/**
 		 * The meta object literal for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.

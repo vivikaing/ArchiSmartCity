@@ -253,6 +253,7 @@ public class ArchimateModelUtils {
         return new EClass[] {
                 IArchimatePackage.eINSTANCE.getStakeholder(),
                 IArchimatePackage.eINSTANCE.getDriver(),
+                IArchimatePackage.eINSTANCE.getIndicator(),
                 IArchimatePackage.eINSTANCE.getAssessment(),
                 IArchimatePackage.eINSTANCE.getGoal(),
                 IArchimatePackage.eINSTANCE.getObjective(),

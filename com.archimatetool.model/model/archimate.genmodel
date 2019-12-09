@@ -320,5 +320,6 @@
     <genClasses ecoreClass="archimate.ecore#//SketchModelActor"/>
     <genClasses ecoreClass="archimate.ecore#//Domain"/>
     <genClasses ecoreClass="archimate.ecore#//Objective"/>
+    <genClasses ecoreClass="archimate.ecore#//Indicator"/>
   </genPackages>
 </genmodel:GenModel>

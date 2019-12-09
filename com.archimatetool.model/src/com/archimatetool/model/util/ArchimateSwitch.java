@@ -90,6 +90,7 @@ import com.archimatetool.model.IGrouping;
 import com.archimatetool.model.IIdentifier;
 import com.archimatetool.model.IImplementationEvent;
 import com.archimatetool.model.IImplementationMigrationElement;
+import com.archimatetool.model.IIndicator;
 import com.archimatetool.model.IInfluenceRelationship;
 import com.archimatetool.model.IJunction;
 import com.archimatetool.model.ILineObject;
@@ -2312,6 +2313,23 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.INDICATOR: {
+				IIndicator indicator = (IIndicator)theEObject;
+				T result = caseIndicator(indicator);
+				if (result == null) result = caseMotivationElement(indicator);
+				if (result == null) result = caseArchimateElement(indicator);
+				if (result == null) result = caseArchimateConcept(indicator);
+				if (result == null) result = caseArchimateModelObject(indicator);
+				if (result == null) result = caseCloneable(indicator);
+				if (result == null) result = caseDocumentable(indicator);
+				if (result == null) result = caseProperties(indicator);
+				if (result == null) result = caseAdapter(indicator);
+				if (result == null) result = caseNameable(indicator);
+				if (result == null) result = caseIdentifier(indicator);
+				if (result == null) result = caseFeatures(indicator);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -3678,6 +3696,21 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseObjective(IObjective object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Indicator</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Indicator</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseIndicator(IIndicator object) {
 		return null;
 	}
 

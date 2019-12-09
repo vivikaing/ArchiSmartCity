@@ -81,6 +81,8 @@ public class Messages extends NLS {
     public static String DomainUIProvider_0;
 
     public static String ImplementationEventUIProvider_0;
+    
+    public static String IndicatorUIProvider_0;
 
     public static String JunctionUIProvider_0;
 

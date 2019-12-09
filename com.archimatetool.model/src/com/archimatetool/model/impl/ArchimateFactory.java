@@ -71,6 +71,7 @@ import com.archimatetool.model.IGap;
 import com.archimatetool.model.IGoal;
 import com.archimatetool.model.IGrouping;
 import com.archimatetool.model.IImplementationEvent;
+import com.archimatetool.model.IIndicator;
 import com.archimatetool.model.IInfluenceRelationship;
 import com.archimatetool.model.IJunction;
 import com.archimatetool.model.ILocation;
@@ -243,6 +244,7 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.SKETCH_MODEL_ACTOR: return createSketchModelActor();
 			case IArchimatePackage.DOMAIN: return createDomain();
 			case IArchimatePackage.OBJECTIVE: return createObjective();
+			case IArchimatePackage.INDICATOR: return createIndicator();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1145,6 +1147,17 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public IObjective createObjective() {
 		Objective objective = new Objective();
 		return objective;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IIndicator createIndicator() {
+		Indicator indicator = new Indicator();
+		return indicator;
 	}
 
 				/* (non-Javadoc)
