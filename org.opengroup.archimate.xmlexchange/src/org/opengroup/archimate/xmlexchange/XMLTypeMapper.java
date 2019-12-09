@@ -81,6 +81,9 @@ public class XMLTypeMapper implements IXMLExchangeGlobals {
         ElementsMapping.put("Constraint", IArchimatePackage.eINSTANCE.getConstraint());
         ElementsMapping.put("Driver", IArchimatePackage.eINSTANCE.getDriver());
         ElementsMapping.put("Goal", IArchimatePackage.eINSTANCE.getGoal());
+        
+        ElementsMapping.put("Objective", IArchimatePackage.eINSTANCE.getObjective());
+        
         ElementsMapping.put("Outcome", IArchimatePackage.eINSTANCE.getOutcome());
         ElementsMapping.put("Meaning", IArchimatePackage.eINSTANCE.getMeaning());
         ElementsMapping.put("Principle", IArchimatePackage.eINSTANCE.getPrinciple());
