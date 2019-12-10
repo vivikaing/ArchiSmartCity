@@ -57,6 +57,8 @@ public class Messages extends NLS {
     public static String CourseOfActionUIProvider_0;
 
     public static String DataObjectUIProvider_0;
+    
+    public static String DashboardUIProvider_0;
 
     public static String DeliverableUIProvider_0;
     
@@ -105,6 +107,8 @@ public class Messages extends NLS {
     public static String PrincipleUIProvider_0;
 
     public static String ProductUIProvider_0;
+    
+    public static String QualityApplicationServiceUIProvider_0;
 
     public static String RepresentationUIProvider_0;
 
@@ -131,6 +135,8 @@ public class Messages extends NLS {
     public static String TechnologyServiceUIProvider_0;
 
     public static String ValueUIProvider_0;
+    
+    public static String WebServiceUIProvider_0;
 
     public static String WorkPackageUIProvider_0;
     static {

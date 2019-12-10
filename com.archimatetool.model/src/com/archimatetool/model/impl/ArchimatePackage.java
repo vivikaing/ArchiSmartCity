@@ -55,6 +55,7 @@ import com.archimatetool.model.IConnectable;
 import com.archimatetool.model.IConstraint;
 import com.archimatetool.model.IContract;
 import com.archimatetool.model.ICourseOfAction;
+import com.archimatetool.model.IDashboard;
 import com.archimatetool.model.IDataObject;
 import com.archimatetool.model.IDecision;
 import com.archimatetool.model.IDeliverable;
@@ -116,6 +117,7 @@ import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperties;
 import com.archimatetool.model.IProperty;
+import com.archimatetool.model.IQualityApplicationService;
 import com.archimatetool.model.IRealizationRelationship;
 import com.archimatetool.model.IRepresentation;
 import com.archimatetool.model.IRequirement;
@@ -144,6 +146,7 @@ import com.archimatetool.model.ITextContent;
 import com.archimatetool.model.ITextPosition;
 import com.archimatetool.model.ITriggeringRelationship;
 import com.archimatetool.model.IValue;
+import com.archimatetool.model.IWebService;
 import com.archimatetool.model.IWorkPackage;
 import java.io.File;
 
@@ -814,6 +817,27 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 	 * @generated
 	 */
 	private EClass decisionEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass dashboardEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass webServiceEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass qualityApplicationServiceEClass = null;
 
 				/**
 	 * <!-- begin-user-doc -->
@@ -2710,6 +2734,36 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 				/**
 	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getDashboard() {
+		return dashboardEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getWebService() {
+		return webServiceEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getQualityApplicationService() {
+		return qualityApplicationServiceEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -3551,6 +3605,12 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 		decisionEClass = createEClass(DECISION);
 
+		dashboardEClass = createEClass(DASHBOARD);
+
+		webServiceEClass = createEClass(WEB_SERVICE);
+
+		qualityApplicationServiceEClass = createEClass(QUALITY_APPLICATION_SERVICE);
+
 		// Create enums
 		folderTypeEEnum = createEEnum(FOLDER_TYPE);
 
@@ -3798,6 +3858,12 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		indicatorEClass.getESuperTypes().add(this.getMotivationElement());
 		decisionEClass.getESuperTypes().add(this.getBusinessElement());
 		decisionEClass.getESuperTypes().add(this.getBehaviorElement());
+		dashboardEClass.getESuperTypes().add(this.getApplicationElement());
+		dashboardEClass.getESuperTypes().add(this.getActiveStructureElement());
+		webServiceEClass.getESuperTypes().add(this.getApplicationElement());
+		webServiceEClass.getESuperTypes().add(this.getActiveStructureElement());
+		qualityApplicationServiceEClass.getESuperTypes().add(this.getApplicationElement());
+		qualityApplicationServiceEClass.getESuperTypes().add(this.getPassiveStructureElement());
 
 		// Initialize classes and features; add operations and parameters
 		initEClass(adapterEClass, IAdapter.class, "Adapter", IS_ABSTRACT, IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
@@ -4206,6 +4272,12 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		initEClass(indicatorEClass, IIndicator.class, "Indicator", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		initEClass(decisionEClass, IDecision.class, "Decision", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(dashboardEClass, IDashboard.class, "Dashboard", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(webServiceEClass, IWebService.class, "WebService", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(qualityApplicationServiceEClass, IQualityApplicationService.class, "QualityApplicationService", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		// Initialize enums and add enum literals
 		initEEnum(folderTypeEEnum, FolderType.class, "FolderType"); //$NON-NLS-1$

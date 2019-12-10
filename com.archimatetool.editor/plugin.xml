@@ -969,6 +969,10 @@
             id="com.archimatetool.editor.DataObjectUIProvider">
       </uiProvider>
       <uiProvider
+            class="com.archimatetool.editor.ui.factory.elements.DashboardUIProvider"
+            id="com.archimatetool.editor.DashboardUIProvider">
+      </uiProvider>
+      <uiProvider
             class="com.archimatetool.editor.ui.factory.elements.DeliverableUIProvider"
             id="com.archimatetool.editor.DeliverableUIProvider">
       </uiProvider>
@@ -1060,6 +1064,12 @@
             class="com.archimatetool.editor.ui.factory.elements.ProductUIProvider"
             id="com.archimatetool.editor.ProductUIProvider">
       </uiProvider>
+      
+      <uiProvider
+            class="com.archimatetool.editor.ui.factory.elements.QualityApplicationServiceUIProvider"
+            id="com.archimatetool.editor.QualityApplicationServiceUIProvider">
+      </uiProvider>
+      
       <uiProvider
             class="com.archimatetool.editor.ui.factory.elements.RepresentationUIProvider"
             id="com.archimatetool.editor.RepresentationUIProvider">
@@ -1111,6 +1121,10 @@
       <uiProvider
             class="com.archimatetool.editor.ui.factory.elements.ValueUIProvider"
             id="com.archimatetool.editor.ValueUIProvider">
+      </uiProvider>
+      <uiProvider
+            class="com.archimatetool.editor.ui.factory.elements.WebServiceUIProvider"
+            id="com.archimatetool.editor.WebServiceUIProvider">
       </uiProvider>
       <uiProvider
             class="com.archimatetool.editor.ui.factory.elements.WorkPackageUIProvider"

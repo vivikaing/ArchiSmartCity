@@ -755,6 +755,33 @@ public interface IArchimateFactory extends EFactory {
 	IDecision createDecision();
 
 				/**
+	 * Returns a new object of class '<em>Dashboard</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Dashboard</em>'.
+	 * @generated
+	 */
+	IDashboard createDashboard();
+
+				/**
+	 * Returns a new object of class '<em>Web Service</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Web Service</em>'.
+	 * @generated
+	 */
+	IWebService createWebService();
+
+				/**
+	 * Returns a new object of class '<em>Quality Application Service</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Quality Application Service</em>'.
+	 * @generated
+	 */
+	IQualityApplicationService createQualityApplicationService();
+
+				/**
      * Create a new Bounds object
      * @param x
      * @param y

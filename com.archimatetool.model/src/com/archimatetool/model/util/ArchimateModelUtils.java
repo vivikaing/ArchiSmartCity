@@ -210,7 +210,10 @@ public class ArchimateModelUtils {
                 IArchimatePackage.eINSTANCE.getApplicationProcess(),
                 IArchimatePackage.eINSTANCE.getApplicationEvent(),
                 IArchimatePackage.eINSTANCE.getApplicationService(),
-                IArchimatePackage.eINSTANCE.getDataObject()
+                IArchimatePackage.eINSTANCE.getDataObject(),
+                IArchimatePackage.eINSTANCE.getDashboard(),
+                IArchimatePackage.eINSTANCE.getQualityApplicationService(),
+                IArchimatePackage.eINSTANCE.getWebService()
         };
     }
     

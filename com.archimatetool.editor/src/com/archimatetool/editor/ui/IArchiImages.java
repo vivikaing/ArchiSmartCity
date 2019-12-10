@@ -76,6 +76,8 @@ public interface IArchiImages {
     String ICON_CONTRACT = ARCHIMATE_IMGPATH + "contract.png"; //$NON-NLS-1$
     String ICON_COURSE_OF_ACTION = ARCHIMATE_IMGPATH + "course-of-action.png"; //$NON-NLS-1$
     String ICON_DATA_OBJECT = ARCHIMATE_IMGPATH + "data-object.png"; //$NON-NLS-1$
+    String ICON_DASHBOARD = ARCHIMATE_IMGPATH + "dashboard.png"; //$NON-NLS-1$
+    String ICON_DASHBOARD_IMAGE = ARCHIMATE_IMGPATH + "dashboard@2x.png"; //$NON-NLS-1$
     String ICON_DELIVERABLE = ARCHIMATE_IMGPATH + "deliverable.png"; //$NON-NLS-1$
     String ICON_DEVICE = ARCHIMATE_IMGPATH + "device.png"; //$NON-NLS-1$
     String ICON_DISTRIBUTION_NETWORK = ARCHIMATE_IMGPATH + "distribution-network.png"; //$NON-NLS-1$
@@ -103,6 +105,8 @@ public interface IArchiImages {
     String ICON_PLATEAU = ARCHIMATE_IMGPATH + "plateau.png"; //$NON-NLS-1$
     String ICON_PRINCIPLE = ARCHIMATE_IMGPATH + "principle.png"; //$NON-NLS-1$
     String ICON_PRODUCT = ARCHIMATE_IMGPATH + "product.png"; //$NON-NLS-1$
+    String ICON_QUALITY_APPLICATION_SERVICE = ARCHIMATE_IMGPATH + "quality-application-service.png"; //$NON-NLS-1$
+    String ICON_QUALITY_APPLICATION_SERVICE_IMAGE = ARCHIMATE_IMGPATH + "quality-application-service@2x.png"; //$NON-NLS-1$
     String ICON_REPRESENTATION = ARCHIMATE_IMGPATH + "representation.png"; //$NON-NLS-1$
     String ICON_RESOURCE = ARCHIMATE_IMGPATH + "resource.png"; //$NON-NLS-1$
     String ICON_REQUIREMENT = ARCHIMATE_IMGPATH + "requirement.png"; //$NON-NLS-1$
@@ -116,6 +120,8 @@ public interface IArchiImages {
     String ICON_TECHNOLOGY_PROCESS = ARCHIMATE_IMGPATH + "technology-process.png"; //$NON-NLS-1$
     String ICON_TECHNOLOGY_SERVICE = ARCHIMATE_IMGPATH + "technology-service.png"; //$NON-NLS-1$
     String ICON_VALUE = ARCHIMATE_IMGPATH + "value.png"; //$NON-NLS-1$
+    String ICON_WEBSERVICE = ARCHIMATE_IMGPATH + "web-service.png"; //$NON-NLS-1$
+    String ICON_WEBSERVICE_IMAGE = ARCHIMATE_IMGPATH + "web-service@2x.png"; //$NON-NLS-1$
     String ICON_WORKPACKAGE = ARCHIMATE_IMGPATH + "workpackage.png"; //$NON-NLS-1$
     
     // Relations

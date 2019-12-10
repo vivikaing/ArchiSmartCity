@@ -53,6 +53,7 @@ import com.archimatetool.model.IConnectable;
 import com.archimatetool.model.IConstraint;
 import com.archimatetool.model.IContract;
 import com.archimatetool.model.ICourseOfAction;
+import com.archimatetool.model.IDashboard;
 import com.archimatetool.model.IDataObject;
 import com.archimatetool.model.IDecision;
 import com.archimatetool.model.IDeliverable;
@@ -114,6 +115,7 @@ import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperties;
 import com.archimatetool.model.IProperty;
+import com.archimatetool.model.IQualityApplicationService;
 import com.archimatetool.model.IRealizationRelationship;
 import com.archimatetool.model.IRepresentation;
 import com.archimatetool.model.IRequirement;
@@ -142,6 +144,7 @@ import com.archimatetool.model.ITextContent;
 import com.archimatetool.model.ITextPosition;
 import com.archimatetool.model.ITriggeringRelationship;
 import com.archimatetool.model.IValue;
+import com.archimatetool.model.IWebService;
 import com.archimatetool.model.IWorkPackage;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
@@ -2349,6 +2352,63 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.DASHBOARD: {
+				IDashboard dashboard = (IDashboard)theEObject;
+				T result = caseDashboard(dashboard);
+				if (result == null) result = caseApplicationElement(dashboard);
+				if (result == null) result = caseActiveStructureElement(dashboard);
+				if (result == null) result = caseStructureElement(dashboard);
+				if (result == null) result = caseArchimateElement(dashboard);
+				if (result == null) result = caseArchimateConcept(dashboard);
+				if (result == null) result = caseArchimateModelObject(dashboard);
+				if (result == null) result = caseCloneable(dashboard);
+				if (result == null) result = caseDocumentable(dashboard);
+				if (result == null) result = caseProperties(dashboard);
+				if (result == null) result = caseAdapter(dashboard);
+				if (result == null) result = caseNameable(dashboard);
+				if (result == null) result = caseIdentifier(dashboard);
+				if (result == null) result = caseFeatures(dashboard);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case IArchimatePackage.WEB_SERVICE: {
+				IWebService webService = (IWebService)theEObject;
+				T result = caseWebService(webService);
+				if (result == null) result = caseApplicationElement(webService);
+				if (result == null) result = caseActiveStructureElement(webService);
+				if (result == null) result = caseStructureElement(webService);
+				if (result == null) result = caseArchimateElement(webService);
+				if (result == null) result = caseArchimateConcept(webService);
+				if (result == null) result = caseArchimateModelObject(webService);
+				if (result == null) result = caseCloneable(webService);
+				if (result == null) result = caseDocumentable(webService);
+				if (result == null) result = caseProperties(webService);
+				if (result == null) result = caseAdapter(webService);
+				if (result == null) result = caseNameable(webService);
+				if (result == null) result = caseIdentifier(webService);
+				if (result == null) result = caseFeatures(webService);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case IArchimatePackage.QUALITY_APPLICATION_SERVICE: {
+				IQualityApplicationService qualityApplicationService = (IQualityApplicationService)theEObject;
+				T result = caseQualityApplicationService(qualityApplicationService);
+				if (result == null) result = caseApplicationElement(qualityApplicationService);
+				if (result == null) result = casePassiveStructureElement(qualityApplicationService);
+				if (result == null) result = caseStructureElement(qualityApplicationService);
+				if (result == null) result = caseArchimateElement(qualityApplicationService);
+				if (result == null) result = caseArchimateConcept(qualityApplicationService);
+				if (result == null) result = caseArchimateModelObject(qualityApplicationService);
+				if (result == null) result = caseCloneable(qualityApplicationService);
+				if (result == null) result = caseDocumentable(qualityApplicationService);
+				if (result == null) result = caseProperties(qualityApplicationService);
+				if (result == null) result = caseAdapter(qualityApplicationService);
+				if (result == null) result = caseNameable(qualityApplicationService);
+				if (result == null) result = caseIdentifier(qualityApplicationService);
+				if (result == null) result = caseFeatures(qualityApplicationService);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -3745,6 +3805,51 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseDecision(IDecision object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Dashboard</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Dashboard</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseDashboard(IDashboard object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Web Service</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Web Service</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseWebService(IWebService object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Quality Application Service</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Quality Application Service</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseQualityApplicationService(IQualityApplicationService object) {
 		return null;
 	}
 

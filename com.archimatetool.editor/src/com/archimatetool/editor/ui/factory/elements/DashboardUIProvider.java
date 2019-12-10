@@ -7,43 +7,48 @@ import org.eclipse.swt.graphics.Color;
 import org.eclipse.swt.graphics.Image;
 
 import com.archimatetool.editor.diagram.editparts.ArchimateElementEditPart;
-import com.archimatetool.editor.diagram.figures.elements.ObjectiveFigure;
+import com.archimatetool.editor.diagram.figures.elements.DashboardFigure;
 import com.archimatetool.editor.ui.ColorFactory;
 import com.archimatetool.editor.ui.IArchiImages;
 import com.archimatetool.model.IArchimatePackage;
 
-public class ObjectiveUIProvider extends AbstractArchimateElementUIProvider {
+/**
+ * Dashboard UI Provider
+ * 
+ * @author Viviana Bastidas
+ */
+
+public class DashboardUIProvider extends AbstractInterfaceUIProvider {
 
 	@Override
 	public EClass providerFor() {
-		return IArchimatePackage.eINSTANCE.getObjective();
-    }
-    
-    @Override
+		return IArchimatePackage.eINSTANCE.getDashboard();
+	}
+	
+	@Override
     public EditPart createEditPart() {
-        return new ArchimateElementEditPart(ObjectiveFigure.class);
+        return new ArchimateElementEditPart(DashboardFigure.class);
     }
 
     @Override
     public String getDefaultName() {
-        return Messages.ObjectiveUIProvider_0;
+        return Messages.DashboardUIProvider_0;
     }
 
     @Override
     public Image getImage() {
-        return IArchiImages.ImageFactory.getImage(IArchiImages.ICON_OBJECTIVE);
+        return IArchiImages.ImageFactory.getImage(IArchiImages.ICON_DASHBOARD);
     }
 
     @Override
     public ImageDescriptor getImageDescriptor() {
-        return IArchiImages.ImageFactory.getImageDescriptor(IArchiImages.ICON_OBJECTIVE);
+        return IArchiImages.ImageFactory.getImageDescriptor(IArchiImages.ICON_DASHBOARD);
     }
 
     @Override
     public Color getDefaultColor() {
-        //return ColorFactory.get(204, 204, 255);
+        //return ColorFactory.get(181, 255, 255);
         return ColorFactory.get(0, 172, 230);
-
     }
 
 }

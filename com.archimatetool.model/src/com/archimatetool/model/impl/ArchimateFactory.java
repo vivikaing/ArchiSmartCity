@@ -48,6 +48,7 @@ import com.archimatetool.model.ICompositionRelationship;
 import com.archimatetool.model.IConstraint;
 import com.archimatetool.model.IContract;
 import com.archimatetool.model.ICourseOfAction;
+import com.archimatetool.model.IDashboard;
 import com.archimatetool.model.IDataObject;
 import com.archimatetool.model.IDecision;
 import com.archimatetool.model.IDeliverable;
@@ -87,6 +88,7 @@ import com.archimatetool.model.IPlateau;
 import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperty;
+import com.archimatetool.model.IQualityApplicationService;
 import com.archimatetool.model.IRealizationRelationship;
 import com.archimatetool.model.IRepresentation;
 import com.archimatetool.model.IRequirement;
@@ -107,6 +109,7 @@ import com.archimatetool.model.ITechnologyProcess;
 import com.archimatetool.model.ITechnologyService;
 import com.archimatetool.model.ITriggeringRelationship;
 import com.archimatetool.model.IValue;
+import com.archimatetool.model.IWebService;
 import com.archimatetool.model.IWorkPackage;
 
 
@@ -247,6 +250,9 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.OBJECTIVE: return createObjective();
 			case IArchimatePackage.INDICATOR: return createIndicator();
 			case IArchimatePackage.DECISION: return createDecision();
+			case IArchimatePackage.DASHBOARD: return createDashboard();
+			case IArchimatePackage.WEB_SERVICE: return createWebService();
+			case IArchimatePackage.QUALITY_APPLICATION_SERVICE: return createQualityApplicationService();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1171,6 +1177,39 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public IDecision createDecision() {
 		Decision decision = new Decision();
 		return decision;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IDashboard createDashboard() {
+		Dashboard dashboard = new Dashboard();
+		return dashboard;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IWebService createWebService() {
+		WebService webService = new WebService();
+		return webService;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IQualityApplicationService createQualityApplicationService() {
+		QualityApplicationService qualityApplicationService = new QualityApplicationService();
+		return qualityApplicationService;
 	}
 
 				/* (non-Javadoc)

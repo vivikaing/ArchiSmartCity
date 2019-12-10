@@ -47,7 +47,9 @@ public class IndicatorUIProvider extends AbstractArchimateElementUIProvider {
 
     @Override
     public Color getDefaultColor() {
-        return ColorFactory.get(204, 204, 255);
+        //return ColorFactory.get(204, 204, 255);
+        return ColorFactory.get(0, 172, 230);
+
     }
 
 }

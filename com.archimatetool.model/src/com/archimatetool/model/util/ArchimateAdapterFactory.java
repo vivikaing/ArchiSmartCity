@@ -53,6 +53,7 @@ import com.archimatetool.model.IConnectable;
 import com.archimatetool.model.IConstraint;
 import com.archimatetool.model.IContract;
 import com.archimatetool.model.ICourseOfAction;
+import com.archimatetool.model.IDashboard;
 import com.archimatetool.model.IDataObject;
 import com.archimatetool.model.IDecision;
 import com.archimatetool.model.IDeliverable;
@@ -114,6 +115,7 @@ import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperties;
 import com.archimatetool.model.IProperty;
+import com.archimatetool.model.IQualityApplicationService;
 import com.archimatetool.model.IRealizationRelationship;
 import com.archimatetool.model.IRepresentation;
 import com.archimatetool.model.IRequirement;
@@ -142,6 +144,7 @@ import com.archimatetool.model.ITextContent;
 import com.archimatetool.model.ITextPosition;
 import com.archimatetool.model.ITriggeringRelationship;
 import com.archimatetool.model.IValue;
+import com.archimatetool.model.IWebService;
 import com.archimatetool.model.IWorkPackage;
 import org.eclipse.emf.common.notify.Adapter;
 import org.eclipse.emf.common.notify.Notifier;
@@ -752,6 +755,18 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseDecision(IDecision object) {
 				return createDecisionAdapter();
+			}
+			@Override
+			public Adapter caseDashboard(IDashboard object) {
+				return createDashboardAdapter();
+			}
+			@Override
+			public Adapter caseWebService(IWebService object) {
+				return createWebServiceAdapter();
+			}
+			@Override
+			public Adapter caseQualityApplicationService(IQualityApplicationService object) {
+				return createQualityApplicationServiceAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2072,6 +2087,48 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createDecisionAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IDashboard <em>Dashboard</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IDashboard
+	 * @generated
+	 */
+	public Adapter createDashboardAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IWebService <em>Web Service</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IWebService
+	 * @generated
+	 */
+	public Adapter createWebServiceAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IQualityApplicationService <em>Quality Application Service</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IQualityApplicationService
+	 * @generated
+	 */
+	public Adapter createQualityApplicationServiceAdapter() {
 		return null;
 	}
 

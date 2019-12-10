@@ -322,5 +322,8 @@
     <genClasses ecoreClass="archimate.ecore#//Objective"/>
     <genClasses ecoreClass="archimate.ecore#//Indicator"/>
     <genClasses ecoreClass="archimate.ecore#//Decision"/>
+    <genClasses ecoreClass="archimate.ecore#//Dashboard"/>
+    <genClasses ecoreClass="archimate.ecore#//WebService"/>
+    <genClasses ecoreClass="archimate.ecore#//QualityApplicationService"/>
   </genPackages>
 </genmodel:GenModel>

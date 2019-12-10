@@ -452,4 +452,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="Objective" eSuperTypes="#//MotivationElement"/>
   <eClassifiers xsi:type="ecore:EClass" name="Indicator" eSuperTypes="#//MotivationElement"/>
   <eClassifiers xsi:type="ecore:EClass" name="Decision" eSuperTypes="#//BusinessElement #//BehaviorElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Dashboard" eSuperTypes="#//ApplicationElement #//ActiveStructureElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="WebService" eSuperTypes="#//ApplicationElement #//ActiveStructureElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="QualityApplicationService" eSuperTypes="#//ApplicationElement #//PassiveStructureElement"/>
 </ecore:EPackage>

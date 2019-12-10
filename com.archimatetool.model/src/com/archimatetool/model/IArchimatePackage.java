@@ -9540,6 +9540,198 @@ public interface IArchimatePackage extends EPackage {
 	int DECISION_FEATURE_COUNT = BUSINESS_ELEMENT_FEATURE_COUNT + 0;
 
 				/**
+	 * The meta object id for the '{@link com.archimatetool.model.impl.Dashboard <em>Dashboard</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.archimatetool.model.impl.Dashboard
+	 * @see com.archimatetool.model.impl.ArchimatePackage#getDashboard()
+	 * @generated
+	 */
+	int DASHBOARD = 137;
+
+				/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int DASHBOARD__NAME = APPLICATION_ELEMENT__NAME;
+
+				/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int DASHBOARD__ID = APPLICATION_ELEMENT__ID;
+
+				/**
+	 * The feature id for the '<em><b>Features</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int DASHBOARD__FEATURES = APPLICATION_ELEMENT__FEATURES;
+
+				/**
+	 * The feature id for the '<em><b>Documentation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int DASHBOARD__DOCUMENTATION = APPLICATION_ELEMENT__DOCUMENTATION;
+
+				/**
+	 * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int DASHBOARD__PROPERTIES = APPLICATION_ELEMENT__PROPERTIES;
+
+				/**
+	 * The number of structural features of the '<em>Dashboard</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int DASHBOARD_FEATURE_COUNT = APPLICATION_ELEMENT_FEATURE_COUNT + 0;
+
+				/**
+	 * The meta object id for the '{@link com.archimatetool.model.impl.WebService <em>Web Service</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.archimatetool.model.impl.WebService
+	 * @see com.archimatetool.model.impl.ArchimatePackage#getWebService()
+	 * @generated
+	 */
+	int WEB_SERVICE = 138;
+
+				/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WEB_SERVICE__NAME = APPLICATION_ELEMENT__NAME;
+
+				/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WEB_SERVICE__ID = APPLICATION_ELEMENT__ID;
+
+				/**
+	 * The feature id for the '<em><b>Features</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WEB_SERVICE__FEATURES = APPLICATION_ELEMENT__FEATURES;
+
+				/**
+	 * The feature id for the '<em><b>Documentation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WEB_SERVICE__DOCUMENTATION = APPLICATION_ELEMENT__DOCUMENTATION;
+
+				/**
+	 * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WEB_SERVICE__PROPERTIES = APPLICATION_ELEMENT__PROPERTIES;
+
+				/**
+	 * The number of structural features of the '<em>Web Service</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WEB_SERVICE_FEATURE_COUNT = APPLICATION_ELEMENT_FEATURE_COUNT + 0;
+
+				/**
+	 * The meta object id for the '{@link com.archimatetool.model.impl.QualityApplicationService <em>Quality Application Service</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.archimatetool.model.impl.QualityApplicationService
+	 * @see com.archimatetool.model.impl.ArchimatePackage#getQualityApplicationService()
+	 * @generated
+	 */
+	int QUALITY_APPLICATION_SERVICE = 139;
+
+				/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUALITY_APPLICATION_SERVICE__NAME = APPLICATION_ELEMENT__NAME;
+
+				/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUALITY_APPLICATION_SERVICE__ID = APPLICATION_ELEMENT__ID;
+
+				/**
+	 * The feature id for the '<em><b>Features</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUALITY_APPLICATION_SERVICE__FEATURES = APPLICATION_ELEMENT__FEATURES;
+
+				/**
+	 * The feature id for the '<em><b>Documentation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUALITY_APPLICATION_SERVICE__DOCUMENTATION = APPLICATION_ELEMENT__DOCUMENTATION;
+
+				/**
+	 * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUALITY_APPLICATION_SERVICE__PROPERTIES = APPLICATION_ELEMENT__PROPERTIES;
+
+				/**
+	 * The number of structural features of the '<em>Quality Application Service</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUALITY_APPLICATION_SERVICE_FEATURE_COUNT = APPLICATION_ELEMENT_FEATURE_COUNT + 0;
+
+				/**
 	 * The meta object id for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -9547,7 +9739,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFolderType()
 	 * @generated
 	 */
-    int FOLDER_TYPE = 137;
+    int FOLDER_TYPE = 140;
 
     /**
 	 * The meta object id for the '<em>File</em>' data type.
@@ -9557,7 +9749,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFile()
 	 * @generated
 	 */
-    int FILE = 138;
+    int FILE = 141;
 
 
     /**
@@ -11591,6 +11783,36 @@ public interface IArchimatePackage extends EPackage {
 	EClass getDecision();
 
 				/**
+	 * Returns the meta object for class '{@link com.archimatetool.model.IDashboard <em>Dashboard</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Dashboard</em>'.
+	 * @see com.archimatetool.model.IDashboard
+	 * @generated
+	 */
+	EClass getDashboard();
+
+				/**
+	 * Returns the meta object for class '{@link com.archimatetool.model.IWebService <em>Web Service</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Web Service</em>'.
+	 * @see com.archimatetool.model.IWebService
+	 * @generated
+	 */
+	EClass getWebService();
+
+				/**
+	 * Returns the meta object for class '{@link com.archimatetool.model.IQualityApplicationService <em>Quality Application Service</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Quality Application Service</em>'.
+	 * @see com.archimatetool.model.IQualityApplicationService
+	 * @generated
+	 */
+	EClass getQualityApplicationService();
+
+				/**
 	 * Returns the meta object for enum '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}'.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -13482,6 +13704,36 @@ public interface IArchimatePackage extends EPackage {
 		 * @generated
 		 */
 		EClass DECISION = eINSTANCE.getDecision();
+
+								/**
+		 * The meta object literal for the '{@link com.archimatetool.model.impl.Dashboard <em>Dashboard</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.archimatetool.model.impl.Dashboard
+		 * @see com.archimatetool.model.impl.ArchimatePackage#getDashboard()
+		 * @generated
+		 */
+		EClass DASHBOARD = eINSTANCE.getDashboard();
+
+								/**
+		 * The meta object literal for the '{@link com.archimatetool.model.impl.WebService <em>Web Service</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.archimatetool.model.impl.WebService
+		 * @see com.archimatetool.model.impl.ArchimatePackage#getWebService()
+		 * @generated
+		 */
+		EClass WEB_SERVICE = eINSTANCE.getWebService();
+
+								/**
+		 * The meta object literal for the '{@link com.archimatetool.model.impl.QualityApplicationService <em>Quality Application Service</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.archimatetool.model.impl.QualityApplicationService
+		 * @see com.archimatetool.model.impl.ArchimatePackage#getQualityApplicationService()
+		 * @generated
+		 */
+		EClass QUALITY_APPLICATION_SERVICE = eINSTANCE.getQualityApplicationService();
 
 								/**
 		 * The meta object literal for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.

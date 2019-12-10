@@ -47,7 +47,8 @@ public class DecisionUIProvider extends AbstractArchimateElementUIProvider {
     
     @Override
     public Color getDefaultColor() {
-        return ColorFactory.get(255, 255, 181);
+        //return ColorFactory.get(255, 255, 181);
+    	return ColorFactory.get(0, 172, 230);
     }
 
     @Override
