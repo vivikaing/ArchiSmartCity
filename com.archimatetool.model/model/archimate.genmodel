@@ -321,5 +321,6 @@
     <genClasses ecoreClass="archimate.ecore#//Domain"/>
     <genClasses ecoreClass="archimate.ecore#//Objective"/>
     <genClasses ecoreClass="archimate.ecore#//Indicator"/>
+    <genClasses ecoreClass="archimate.ecore#//Decision"/>
   </genPackages>
 </genmodel:GenModel>

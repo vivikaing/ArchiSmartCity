@@ -972,6 +972,10 @@
             class="com.archimatetool.editor.ui.factory.elements.DeliverableUIProvider"
             id="com.archimatetool.editor.DeliverableUIProvider">
       </uiProvider>
+       <uiProvider
+            class="com.archimatetool.editor.ui.factory.elements.DecisionUIProvider"
+            id="com.archimatetool.editor.DecisionUIProvider">
+      </uiProvider>
       <uiProvider
             class="com.archimatetool.editor.ui.factory.elements.DeviceUIProvider"
             id="com.archimatetool.editor.DeviceUIProvider">

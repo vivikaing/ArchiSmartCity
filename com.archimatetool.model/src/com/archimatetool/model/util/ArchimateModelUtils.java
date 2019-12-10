@@ -191,6 +191,7 @@ public class ArchimateModelUtils {
                 IArchimatePackage.eINSTANCE.getBusinessService(),
                 IArchimatePackage.eINSTANCE.getBusinessObject(),
                 IArchimatePackage.eINSTANCE.getContract(),
+                IArchimatePackage.eINSTANCE.getDecision(),
                 IArchimatePackage.eINSTANCE.getRepresentation(),
                 IArchimatePackage.eINSTANCE.getProduct()
         };

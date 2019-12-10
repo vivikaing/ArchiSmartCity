@@ -59,6 +59,8 @@ public class Messages extends NLS {
     public static String DataObjectUIProvider_0;
 
     public static String DeliverableUIProvider_0;
+    
+    public static String DecisionUIProvider_0;
 
     public static String DeviceUIProvider_0;
 

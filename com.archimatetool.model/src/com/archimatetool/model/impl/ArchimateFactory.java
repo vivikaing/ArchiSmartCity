@@ -49,6 +49,7 @@ import com.archimatetool.model.IConstraint;
 import com.archimatetool.model.IContract;
 import com.archimatetool.model.ICourseOfAction;
 import com.archimatetool.model.IDataObject;
+import com.archimatetool.model.IDecision;
 import com.archimatetool.model.IDeliverable;
 import com.archimatetool.model.IDevice;
 import com.archimatetool.model.IDiagramModelArchimateConnection;
@@ -245,6 +246,7 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.DOMAIN: return createDomain();
 			case IArchimatePackage.OBJECTIVE: return createObjective();
 			case IArchimatePackage.INDICATOR: return createIndicator();
+			case IArchimatePackage.DECISION: return createDecision();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1158,6 +1160,17 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public IIndicator createIndicator() {
 		Indicator indicator = new Indicator();
 		return indicator;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IDecision createDecision() {
+		Decision decision = new Decision();
+		return decision;
 	}
 
 				/* (non-Javadoc)

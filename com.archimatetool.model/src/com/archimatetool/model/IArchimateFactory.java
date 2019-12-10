@@ -746,6 +746,15 @@ public interface IArchimateFactory extends EFactory {
 	IIndicator createIndicator();
 
 				/**
+	 * Returns a new object of class '<em>Decision</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Decision</em>'.
+	 * @generated
+	 */
+	IDecision createDecision();
+
+				/**
      * Create a new Bounds object
      * @param x
      * @param y

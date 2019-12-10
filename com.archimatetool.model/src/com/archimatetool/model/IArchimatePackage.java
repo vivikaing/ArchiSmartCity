@@ -9476,6 +9476,70 @@ public interface IArchimatePackage extends EPackage {
 	int INDICATOR_FEATURE_COUNT = MOTIVATION_ELEMENT_FEATURE_COUNT + 0;
 
 				/**
+	 * The meta object id for the '{@link com.archimatetool.model.impl.Decision <em>Decision</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.archimatetool.model.impl.Decision
+	 * @see com.archimatetool.model.impl.ArchimatePackage#getDecision()
+	 * @generated
+	 */
+	int DECISION = 136;
+
+				/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int DECISION__NAME = BUSINESS_ELEMENT__NAME;
+
+				/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int DECISION__ID = BUSINESS_ELEMENT__ID;
+
+				/**
+	 * The feature id for the '<em><b>Features</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int DECISION__FEATURES = BUSINESS_ELEMENT__FEATURES;
+
+				/**
+	 * The feature id for the '<em><b>Documentation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int DECISION__DOCUMENTATION = BUSINESS_ELEMENT__DOCUMENTATION;
+
+				/**
+	 * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int DECISION__PROPERTIES = BUSINESS_ELEMENT__PROPERTIES;
+
+				/**
+	 * The number of structural features of the '<em>Decision</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int DECISION_FEATURE_COUNT = BUSINESS_ELEMENT_FEATURE_COUNT + 0;
+
+				/**
 	 * The meta object id for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -9483,7 +9547,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFolderType()
 	 * @generated
 	 */
-    int FOLDER_TYPE = 136;
+    int FOLDER_TYPE = 137;
 
     /**
 	 * The meta object id for the '<em>File</em>' data type.
@@ -9493,7 +9557,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFile()
 	 * @generated
 	 */
-    int FILE = 137;
+    int FILE = 138;
 
 
     /**
@@ -11517,6 +11581,16 @@ public interface IArchimatePackage extends EPackage {
 	EClass getIndicator();
 
 				/**
+	 * Returns the meta object for class '{@link com.archimatetool.model.IDecision <em>Decision</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Decision</em>'.
+	 * @see com.archimatetool.model.IDecision
+	 * @generated
+	 */
+	EClass getDecision();
+
+				/**
 	 * Returns the meta object for enum '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}'.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -13398,6 +13472,16 @@ public interface IArchimatePackage extends EPackage {
 		 * @generated
 		 */
 		EClass INDICATOR = eINSTANCE.getIndicator();
+
+								/**
+		 * The meta object literal for the '{@link com.archimatetool.model.impl.Decision <em>Decision</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.archimatetool.model.impl.Decision
+		 * @see com.archimatetool.model.impl.ArchimatePackage#getDecision()
+		 * @generated
+		 */
+		EClass DECISION = eINSTANCE.getDecision();
 
 								/**
 		 * The meta object literal for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.

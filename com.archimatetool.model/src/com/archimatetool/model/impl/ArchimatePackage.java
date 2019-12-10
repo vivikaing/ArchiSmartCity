@@ -56,6 +56,7 @@ import com.archimatetool.model.IConstraint;
 import com.archimatetool.model.IContract;
 import com.archimatetool.model.ICourseOfAction;
 import com.archimatetool.model.IDataObject;
+import com.archimatetool.model.IDecision;
 import com.archimatetool.model.IDeliverable;
 import com.archimatetool.model.IDependendencyRelationship;
 import com.archimatetool.model.IDevice;
@@ -806,6 +807,13 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 	 * @generated
 	 */
 	private EClass indicatorEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass decisionEClass = null;
 
 				/**
 	 * <!-- begin-user-doc -->
@@ -2692,6 +2700,16 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 				/**
 	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getDecision() {
+		return decisionEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -3531,6 +3549,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 		indicatorEClass = createEClass(INDICATOR);
 
+		decisionEClass = createEClass(DECISION);
+
 		// Create enums
 		folderTypeEEnum = createEEnum(FOLDER_TYPE);
 
@@ -3776,6 +3796,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		domainEClass.getESuperTypes().add(this.getCompositeElement());
 		objectiveEClass.getESuperTypes().add(this.getMotivationElement());
 		indicatorEClass.getESuperTypes().add(this.getMotivationElement());
+		decisionEClass.getESuperTypes().add(this.getBusinessElement());
+		decisionEClass.getESuperTypes().add(this.getBehaviorElement());
 
 		// Initialize classes and features; add operations and parameters
 		initEClass(adapterEClass, IAdapter.class, "Adapter", IS_ABSTRACT, IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
@@ -4182,6 +4204,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		initEClass(objectiveEClass, IObjective.class, "Objective", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		initEClass(indicatorEClass, IIndicator.class, "Indicator", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(decisionEClass, IDecision.class, "Decision", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		// Initialize enums and add enum literals
 		initEEnum(folderTypeEEnum, FolderType.class, "FolderType"); //$NON-NLS-1$

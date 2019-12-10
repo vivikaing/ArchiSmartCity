@@ -80,6 +80,8 @@ public interface IArchiImages {
     String ICON_DEVICE = ARCHIMATE_IMGPATH + "device.png"; //$NON-NLS-1$
     String ICON_DISTRIBUTION_NETWORK = ARCHIMATE_IMGPATH + "distribution-network.png"; //$NON-NLS-1$
     String ICON_DRIVER = ARCHIMATE_IMGPATH + "driver.png"; //$NON-NLS-1$
+    String ICON_DECISION = ARCHIMATE_IMGPATH + "decision.png"; //$NON-NLS-1$
+    String ICON_DECISION_IMAGE = ARCHIMATE_IMGPATH + "decision@2x.png"; //$NON-NLS-1$
     String ICON_DOMAIN = ARCHIMATE_IMGPATH + "domain.png"; //$NON-NLS-1$
     String ICON_DOMAIN_IMAGE = ARCHIMATE_IMGPATH + "domain@2x.png"; //$NON-NLS-1$
     String ICON_EQUIPMENT = ARCHIMATE_IMGPATH + "equipment.png"; //$NON-NLS-1$

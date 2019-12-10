@@ -54,6 +54,7 @@ import com.archimatetool.model.IConstraint;
 import com.archimatetool.model.IContract;
 import com.archimatetool.model.ICourseOfAction;
 import com.archimatetool.model.IDataObject;
+import com.archimatetool.model.IDecision;
 import com.archimatetool.model.IDeliverable;
 import com.archimatetool.model.IDependendencyRelationship;
 import com.archimatetool.model.IDevice;
@@ -747,6 +748,10 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseIndicator(IIndicator object) {
 				return createIndicatorAdapter();
+			}
+			@Override
+			public Adapter caseDecision(IDecision object) {
+				return createDecisionAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2053,6 +2058,20 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createIndicatorAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IDecision <em>Decision</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IDecision
+	 * @generated
+	 */
+	public Adapter createDecisionAdapter() {
 		return null;
 	}
 
