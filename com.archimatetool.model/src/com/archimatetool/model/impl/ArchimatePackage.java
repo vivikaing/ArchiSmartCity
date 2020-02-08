@@ -47,6 +47,7 @@ import com.archimatetool.model.IBusinessProcess;
 import com.archimatetool.model.IBusinessRole;
 import com.archimatetool.model.IBusinessService;
 import com.archimatetool.model.ICapability;
+import com.archimatetool.model.ICityActor;
 import com.archimatetool.model.ICloneable;
 import com.archimatetool.model.ICommunicationNetwork;
 import com.archimatetool.model.ICompositeElement;
@@ -838,6 +839,13 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 	 * @generated
 	 */
 	private EClass qualityApplicationServiceEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass cityActorEClass = null;
 
 				/**
 	 * <!-- begin-user-doc -->
@@ -2764,6 +2772,16 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 				/**
 	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getCityActor() {
+		return cityActorEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -3611,6 +3629,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 		qualityApplicationServiceEClass = createEClass(QUALITY_APPLICATION_SERVICE);
 
+		cityActorEClass = createEClass(CITY_ACTOR);
+
 		// Create enums
 		folderTypeEEnum = createEEnum(FOLDER_TYPE);
 
@@ -3864,6 +3884,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		webServiceEClass.getESuperTypes().add(this.getActiveStructureElement());
 		qualityApplicationServiceEClass.getESuperTypes().add(this.getApplicationElement());
 		qualityApplicationServiceEClass.getESuperTypes().add(this.getPassiveStructureElement());
+		cityActorEClass.getESuperTypes().add(this.getBusinessElement());
+		cityActorEClass.getESuperTypes().add(this.getActiveStructureElement());
 
 		// Initialize classes and features; add operations and parameters
 		initEClass(adapterEClass, IAdapter.class, "Adapter", IS_ABSTRACT, IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
@@ -4278,6 +4300,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		initEClass(webServiceEClass, IWebService.class, "WebService", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		initEClass(qualityApplicationServiceEClass, IQualityApplicationService.class, "QualityApplicationService", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(cityActorEClass, ICityActor.class, "CityActor", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		// Initialize enums and add enum literals
 		initEEnum(folderTypeEEnum, FolderType.class, "FolderType"); //$NON-NLS-1$

@@ -782,6 +782,15 @@ public interface IArchimateFactory extends EFactory {
 	IQualityApplicationService createQualityApplicationService();
 
 				/**
+	 * Returns a new object of class '<em>City Actor</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>City Actor</em>'.
+	 * @generated
+	 */
+	ICityActor createCityActor();
+
+				/**
      * Create a new Bounds object
      * @param x
      * @param y

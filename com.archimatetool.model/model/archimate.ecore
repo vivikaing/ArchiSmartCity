@@ -455,4 +455,5 @@
   <eClassifiers xsi:type="ecore:EClass" name="Dashboard" eSuperTypes="#//ApplicationElement #//ActiveStructureElement"/>
   <eClassifiers xsi:type="ecore:EClass" name="WebService" eSuperTypes="#//ApplicationElement #//ActiveStructureElement"/>
   <eClassifiers xsi:type="ecore:EClass" name="QualityApplicationService" eSuperTypes="#//ApplicationElement #//PassiveStructureElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CityActor" eSuperTypes="#//BusinessElement #//ActiveStructureElement"/>
 </ecore:EPackage>

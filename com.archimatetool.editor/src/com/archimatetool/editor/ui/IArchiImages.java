@@ -61,6 +61,8 @@ public interface IArchiImages {
     String ICON_ARTIFACT = ARCHIMATE_IMGPATH + "artifact.png"; //$NON-NLS-1$
     String ICON_ASSESSMENT = ARCHIMATE_IMGPATH + "assessment.png"; //$NON-NLS-1$
     String ICON_BUSINESS_ACTOR = ARCHIMATE_IMGPATH + "business-actor.png"; //$NON-NLS-1$
+    String ICON_CITY_ACTOR = ARCHIMATE_IMGPATH + "city-actor.png"; //$NON-NLS-1$
+    String ICON_CITY_ACTOR_IMAGE = ARCHIMATE_IMGPATH + "city-actor@2x.png"; //$NON-NLS-1$
     String ICON_BUSINESS_COLLABORATION = ARCHIMATE_IMGPATH + "business-collaboration.png"; //$NON-NLS-1$
     String ICON_BUSINESS_EVENT = ARCHIMATE_IMGPATH + "business-event.png"; //$NON-NLS-1$
     String ICON_BUSINESS_FUNCTION = ARCHIMATE_IMGPATH + "business-function.png"; //$NON-NLS-1$

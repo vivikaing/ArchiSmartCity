@@ -45,6 +45,7 @@ import com.archimatetool.model.IBusinessProcess;
 import com.archimatetool.model.IBusinessRole;
 import com.archimatetool.model.IBusinessService;
 import com.archimatetool.model.ICapability;
+import com.archimatetool.model.ICityActor;
 import com.archimatetool.model.ICloneable;
 import com.archimatetool.model.ICommunicationNetwork;
 import com.archimatetool.model.ICompositeElement;
@@ -767,6 +768,10 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseQualityApplicationService(IQualityApplicationService object) {
 				return createQualityApplicationServiceAdapter();
+			}
+			@Override
+			public Adapter caseCityActor(ICityActor object) {
+				return createCityActorAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2129,6 +2134,20 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createQualityApplicationServiceAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.ICityActor <em>City Actor</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.ICityActor
+	 * @generated
+	 */
+	public Adapter createCityActorAdapter() {
 		return null;
 	}
 

@@ -45,6 +45,7 @@ import com.archimatetool.model.IBusinessProcess;
 import com.archimatetool.model.IBusinessRole;
 import com.archimatetool.model.IBusinessService;
 import com.archimatetool.model.ICapability;
+import com.archimatetool.model.ICityActor;
 import com.archimatetool.model.ICloneable;
 import com.archimatetool.model.ICommunicationNetwork;
 import com.archimatetool.model.ICompositeElement;
@@ -2409,6 +2410,25 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.CITY_ACTOR: {
+				ICityActor cityActor = (ICityActor)theEObject;
+				T result = caseCityActor(cityActor);
+				if (result == null) result = caseBusinessElement(cityActor);
+				if (result == null) result = caseActiveStructureElement(cityActor);
+				if (result == null) result = caseStructureElement(cityActor);
+				if (result == null) result = caseArchimateElement(cityActor);
+				if (result == null) result = caseArchimateConcept(cityActor);
+				if (result == null) result = caseArchimateModelObject(cityActor);
+				if (result == null) result = caseCloneable(cityActor);
+				if (result == null) result = caseDocumentable(cityActor);
+				if (result == null) result = caseProperties(cityActor);
+				if (result == null) result = caseAdapter(cityActor);
+				if (result == null) result = caseNameable(cityActor);
+				if (result == null) result = caseIdentifier(cityActor);
+				if (result == null) result = caseFeatures(cityActor);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -3850,6 +3870,21 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseQualityApplicationService(IQualityApplicationService object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>City Actor</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>City Actor</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseCityActor(ICityActor object) {
 		return null;
 	}
 

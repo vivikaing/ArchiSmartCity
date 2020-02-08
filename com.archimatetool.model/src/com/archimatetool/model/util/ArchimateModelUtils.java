@@ -191,9 +191,10 @@ public class ArchimateModelUtils {
                 IArchimatePackage.eINSTANCE.getBusinessService(),
                 IArchimatePackage.eINSTANCE.getBusinessObject(),
                 IArchimatePackage.eINSTANCE.getContract(),
-                IArchimatePackage.eINSTANCE.getDecision(),
                 IArchimatePackage.eINSTANCE.getRepresentation(),
-                IArchimatePackage.eINSTANCE.getProduct()
+                IArchimatePackage.eINSTANCE.getProduct(),
+                IArchimatePackage.eINSTANCE.getCityActor(),
+                IArchimatePackage.eINSTANCE.getDecision()
         };
     }
     
@@ -257,16 +258,16 @@ public class ArchimateModelUtils {
         return new EClass[] {
                 IArchimatePackage.eINSTANCE.getStakeholder(),
                 IArchimatePackage.eINSTANCE.getDriver(),
-                IArchimatePackage.eINSTANCE.getIndicator(),
                 IArchimatePackage.eINSTANCE.getAssessment(),
-                IArchimatePackage.eINSTANCE.getGoal(),
-                IArchimatePackage.eINSTANCE.getObjective(),
+                IArchimatePackage.eINSTANCE.getGoal(),                
                 IArchimatePackage.eINSTANCE.getOutcome(),
                 IArchimatePackage.eINSTANCE.getPrinciple(),
                 IArchimatePackage.eINSTANCE.getRequirement(),
                 IArchimatePackage.eINSTANCE.getConstraint(),
                 IArchimatePackage.eINSTANCE.getMeaning(),
-                IArchimatePackage.eINSTANCE.getValue()
+                IArchimatePackage.eINSTANCE.getValue(),
+                IArchimatePackage.eINSTANCE.getObjective(),
+                IArchimatePackage.eINSTANCE.getIndicator()
         };
     }
     

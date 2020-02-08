@@ -43,6 +43,7 @@ import com.archimatetool.model.IBusinessProcess;
 import com.archimatetool.model.IBusinessRole;
 import com.archimatetool.model.IBusinessService;
 import com.archimatetool.model.ICapability;
+import com.archimatetool.model.ICityActor;
 import com.archimatetool.model.ICommunicationNetwork;
 import com.archimatetool.model.ICompositionRelationship;
 import com.archimatetool.model.IConstraint;
@@ -253,6 +254,7 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.DASHBOARD: return createDashboard();
 			case IArchimatePackage.WEB_SERVICE: return createWebService();
 			case IArchimatePackage.QUALITY_APPLICATION_SERVICE: return createQualityApplicationService();
+			case IArchimatePackage.CITY_ACTOR: return createCityActor();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1210,6 +1212,17 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public IQualityApplicationService createQualityApplicationService() {
 		QualityApplicationService qualityApplicationService = new QualityApplicationService();
 		return qualityApplicationService;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public ICityActor createCityActor() {
+		CityActor cityActor = new CityActor();
+		return cityActor;
 	}
 
 				/* (non-Javadoc)

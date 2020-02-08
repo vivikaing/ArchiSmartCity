@@ -948,6 +948,10 @@
             class="com.archimatetool.editor.ui.factory.elements.CapabilityUIProvider"
             id="com.archimatetool.editor.CapabilityUIProvider">
       </uiProvider>
+       <uiProvider
+            class="com.archimatetool.editor.ui.factory.elements.CityActorUIProvider"
+            id="com.archimatetool.editor.CityActorUIProvider">
+      </uiProvider>
       <uiProvider
             class="com.archimatetool.editor.ui.factory.elements.CommunicationNetworkUIProvider"
             id="com.archimatetool.editor.CommunicationNetworkUIProvider">
