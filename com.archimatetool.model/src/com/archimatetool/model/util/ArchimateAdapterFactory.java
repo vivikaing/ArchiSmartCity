@@ -46,6 +46,8 @@ import com.archimatetool.model.IBusinessRole;
 import com.archimatetool.model.IBusinessService;
 import com.archimatetool.model.ICapability;
 import com.archimatetool.model.ICityActor;
+import com.archimatetool.model.ICityObject;
+import com.archimatetool.model.ICityRole;
 import com.archimatetool.model.ICloneable;
 import com.archimatetool.model.ICommunicationNetwork;
 import com.archimatetool.model.ICompositeElement;
@@ -772,6 +774,14 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseCityActor(ICityActor object) {
 				return createCityActorAdapter();
+			}
+			@Override
+			public Adapter caseCityRole(ICityRole object) {
+				return createCityRoleAdapter();
+			}
+			@Override
+			public Adapter caseCityObject(ICityObject object) {
+				return createCityObjectAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2148,6 +2158,34 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createCityActorAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.ICityRole <em>City Role</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.ICityRole
+	 * @generated
+	 */
+	public Adapter createCityRoleAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.ICityObject <em>City Object</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.ICityObject
+	 * @generated
+	 */
+	public Adapter createCityObjectAdapter() {
 		return null;
 	}
 

@@ -44,6 +44,8 @@ import com.archimatetool.model.IBusinessRole;
 import com.archimatetool.model.IBusinessService;
 import com.archimatetool.model.ICapability;
 import com.archimatetool.model.ICityActor;
+import com.archimatetool.model.ICityObject;
+import com.archimatetool.model.ICityRole;
 import com.archimatetool.model.ICommunicationNetwork;
 import com.archimatetool.model.ICompositionRelationship;
 import com.archimatetool.model.IConstraint;
@@ -255,6 +257,8 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.WEB_SERVICE: return createWebService();
 			case IArchimatePackage.QUALITY_APPLICATION_SERVICE: return createQualityApplicationService();
 			case IArchimatePackage.CITY_ACTOR: return createCityActor();
+			case IArchimatePackage.CITY_ROLE: return createCityRole();
+			case IArchimatePackage.CITY_OBJECT: return createCityObject();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1223,6 +1227,28 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public ICityActor createCityActor() {
 		CityActor cityActor = new CityActor();
 		return cityActor;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public ICityRole createCityRole() {
+		CityRole cityRole = new CityRole();
+		return cityRole;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public ICityObject createCityObject() {
+		CityObject cityObject = new CityObject();
+		return cityObject;
 	}
 
 				/* (non-Javadoc)

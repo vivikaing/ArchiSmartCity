@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <relationships version="3.0">
-   <source concept="ApplicationCollaboration">
+    <source concept="ApplicationCollaboration">
       <target concept="ApplicationCollaboration" derived="cfgrtv" relations="cfgorstv" />
       <target concept="ApplicationComponent" derived="cfgrtv" relations="cfgorstv" />
       <target concept="ApplicationEvent" derived="firtv" relations="fiortv" />
@@ -70,6 +70,8 @@
       <target concept="WebService" derived="cfgrtv" relations="cfgortv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="ApplicationComponent">
       <target concept="ApplicationCollaboration" derived="cfgrtv" relations="cfgorstv" />
@@ -141,6 +143,8 @@
       <target concept="WebService" derived="cfgrtv" relations="cfgortv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="ApplicationEvent">
       <target concept="ApplicationCollaboration" derived="ft" relations="fot" />
@@ -212,6 +216,8 @@
       <target concept="WebService" derived="ft" relations="fot" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="t" relations="ot" />
+      <target concept="CityRole" derived="t" relations="ot" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="ApplicationFunction">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -283,6 +289,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="ApplicationInteraction">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -354,6 +362,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="ApplicationInterface">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -425,6 +435,8 @@
       <target concept="WebService" derived="cfgtv" relations="cfgotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="ApplicationProcess">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -496,6 +508,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="ApplicationService">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -567,6 +581,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="Artifact">
       <target concept="ApplicationCollaboration" derived="frv" relations="forv" />
@@ -638,6 +654,8 @@
       <target concept="WebService" derived="frv" relations="forv" />
       <target concept="QualityApplicationService" derived="ar" relations="aor" />
       <target concept="CityActor" derived="frv" relations="forv" />
+      <target concept="CityRole" derived="frv" relations="forv" />
+      <target concept="CityObject" derived="ar" relations="aor" />
    </source>
    <source concept="Assessment">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -709,6 +727,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="BusinessActor">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -780,6 +800,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="cfgtv" relations="o" />
+      <target concept="CityRole" derived="fitv" relations="fiotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="BusinessCollaboration">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -851,6 +873,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="fgtv" relations="fgotv" />
+      <target concept="CityRole" derived="fgitv" relations="fgiotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="BusinessEvent">
       <target concept="ApplicationCollaboration" derived="ft" relations="fot" />
@@ -922,6 +946,8 @@
       <target concept="WebService" derived="ft" relations="fot" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="ft" relations="fot" />
+      <target concept="CityRole" derived="ft" relations="fot" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="BusinessFunction">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -993,6 +1019,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="BusinessInteraction">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -1064,6 +1092,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="BusinessInterface">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -1135,6 +1165,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="BusinessObject">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -1206,6 +1238,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="cg" relations="o" />
    </source>
    <source concept="BusinessProcess">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -1277,6 +1311,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="BusinessRole">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -1348,6 +1384,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="cfgtv" relations="o" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="BusinessService">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -1419,6 +1457,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="Capability">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -1490,6 +1530,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="CommunicationNetwork">
       <target concept="ApplicationCollaboration" derived="frtv" relations="fortv" />
@@ -1561,6 +1603,8 @@
       <target concept="WebService" derived="frtv" relations="fortv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="firtv" relations="fiortv" />
+      <target concept="CityRole" derived="firtv" relations="fiortv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="Constraint">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -1632,6 +1676,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="Contract">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -1703,6 +1749,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="cg" relations="cgos" />
    </source>
    <source concept="CourseOfAction">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -1774,6 +1822,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="DataObject">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -1845,6 +1895,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="cg" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="r" relations="or" />
    </source>
    <source concept="Deliverable">
       <target concept="ApplicationCollaboration" derived="r" relations="or" />
@@ -1916,6 +1968,8 @@
       <target concept="WebService" derived="r" relations="or" />
       <target concept="QualityApplicationService" derived="r" relations="or" />
       <target concept="CityActor" derived="r" relations="or" />
+      <target concept="CityRole" derived="r" relations="or" />
+      <target concept="CityObject" derived="r" relations="or" />
    </source>
    <source concept="Device">
       <target concept="ApplicationCollaboration" derived="frtv" relations="fortv" />
@@ -1987,6 +2041,8 @@
       <target concept="WebService" derived="frtv" relations="fortv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="firtv" relations="fiortv" />
+      <target concept="CityRole" derived="firtv" relations="fiortv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="DistributionNetwork">
       <target concept="ApplicationCollaboration" derived="frtv" relations="fortv" />
@@ -2058,6 +2114,8 @@
       <target concept="WebService" derived="frtv" relations="fortv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="firtv" relations="fiortv" />
+      <target concept="CityRole" derived="firtv" relations="fiortv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="Driver">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -2129,6 +2187,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="Equipment">
       <target concept="ApplicationCollaboration" derived="frtv" relations="fortv" />
@@ -2200,6 +2260,8 @@
       <target concept="WebService" derived="frtv" relations="fortv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="firtv" relations="fiortv" />
+      <target concept="CityRole" derived="firtv" relations="fiortv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="Facility">
       <target concept="ApplicationCollaboration" derived="frtv" relations="fortv" />
@@ -2271,6 +2333,8 @@
       <target concept="WebService" derived="frtv" relations="fortv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="firtv" relations="fiortv" />
+      <target concept="CityRole" derived="firtv" relations="fiortv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="Gap">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -2342,6 +2406,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="Goal">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -2413,6 +2479,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="Objective">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -2484,6 +2552,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="Grouping">
       <target concept="ApplicationCollaboration" derived="" relations="cfgorstv" />
@@ -2555,6 +2625,8 @@
       <target concept="WebService" derived="" relations="cfgorstv" />
       <target concept="QualityApplicationService" derived="" relations="acgors" />
       <target concept="CityActor" derived="" relations="cfgiorstv" />
+      <target concept="CityRole" derived="" relations="cfgiorstv" />
+      <target concept="CityObject" derived="" relations="acgors" />
    </source>
    <source concept="ImplementationEvent">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -2626,6 +2698,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="Junction" type="RelationshipConnector">
       <target concept="ApplicationCollaboration" derived="" relations="fortv" />
@@ -2697,6 +2771,8 @@
       <target concept="WebService" derived="" relations="fortv" />
       <target concept="QualityApplicationService" derived="" relations="aor" />
       <target concept="CityActor" derived="" relations="fiortv" />
+      <target concept="CityRole" derived="" relations="fiortv" />
+      <target concept="CityObject" derived="" relations="aor" />
    </source>
    <source concept="Location">
       <target concept="ApplicationCollaboration" derived="cfgrtv" relations="cfgortv" />
@@ -2768,6 +2844,8 @@
       <target concept="WebService" derived="cfgrtv" relations="cfgortv" />
       <target concept="QualityApplicationService" derived="acg" relations="acgo" />
       <target concept="CityActor" derived="cfgirtv" relations="cfgiortv" />
+      <target concept="CityRole" derived="cfgirtv" relations="cfgiortv" />
+      <target concept="CityObject" derived="acg" relations="acgo" />
    </source>
    <source concept="Material">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -2839,6 +2917,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="r" relations="or" />
    </source>
    <source concept="Meaning">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -2910,6 +2990,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="Node">
       <target concept="ApplicationCollaboration" derived="frtv" relations="fortv" />
@@ -2981,6 +3063,8 @@
       <target concept="WebService" derived="frtv" relations="fortv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="firtv" relations="fiortv" />
+      <target concept="CityRole" derived="firtv" relations="fiortv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="Outcome">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -3052,6 +3136,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="Path">
       <target concept="ApplicationCollaboration" derived="frtv" relations="fortv" />
@@ -3123,6 +3209,8 @@
       <target concept="WebService" derived="frtv" relations="fortv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="firtv" relations="fiortv" />
+      <target concept="CityRole" derived="firtv" relations="fiortv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="Plateau">
       <target concept="ApplicationCollaboration" derived="cgr" relations="cgor" />
@@ -3194,6 +3282,8 @@
       <target concept="WebService" derived="cgr" relations="cgor" />
       <target concept="QualityApplicationService" derived="cgr" relations="cgor" />
       <target concept="CityActor" derived="cgr" relations="cgor" />
+      <target concept="CityRole" derived="cgr" relations="cgor" />
+      <target concept="CityObject" derived="cgr" relations="cgor" />
    </source>
    <source concept="Principle">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -3265,6 +3355,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="Product">
       <target concept="ApplicationCollaboration" derived="frv" relations="forv" />
@@ -3336,6 +3428,8 @@
       <target concept="WebService" derived="frv" relations="forv" />
       <target concept="QualityApplicationService" derived="acg" relations="acgo" />
       <target concept="CityActor" derived="frv" relations="forv" />
+      <target concept="CityRole" derived="frv" relations="forv" />
+      <target concept="CityObject" derived="acg" relations="acgo" />
    </source>
    <source concept="Relationship" type="Relationship">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -3407,6 +3501,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="Representation">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -3478,6 +3574,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="r" relations="or" />
    </source>
    <source concept="Requirement">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -3549,6 +3647,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="Resource">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -3620,6 +3720,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="Stakeholder">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -3691,6 +3793,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="SystemSoftware">
       <target concept="ApplicationCollaboration" derived="frtv" relations="fortv" />
@@ -3762,6 +3866,8 @@
       <target concept="WebService" derived="frtv" relations="fortv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="firtv" relations="fiortv" />
+      <target concept="CityRole" derived="firtv" relations="fiortv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="TechnologyCollaboration">
       <target concept="ApplicationCollaboration" derived="frtv" relations="fortv" />
@@ -3833,6 +3939,8 @@
       <target concept="WebService" derived="frtv" relations="fortv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="firtv" relations="fiortv" />
+      <target concept="CityRole" derived="firtv" relations="fiortv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="TechnologyEvent">
       <target concept="ApplicationCollaboration" derived="t" relations="ot" />
@@ -3904,6 +4012,8 @@
       <target concept="WebService" derived="t" relations="ot" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="t" relations="ot" />
+      <target concept="CityRole" derived="t" relations="ot" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="TechnologyFunction">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -3975,6 +4085,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="TechnologyInteraction">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -4046,6 +4158,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="TechnologyInterface">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -4117,6 +4231,8 @@
       <target concept="WebService" derived="frtv" relations="fortv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="TechnologyProcess">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -4188,6 +4304,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="TechnologyService">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -4259,6 +4377,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="Value">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -4330,6 +4450,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="WorkPackage">
       <target concept="ApplicationCollaboration" derived="r" relations="or" />
@@ -4401,6 +4523,8 @@
       <target concept="WebService" derived="r" relations="or" />
       <target concept="QualityApplicationService" derived="r" relations="or" />
       <target concept="CityActor" derived="r" relations="or" />
+      <target concept="CityRole" derived="r" relations="or" />
+      <target concept="CityObject" derived="r" relations="or" />
    </source>
    <source concept="Domain">
       <target concept="ApplicationCollaboration" derived="" relations="cfgorstv" />
@@ -4472,6 +4596,8 @@
       <target concept="WebService" derived="" relations="cfgorstv" />
       <target concept="QualityApplicationService" derived="" relations="acgors" />
       <target concept="CityActor" derived="" relations="cfgiorstv" />
+      <target concept="CityRole" derived="" relations="cfgiorstv" />
+      <target concept="CityObject" derived="" relations="acgors" />
    </source>
    <source concept="Indicator">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -4543,6 +4669,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="" relations="o" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="" relations="o" />
    </source>
    <source concept="Decision">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -4614,6 +4742,8 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="Dashboard">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -4685,6 +4815,8 @@
       <target concept="WebService" derived="cfgtv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="WebService">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -4756,6 +4888,8 @@
       <target concept="WebService" derived="cfgtv" relations="cfgostv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
    </source>
    <source concept="QualityApplicationService">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -4827,6 +4961,8 @@
       <target concept="WebService" derived="" relations="o" />
       <target concept="QualityApplicationService" derived="cg" relations="cgos" />
       <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="r" relations="or" />
    </source>
    <source concept="CityActor">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -4898,5 +5034,153 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="cfgtv" relations="cfgostv" />
+      <target concept="CityRole" derived="fitv" relations="fiotv" />
+      <target concept="CityObject" derived="a" relations="ao" />
+   </source>
+   <source concept="CityRole">
+      <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
+      <target concept="ApplicationComponent" derived="ftv" relations="fotv" />
+      <target concept="ApplicationEvent" derived="tv" relations="otv" />
+      <target concept="ApplicationFunction" derived="ftv" relations="fotv" />
+      <target concept="ApplicationInteraction" derived="ftv" relations="fotv" />
+      <target concept="ApplicationInterface" derived="ftv" relations="fotv" />
+      <target concept="ApplicationProcess" derived="ftv" relations="fotv" />
+      <target concept="ApplicationService" derived="ftv" relations="fotv" />
+      <target concept="Artifact" derived="a" relations="ao" />
+      <target concept="Assessment" derived="n" relations="no" />
+      <target concept="BusinessActor" derived="ftv" relations="fotv" />
+      <target concept="BusinessCollaboration" derived="ftv" relations="fotv" />
+      <target concept="BusinessEvent" derived="fitv" relations="fiotv" />
+      <target concept="BusinessFunction" derived="fitv" relations="fiotv" />
+      <target concept="BusinessInteraction" derived="fitv" relations="fiotv" />
+      <target concept="BusinessInterface" derived="cfgtv" relations="cfgotv" />
+      <target concept="BusinessObject" derived="a" relations="ao" />
+      <target concept="BusinessProcess" derived="fitv" relations="fiotv" />
+      <target concept="BusinessRole" derived="cfgtv" relations="o" />
+      <target concept="BusinessService" derived="firtv" relations="fiortv" />
+      <target concept="Capability" derived="r" relations="or" />
+      <target concept="CommunicationNetwork" derived="ft" relations="fot" />
+      <target concept="Constraint" derived="nr" relations="nor" />
+      <target concept="Contract" derived="a" relations="ao" />
+      <target concept="CourseOfAction" derived="r" relations="or" />
+      <target concept="DataObject" derived="a" relations="ao" />
+      <target concept="Deliverable" derived="" relations="o" />
+      <target concept="Device" derived="ftv" relations="fotv" />
+      <target concept="DistributionNetwork" derived="ft" relations="fot" />
+      <target concept="Driver" derived="n" relations="no" />
+      <target concept="Equipment" derived="ftv" relations="fotv" />
+      <target concept="Facility" derived="ftv" relations="fotv" />
+      <target concept="Gap" derived="" relations="o" />
+      <target concept="Goal" derived="nr" relations="nor" />
+      <target concept="Objective" derived="nr" relations="nor" />
+      <target concept="Grouping" derived="" relations="acfginorstv" />
+      <target concept="ImplementationEvent" derived="i" relations="io" />
+      <target concept="Junction" derived="" relations="afinortv" />
+      <target concept="Location" derived="ft" relations="fot" />
+      <target concept="Material" derived="a" relations="ao" />
+      <target concept="Meaning" derived="n" relations="no" />
+      <target concept="Node" derived="ftv" relations="fotv" />
+      <target concept="Outcome" derived="nr" relations="nor" />
+      <target concept="Path" derived="ft" relations="fot" />
+      <target concept="Plateau" derived="" relations="o" />
+      <target concept="Principle" derived="nr" relations="nor" />
+      <target concept="Product" derived="f" relations="fo" />
+      <target concept="Relationship" relations="o" />
+      <target concept="Representation" derived="a" relations="ao" />
+      <target concept="Requirement" derived="nr" relations="nor" />
+      <target concept="Resource" derived="r" relations="or" />
+      <target concept="Stakeholder" derived="n" relations="no" />
+      <target concept="SystemSoftware" derived="ftv" relations="fotv" />
+      <target concept="TechnologyCollaboration" derived="ftv" relations="fotv" />
+      <target concept="TechnologyEvent" derived="tv" relations="otv" />
+      <target concept="TechnologyFunction" derived="ftv" relations="fotv" />
+      <target concept="TechnologyInteraction" derived="ftv" relations="fotv" />
+      <target concept="TechnologyInterface" derived="ftv" relations="fotv" />
+      <target concept="TechnologyProcess" derived="ftv" relations="fotv" />
+      <target concept="TechnologyService" derived="ftv" relations="fotv" />
+      <target concept="Value" derived="n" relations="no" />
+      <target concept="WorkPackage" derived="i" relations="io" />
+      <target concept="Domain" derived="" relations="acfginorstv" />
+      <target concept="Indicator" derived="n" relations="no" />
+      <target concept="Decision" derived="fitv" relations="fiotv" />
+      <target concept="Dashboard" derived="ftv" relations="fotv" />
+      <target concept="WebService" derived="ftv" relations="fotv" />
+      <target concept="QualityApplicationService" derived="a" relations="ao" />
+      <target concept="CityActor" derived="ftv" relations="fotv" />
+      <target concept="CityRole" derived="cfgtv" relations="cfgostv" />
+      <target concept="CityObject" derived="a" relations="ao" />
+   </source>
+   <source concept="CityObject">
+      <target concept="ApplicationCollaboration" derived="" relations="o" />
+      <target concept="ApplicationComponent" derived="" relations="o" />
+      <target concept="ApplicationEvent" derived="" relations="o" />
+      <target concept="ApplicationFunction" derived="" relations="o" />
+      <target concept="ApplicationInteraction" derived="" relations="o" />
+      <target concept="ApplicationInterface" derived="" relations="o" />
+      <target concept="ApplicationProcess" derived="" relations="o" />
+      <target concept="ApplicationService" derived="" relations="o" />
+      <target concept="Artifact" derived="" relations="o" />
+      <target concept="Assessment" derived="n" relations="no" />
+      <target concept="BusinessActor" derived="" relations="o" />
+      <target concept="BusinessCollaboration" derived="" relations="o" />
+      <target concept="BusinessEvent" derived="" relations="o" />
+      <target concept="BusinessFunction" derived="" relations="o" />
+      <target concept="BusinessInteraction" derived="" relations="o" />
+      <target concept="BusinessInterface" derived="" relations="o" />
+      <target concept="BusinessObject" derived="cg" relations="o" />
+      <target concept="BusinessProcess" derived="" relations="o" />
+      <target concept="BusinessRole" derived="" relations="o" />
+      <target concept="BusinessService" derived="" relations="o" />
+      <target concept="Capability" derived="r" relations="or" />
+      <target concept="CommunicationNetwork" derived="" relations="o" />
+      <target concept="Constraint" derived="nr" relations="nor" />
+      <target concept="Contract" derived="cg" relations="cgos" />
+      <target concept="CourseOfAction" derived="r" relations="or" />
+      <target concept="DataObject" derived="" relations="o" />
+      <target concept="Deliverable" derived="" relations="o" />
+      <target concept="Device" derived="" relations="o" />
+      <target concept="DistributionNetwork" derived="" relations="o" />
+      <target concept="Driver" derived="n" relations="no" />
+      <target concept="Equipment" derived="" relations="o" />
+      <target concept="Facility" derived="" relations="o" />
+      <target concept="Gap" derived="" relations="o" />
+      <target concept="Goal" derived="nr" relations="nor" />
+      <target concept="Objective" derived="nr" relations="nor" />
+      <target concept="Grouping" derived="" relations="cgnors" />
+      <target concept="ImplementationEvent" derived="" relations="o" />
+      <target concept="Junction" derived="" relations="nor" />
+      <target concept="Location" derived="" relations="o" />
+      <target concept="Material" derived="" relations="o" />
+      <target concept="Meaning" derived="n" relations="no" />
+      <target concept="Node" derived="" relations="o" />
+      <target concept="Outcome" derived="nr" relations="nor" />
+      <target concept="Path" derived="" relations="o" />
+      <target concept="Plateau" derived="" relations="o" />
+      <target concept="Principle" derived="nr" relations="nor" />
+      <target concept="Product" derived="" relations="o" />
+      <target concept="Relationship" relations="o" />
+      <target concept="Representation" derived="" relations="o" />
+      <target concept="Requirement" derived="nr" relations="nor" />
+      <target concept="Resource" derived="r" relations="or" />
+      <target concept="Stakeholder" derived="" relations="o" />
+      <target concept="SystemSoftware" derived="" relations="o" />
+      <target concept="TechnologyCollaboration" derived="" relations="o" />
+      <target concept="TechnologyEvent" derived="" relations="o" />
+      <target concept="TechnologyFunction" derived="" relations="o" />
+      <target concept="TechnologyInteraction" derived="" relations="o" />
+      <target concept="TechnologyInterface" derived="" relations="o" />
+      <target concept="TechnologyProcess" derived="" relations="o" />
+      <target concept="TechnologyService" derived="" relations="o" />
+      <target concept="Value" derived="n" relations="no" />
+      <target concept="WorkPackage" derived="" relations="o" />
+      <target concept="Domain" derived="" relations="cgnors" />
+      <target concept="Indicator" derived="n" relations="no" />
+      <target concept="Decision" derived="" relations="o" />
+      <target concept="Dashboard" derived="" relations="o" />
+      <target concept="WebService" derived="" relations="o" />
+      <target concept="QualityApplicationService" derived="" relations="o" />
+      <target concept="CityActor" derived="" relations="o" />
+      <target concept="CityRole" derived="" relations="o" />
+      <target concept="CityObject" derived="cg" relations="cgos" />
    </source>
  </relationships>

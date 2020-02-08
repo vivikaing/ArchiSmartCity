@@ -194,7 +194,9 @@ public class ArchimateModelUtils {
                 IArchimatePackage.eINSTANCE.getRepresentation(),
                 IArchimatePackage.eINSTANCE.getProduct(),
                 IArchimatePackage.eINSTANCE.getCityActor(),
-                IArchimatePackage.eINSTANCE.getDecision()
+                IArchimatePackage.eINSTANCE.getCityRole(),
+                IArchimatePackage.eINSTANCE.getDecision(),
+                IArchimatePackage.eINSTANCE.getCityObject()
         };
     }
     

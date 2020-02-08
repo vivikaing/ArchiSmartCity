@@ -15,15 +15,9 @@ import com.archimatetool.editor.diagram.figures.AbstractTextControlContainerFigu
 import com.archimatetool.editor.diagram.figures.RectangleFigureDelegate;
 import com.archimatetool.editor.ui.IArchiImages;
 
-/**
- * Dashboard Figure
- * 
- * @author Viviana Bastidas
- */
+public class CityObjectFigure extends AbstractTextControlContainerFigure {
 
-public class CityActorFigure extends AbstractTextControlContainerFigure {
-
-	public CityActorFigure() {
+	public CityObjectFigure() {
         super(TEXT_FLOW_CONTROL);
         // Use a Rectangle Figure Delegate to Draw
         setFigureDelegate(new RectangleFigureDelegate(this, 17 - getTextControlMarginWidth()));
@@ -92,12 +86,12 @@ public class CityActorFigure extends AbstractTextControlContainerFigure {
 		final File path = new File(this.getClass().getProtectionDomain().getCodeSource().getLocation().getPath());
 		final Display display = Display.getDefault();
 
-		ImageData data = new ImageData(path + "/" + IArchiImages.ICON_CITY_ACTOR_IMAGE);
+		ImageData data = new ImageData(path + "/" + IArchiImages.ICON_CITY_OBJECT_IMAGE);
 		Image image = new Image(display, data);
 
 		int w = image.getImageData().width;
 		int h = image.getImageData().height;
-		graphics.drawImage(image, 0, 0, w, h, pt.x, pt.y, 14, 14);
+		graphics.drawImage(image, 0, 0, w, h, pt.x, pt.y, 22, 22);
 		graphics.popState();
 		image.dispose();
 	}
@@ -108,7 +102,7 @@ public class CityActorFigure extends AbstractTextControlContainerFigure {
      */
     protected Point getIconOrigin() {
         Rectangle bounds = getBounds();
-        return new Point(bounds.x + bounds.width - 19, bounds.y + 6);
+        return new Point(bounds.x + bounds.width - 24, bounds.y + 6);
     }
     
     @Override

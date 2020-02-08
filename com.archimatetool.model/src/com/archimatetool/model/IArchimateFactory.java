@@ -791,6 +791,24 @@ public interface IArchimateFactory extends EFactory {
 	ICityActor createCityActor();
 
 				/**
+	 * Returns a new object of class '<em>City Role</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>City Role</em>'.
+	 * @generated
+	 */
+	ICityRole createCityRole();
+
+				/**
+	 * Returns a new object of class '<em>City Object</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>City Object</em>'.
+	 * @generated
+	 */
+	ICityObject createCityObject();
+
+				/**
      * Create a new Bounds object
      * @param x
      * @param y

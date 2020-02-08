@@ -27,8 +27,6 @@ public class Messages extends NLS {
     public static String AssessmentUIProvider_0;
 
     public static String BusinessActorUIProvider_0;
-    
-    public static String CityActorUIProvider_0;
 
     public static String BusinessCollaborationUIProvider_0;
 
@@ -49,6 +47,12 @@ public class Messages extends NLS {
     public static String BusinessServiceUIProvider_0;
 
     public static String CapabilityUIProvider_0;
+    
+    public static String CityActorUIProvider_0;
+    
+    public static String CityRoleUIProvider_0;
+    
+    public static String CityObjectUIProvider_0;
 
     public static String CommunicationNetworkUIProvider_0;
 

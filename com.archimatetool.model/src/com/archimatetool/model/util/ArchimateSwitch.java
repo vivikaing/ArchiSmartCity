@@ -46,6 +46,8 @@ import com.archimatetool.model.IBusinessRole;
 import com.archimatetool.model.IBusinessService;
 import com.archimatetool.model.ICapability;
 import com.archimatetool.model.ICityActor;
+import com.archimatetool.model.ICityObject;
+import com.archimatetool.model.ICityRole;
 import com.archimatetool.model.ICloneable;
 import com.archimatetool.model.ICommunicationNetwork;
 import com.archimatetool.model.ICompositeElement;
@@ -2429,6 +2431,44 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.CITY_ROLE: {
+				ICityRole cityRole = (ICityRole)theEObject;
+				T result = caseCityRole(cityRole);
+				if (result == null) result = caseBusinessElement(cityRole);
+				if (result == null) result = caseActiveStructureElement(cityRole);
+				if (result == null) result = caseStructureElement(cityRole);
+				if (result == null) result = caseArchimateElement(cityRole);
+				if (result == null) result = caseArchimateConcept(cityRole);
+				if (result == null) result = caseArchimateModelObject(cityRole);
+				if (result == null) result = caseCloneable(cityRole);
+				if (result == null) result = caseDocumentable(cityRole);
+				if (result == null) result = caseProperties(cityRole);
+				if (result == null) result = caseAdapter(cityRole);
+				if (result == null) result = caseNameable(cityRole);
+				if (result == null) result = caseIdentifier(cityRole);
+				if (result == null) result = caseFeatures(cityRole);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case IArchimatePackage.CITY_OBJECT: {
+				ICityObject cityObject = (ICityObject)theEObject;
+				T result = caseCityObject(cityObject);
+				if (result == null) result = caseBusinessElement(cityObject);
+				if (result == null) result = casePassiveStructureElement(cityObject);
+				if (result == null) result = caseStructureElement(cityObject);
+				if (result == null) result = caseArchimateElement(cityObject);
+				if (result == null) result = caseArchimateConcept(cityObject);
+				if (result == null) result = caseArchimateModelObject(cityObject);
+				if (result == null) result = caseCloneable(cityObject);
+				if (result == null) result = caseDocumentable(cityObject);
+				if (result == null) result = caseProperties(cityObject);
+				if (result == null) result = caseAdapter(cityObject);
+				if (result == null) result = caseNameable(cityObject);
+				if (result == null) result = caseIdentifier(cityObject);
+				if (result == null) result = caseFeatures(cityObject);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -3885,6 +3925,36 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseCityActor(ICityActor object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>City Role</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>City Role</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseCityRole(ICityRole object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>City Object</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>City Object</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseCityObject(ICityObject object) {
 		return null;
 	}
 

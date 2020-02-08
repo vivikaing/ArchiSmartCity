@@ -10,7 +10,6 @@ import org.eclipse.swt.graphics.Image;
 import org.eclipse.swt.graphics.ImageData;
 import org.eclipse.swt.graphics.Path;
 import org.eclipse.swt.widgets.Display;
-
 import com.archimatetool.editor.diagram.figures.AbstractTextControlContainerFigure;
 import com.archimatetool.editor.diagram.figures.RectangleFigureDelegate;
 import com.archimatetool.editor.ui.IArchiImages;
@@ -21,12 +20,12 @@ import com.archimatetool.editor.ui.IArchiImages;
  * @author Viviana Bastidas
  */
 
-public class CityActorFigure extends AbstractTextControlContainerFigure {
+public class CityRoleFigure extends AbstractTextControlContainerFigure {
 
-	public CityActorFigure() {
+	public CityRoleFigure() {
         super(TEXT_FLOW_CONTROL);
         // Use a Rectangle Figure Delegate to Draw
-        setFigureDelegate(new RectangleFigureDelegate(this, 17 - getTextControlMarginWidth()));
+        setFigureDelegate(new RectangleFigureDelegate(this, 20 - getTextControlMarginWidth()));
     }
     
     @Override
@@ -92,12 +91,12 @@ public class CityActorFigure extends AbstractTextControlContainerFigure {
 		final File path = new File(this.getClass().getProtectionDomain().getCodeSource().getLocation().getPath());
 		final Display display = Display.getDefault();
 
-		ImageData data = new ImageData(path + "/" + IArchiImages.ICON_CITY_ACTOR_IMAGE);
+		ImageData data = new ImageData(path + "/" + IArchiImages.ICON_CITY_ROLE_IMAGE);
 		Image image = new Image(display, data);
 
 		int w = image.getImageData().width;
 		int h = image.getImageData().height;
-		graphics.drawImage(image, 0, 0, w, h, pt.x, pt.y, 14, 14);
+		graphics.drawImage(image, 0, 0, w, h, pt.x, pt.y, 22, 22);
 		graphics.popState();
 		image.dispose();
 	}
@@ -108,7 +107,7 @@ public class CityActorFigure extends AbstractTextControlContainerFigure {
      */
     protected Point getIconOrigin() {
         Rectangle bounds = getBounds();
-        return new Point(bounds.x + bounds.width - 19, bounds.y + 6);
+        return new Point(bounds.x + bounds.width - 24, bounds.y + 6);
     }
     
     @Override

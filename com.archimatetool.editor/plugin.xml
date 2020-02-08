@@ -953,6 +953,14 @@
             id="com.archimatetool.editor.CityActorUIProvider">
       </uiProvider>
       <uiProvider
+            class="com.archimatetool.editor.ui.factory.elements.CityRoleUIProvider"
+            id="com.archimatetool.editor.CityRoleUIProvider">
+      </uiProvider>
+      <uiProvider
+            class="com.archimatetool.editor.ui.factory.elements.CityObjectUIProvider"
+            id="com.archimatetool.editor.CityObjectUIProvider">
+      </uiProvider>
+      <uiProvider
             class="com.archimatetool.editor.ui.factory.elements.CommunicationNetworkUIProvider"
             id="com.archimatetool.editor.CommunicationNetworkUIProvider">
       </uiProvider>
