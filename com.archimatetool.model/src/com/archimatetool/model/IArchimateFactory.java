@@ -809,6 +809,24 @@ public interface IArchimateFactory extends EFactory {
 	ICityObject createCityObject();
 
 				/**
+	 * Returns a new object of class '<em>Middleware</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Middleware</em>'.
+	 * @generated
+	 */
+	IMiddleware createMiddleware();
+
+				/**
+	 * Returns a new object of class '<em>City Service</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>City Service</em>'.
+	 * @generated
+	 */
+	ICityService createCityService();
+
+				/**
      * Create a new Bounds object
      * @param x
      * @param y

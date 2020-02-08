@@ -458,4 +458,6 @@
   <eClassifiers xsi:type="ecore:EClass" name="CityActor" eSuperTypes="#//BusinessElement #//ActiveStructureElement"/>
   <eClassifiers xsi:type="ecore:EClass" name="CityRole" eSuperTypes="#//BusinessElement #//ActiveStructureElement"/>
   <eClassifiers xsi:type="ecore:EClass" name="CityObject" eSuperTypes="#//BusinessElement #//PassiveStructureElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Middleware" eSuperTypes="#//TechnologyElement #//ActiveStructureElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CityService" eSuperTypes="#//BusinessElement #//BehaviorElement"/>
 </ecore:EPackage>

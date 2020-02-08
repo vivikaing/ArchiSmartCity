@@ -195,6 +195,7 @@ public class ArchimateModelUtils {
                 IArchimatePackage.eINSTANCE.getProduct(),
                 IArchimatePackage.eINSTANCE.getCityActor(),
                 IArchimatePackage.eINSTANCE.getCityRole(),
+                IArchimatePackage.eINSTANCE.getCityService(),
                 IArchimatePackage.eINSTANCE.getDecision(),
                 IArchimatePackage.eINSTANCE.getCityObject()
         };
@@ -237,7 +238,8 @@ public class ArchimateModelUtils {
                 IArchimatePackage.eINSTANCE.getTechnologyInteraction(),
                 IArchimatePackage.eINSTANCE.getTechnologyEvent(),
                 IArchimatePackage.eINSTANCE.getTechnologyService(),
-                IArchimatePackage.eINSTANCE.getArtifact()
+                IArchimatePackage.eINSTANCE.getArtifact(),
+                IArchimatePackage.eINSTANCE.getMiddleware()
         };
     }
 

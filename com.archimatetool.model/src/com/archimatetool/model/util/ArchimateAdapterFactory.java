@@ -48,6 +48,7 @@ import com.archimatetool.model.ICapability;
 import com.archimatetool.model.ICityActor;
 import com.archimatetool.model.ICityObject;
 import com.archimatetool.model.ICityRole;
+import com.archimatetool.model.ICityService;
 import com.archimatetool.model.ICloneable;
 import com.archimatetool.model.ICommunicationNetwork;
 import com.archimatetool.model.ICompositeElement;
@@ -104,6 +105,7 @@ import com.archimatetool.model.ILockable;
 import com.archimatetool.model.IMaterial;
 import com.archimatetool.model.IMeaning;
 import com.archimatetool.model.IMetadata;
+import com.archimatetool.model.IMiddleware;
 import com.archimatetool.model.IMotivationElement;
 import com.archimatetool.model.INameable;
 import com.archimatetool.model.INode;
@@ -782,6 +784,14 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseCityObject(ICityObject object) {
 				return createCityObjectAdapter();
+			}
+			@Override
+			public Adapter caseMiddleware(IMiddleware object) {
+				return createMiddlewareAdapter();
+			}
+			@Override
+			public Adapter caseCityService(ICityService object) {
+				return createCityServiceAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2186,6 +2196,34 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createCityObjectAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IMiddleware <em>Middleware</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IMiddleware
+	 * @generated
+	 */
+	public Adapter createMiddlewareAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.ICityService <em>City Service</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.ICityService
+	 * @generated
+	 */
+	public Adapter createCityServiceAdapter() {
 		return null;
 	}
 

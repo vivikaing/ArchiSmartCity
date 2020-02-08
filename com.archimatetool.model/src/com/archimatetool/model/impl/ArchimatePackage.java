@@ -50,6 +50,7 @@ import com.archimatetool.model.ICapability;
 import com.archimatetool.model.ICityActor;
 import com.archimatetool.model.ICityObject;
 import com.archimatetool.model.ICityRole;
+import com.archimatetool.model.ICityService;
 import com.archimatetool.model.ICloneable;
 import com.archimatetool.model.ICommunicationNetwork;
 import com.archimatetool.model.ICompositeElement;
@@ -106,6 +107,7 @@ import com.archimatetool.model.ILockable;
 import com.archimatetool.model.IMaterial;
 import com.archimatetool.model.IMeaning;
 import com.archimatetool.model.IMetadata;
+import com.archimatetool.model.IMiddleware;
 import com.archimatetool.model.IMotivationElement;
 import com.archimatetool.model.INameable;
 import com.archimatetool.model.INode;
@@ -862,6 +864,20 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 	 * @generated
 	 */
 	private EClass cityObjectEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass middlewareEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass cityServiceEClass = null;
 
 				/**
 	 * <!-- begin-user-doc -->
@@ -2818,6 +2834,26 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 				/**
 	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getMiddleware() {
+		return middlewareEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getCityService() {
+		return cityServiceEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -3671,6 +3707,10 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 		cityObjectEClass = createEClass(CITY_OBJECT);
 
+		middlewareEClass = createEClass(MIDDLEWARE);
+
+		cityServiceEClass = createEClass(CITY_SERVICE);
+
 		// Create enums
 		folderTypeEEnum = createEEnum(FOLDER_TYPE);
 
@@ -3930,6 +3970,10 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		cityRoleEClass.getESuperTypes().add(this.getActiveStructureElement());
 		cityObjectEClass.getESuperTypes().add(this.getBusinessElement());
 		cityObjectEClass.getESuperTypes().add(this.getPassiveStructureElement());
+		middlewareEClass.getESuperTypes().add(this.getTechnologyElement());
+		middlewareEClass.getESuperTypes().add(this.getActiveStructureElement());
+		cityServiceEClass.getESuperTypes().add(this.getBusinessElement());
+		cityServiceEClass.getESuperTypes().add(this.getBehaviorElement());
 
 		// Initialize classes and features; add operations and parameters
 		initEClass(adapterEClass, IAdapter.class, "Adapter", IS_ABSTRACT, IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
@@ -4350,6 +4394,10 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		initEClass(cityRoleEClass, ICityRole.class, "CityRole", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		initEClass(cityObjectEClass, ICityObject.class, "CityObject", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(middlewareEClass, IMiddleware.class, "Middleware", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(cityServiceEClass, ICityService.class, "CityService", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		// Initialize enums and add enum literals
 		initEEnum(folderTypeEEnum, FolderType.class, "FolderType"); //$NON-NLS-1$

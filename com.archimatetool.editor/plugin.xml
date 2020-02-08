@@ -961,6 +961,10 @@
             id="com.archimatetool.editor.CityObjectUIProvider">
       </uiProvider>
       <uiProvider
+            class="com.archimatetool.editor.ui.factory.elements.CityServiceUIProvider"
+            id="com.archimatetool.editor.CityServiceUIProvider">
+      </uiProvider>
+      <uiProvider
             class="com.archimatetool.editor.ui.factory.elements.CommunicationNetworkUIProvider"
             id="com.archimatetool.editor.CommunicationNetworkUIProvider">
       </uiProvider>
@@ -1051,6 +1055,10 @@
       <uiProvider
             class="com.archimatetool.editor.ui.factory.elements.MeaningUIProvider"
             id="com.archimatetool.editor.MeaningUIProvider">
+      </uiProvider>
+      <uiProvider
+            class="com.archimatetool.editor.ui.factory.elements.MiddlewareUIProvider"
+            id="com.archimatetool.editor.MiddlewareUIProvider">
       </uiProvider>
       <uiProvider
             class="com.archimatetool.editor.ui.factory.elements.NodeUIProvider"

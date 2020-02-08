@@ -78,6 +78,8 @@ public interface IArchiImages {
     String ICON_CITY_ROLE_IMAGE = ARCHIMATE_IMGPATH + "city-role@2x.png"; //$NON-NLS-1$
     String ICON_CITY_OBJECT = ARCHIMATE_IMGPATH + "city-object.png"; //$NON-NLS-1$
     String ICON_CITY_OBJECT_IMAGE = ARCHIMATE_IMGPATH + "city-object@2x.png"; //$NON-NLS-1$
+    String ICON_CITY_SERVICE= ARCHIMATE_IMGPATH + "city-service.png"; //$NON-NLS-1$
+    String ICON_CITY_SERVICE_IMAGE = ARCHIMATE_IMGPATH + "city-service@2x.png"; //$NON-NLS-1$
     String ICON_CONSTRAINT = ARCHIMATE_IMGPATH + "constraint.png"; //$NON-NLS-1$
     String ICON_CONTRACT = ARCHIMATE_IMGPATH + "contract.png"; //$NON-NLS-1$
     String ICON_COURSE_OF_ACTION = ARCHIMATE_IMGPATH + "course-of-action.png"; //$NON-NLS-1$
@@ -102,6 +104,8 @@ public interface IArchiImages {
     String ICON_INDICATOR_IMAGE = ARCHIMATE_IMGPATH + "indicator@2x.png"; //$NON-NLS-1$
     String ICON_LOCATION = ARCHIMATE_IMGPATH + "location.png"; //$NON-NLS-1$
     String ICON_MATERIAL = ARCHIMATE_IMGPATH + "material.png"; //$NON-NLS-1$
+    String ICON_MIDDLEWARE = ARCHIMATE_IMGPATH + "middleware.png"; //$NON-NLS-1$
+    String ICON_MIDDLEWARE_IMAGE = ARCHIMATE_IMGPATH + "middleware@2x.png"; //$NON-NLS-1$
     String ICON_MEANING = ARCHIMATE_IMGPATH + "meaning.png"; //$NON-NLS-1$
     String ICON_NODE = ARCHIMATE_IMGPATH + "node.png"; //$NON-NLS-1$
     String ICON_OUTCOME = ARCHIMATE_IMGPATH + "outcome.png"; //$NON-NLS-1$

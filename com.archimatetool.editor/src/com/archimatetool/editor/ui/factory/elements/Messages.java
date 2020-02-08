@@ -53,6 +53,8 @@ public class Messages extends NLS {
     public static String CityRoleUIProvider_0;
     
     public static String CityObjectUIProvider_0;
+    
+    public static String CityServiceUIProvider_0;
 
     public static String CommunicationNetworkUIProvider_0;
 
@@ -101,6 +103,8 @@ public class Messages extends NLS {
     public static String MaterialUIProvider_0;
 
     public static String MeaningUIProvider_0;
+    
+    public static String MiddlewareUIProvider_0;
 
     public static String NodeUIProvider_0;
 

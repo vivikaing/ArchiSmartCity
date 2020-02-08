@@ -48,6 +48,7 @@ import com.archimatetool.model.ICapability;
 import com.archimatetool.model.ICityActor;
 import com.archimatetool.model.ICityObject;
 import com.archimatetool.model.ICityRole;
+import com.archimatetool.model.ICityService;
 import com.archimatetool.model.ICloneable;
 import com.archimatetool.model.ICommunicationNetwork;
 import com.archimatetool.model.ICompositeElement;
@@ -104,6 +105,7 @@ import com.archimatetool.model.ILockable;
 import com.archimatetool.model.IMaterial;
 import com.archimatetool.model.IMeaning;
 import com.archimatetool.model.IMetadata;
+import com.archimatetool.model.IMiddleware;
 import com.archimatetool.model.IMotivationElement;
 import com.archimatetool.model.INameable;
 import com.archimatetool.model.INode;
@@ -2469,6 +2471,43 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.MIDDLEWARE: {
+				IMiddleware middleware = (IMiddleware)theEObject;
+				T result = caseMiddleware(middleware);
+				if (result == null) result = caseTechnologyElement(middleware);
+				if (result == null) result = caseActiveStructureElement(middleware);
+				if (result == null) result = caseStructureElement(middleware);
+				if (result == null) result = caseArchimateElement(middleware);
+				if (result == null) result = caseArchimateConcept(middleware);
+				if (result == null) result = caseArchimateModelObject(middleware);
+				if (result == null) result = caseCloneable(middleware);
+				if (result == null) result = caseDocumentable(middleware);
+				if (result == null) result = caseProperties(middleware);
+				if (result == null) result = caseAdapter(middleware);
+				if (result == null) result = caseNameable(middleware);
+				if (result == null) result = caseIdentifier(middleware);
+				if (result == null) result = caseFeatures(middleware);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case IArchimatePackage.CITY_SERVICE: {
+				ICityService cityService = (ICityService)theEObject;
+				T result = caseCityService(cityService);
+				if (result == null) result = caseBusinessElement(cityService);
+				if (result == null) result = caseBehaviorElement(cityService);
+				if (result == null) result = caseArchimateElement(cityService);
+				if (result == null) result = caseArchimateConcept(cityService);
+				if (result == null) result = caseArchimateModelObject(cityService);
+				if (result == null) result = caseCloneable(cityService);
+				if (result == null) result = caseDocumentable(cityService);
+				if (result == null) result = caseProperties(cityService);
+				if (result == null) result = caseAdapter(cityService);
+				if (result == null) result = caseNameable(cityService);
+				if (result == null) result = caseIdentifier(cityService);
+				if (result == null) result = caseFeatures(cityService);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -3955,6 +3994,36 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseCityObject(ICityObject object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Middleware</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Middleware</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseMiddleware(IMiddleware object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>City Service</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>City Service</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseCityService(ICityService object) {
 		return null;
 	}
 

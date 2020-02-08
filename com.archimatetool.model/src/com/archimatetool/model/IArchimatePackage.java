@@ -9924,6 +9924,134 @@ public interface IArchimatePackage extends EPackage {
 	int CITY_OBJECT_FEATURE_COUNT = BUSINESS_ELEMENT_FEATURE_COUNT + 0;
 
 				/**
+	 * The meta object id for the '{@link com.archimatetool.model.impl.Middleware <em>Middleware</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.archimatetool.model.impl.Middleware
+	 * @see com.archimatetool.model.impl.ArchimatePackage#getMiddleware()
+	 * @generated
+	 */
+	int MIDDLEWARE = 143;
+
+				/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MIDDLEWARE__NAME = TECHNOLOGY_ELEMENT__NAME;
+
+				/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MIDDLEWARE__ID = TECHNOLOGY_ELEMENT__ID;
+
+				/**
+	 * The feature id for the '<em><b>Features</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MIDDLEWARE__FEATURES = TECHNOLOGY_ELEMENT__FEATURES;
+
+				/**
+	 * The feature id for the '<em><b>Documentation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MIDDLEWARE__DOCUMENTATION = TECHNOLOGY_ELEMENT__DOCUMENTATION;
+
+				/**
+	 * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MIDDLEWARE__PROPERTIES = TECHNOLOGY_ELEMENT__PROPERTIES;
+
+				/**
+	 * The number of structural features of the '<em>Middleware</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MIDDLEWARE_FEATURE_COUNT = TECHNOLOGY_ELEMENT_FEATURE_COUNT + 0;
+
+				/**
+	 * The meta object id for the '{@link com.archimatetool.model.impl.CityService <em>City Service</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.archimatetool.model.impl.CityService
+	 * @see com.archimatetool.model.impl.ArchimatePackage#getCityService()
+	 * @generated
+	 */
+	int CITY_SERVICE = 144;
+
+				/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CITY_SERVICE__NAME = BUSINESS_ELEMENT__NAME;
+
+				/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CITY_SERVICE__ID = BUSINESS_ELEMENT__ID;
+
+				/**
+	 * The feature id for the '<em><b>Features</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CITY_SERVICE__FEATURES = BUSINESS_ELEMENT__FEATURES;
+
+				/**
+	 * The feature id for the '<em><b>Documentation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CITY_SERVICE__DOCUMENTATION = BUSINESS_ELEMENT__DOCUMENTATION;
+
+				/**
+	 * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CITY_SERVICE__PROPERTIES = BUSINESS_ELEMENT__PROPERTIES;
+
+				/**
+	 * The number of structural features of the '<em>City Service</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CITY_SERVICE_FEATURE_COUNT = BUSINESS_ELEMENT_FEATURE_COUNT + 0;
+
+				/**
 	 * The meta object id for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -9931,7 +10059,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFolderType()
 	 * @generated
 	 */
-    int FOLDER_TYPE = 143;
+    int FOLDER_TYPE = 145;
 
     /**
 	 * The meta object id for the '<em>File</em>' data type.
@@ -9941,7 +10069,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFile()
 	 * @generated
 	 */
-    int FILE = 144;
+    int FILE = 146;
 
 
     /**
@@ -12035,6 +12163,26 @@ public interface IArchimatePackage extends EPackage {
 	EClass getCityObject();
 
 				/**
+	 * Returns the meta object for class '{@link com.archimatetool.model.IMiddleware <em>Middleware</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Middleware</em>'.
+	 * @see com.archimatetool.model.IMiddleware
+	 * @generated
+	 */
+	EClass getMiddleware();
+
+				/**
+	 * Returns the meta object for class '{@link com.archimatetool.model.ICityService <em>City Service</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>City Service</em>'.
+	 * @see com.archimatetool.model.ICityService
+	 * @generated
+	 */
+	EClass getCityService();
+
+				/**
 	 * Returns the meta object for enum '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}'.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -13986,6 +14134,26 @@ public interface IArchimatePackage extends EPackage {
 		 * @generated
 		 */
 		EClass CITY_OBJECT = eINSTANCE.getCityObject();
+
+								/**
+		 * The meta object literal for the '{@link com.archimatetool.model.impl.Middleware <em>Middleware</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.archimatetool.model.impl.Middleware
+		 * @see com.archimatetool.model.impl.ArchimatePackage#getMiddleware()
+		 * @generated
+		 */
+		EClass MIDDLEWARE = eINSTANCE.getMiddleware();
+
+								/**
+		 * The meta object literal for the '{@link com.archimatetool.model.impl.CityService <em>City Service</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.archimatetool.model.impl.CityService
+		 * @see com.archimatetool.model.impl.ArchimatePackage#getCityService()
+		 * @generated
+		 */
+		EClass CITY_SERVICE = eINSTANCE.getCityService();
 
 								/**
 		 * The meta object literal for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.

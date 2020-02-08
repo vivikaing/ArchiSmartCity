@@ -46,6 +46,7 @@ import com.archimatetool.model.ICapability;
 import com.archimatetool.model.ICityActor;
 import com.archimatetool.model.ICityObject;
 import com.archimatetool.model.ICityRole;
+import com.archimatetool.model.ICityService;
 import com.archimatetool.model.ICommunicationNetwork;
 import com.archimatetool.model.ICompositionRelationship;
 import com.archimatetool.model.IConstraint;
@@ -83,6 +84,7 @@ import com.archimatetool.model.ILocation;
 import com.archimatetool.model.IMaterial;
 import com.archimatetool.model.IMeaning;
 import com.archimatetool.model.IMetadata;
+import com.archimatetool.model.IMiddleware;
 import com.archimatetool.model.INode;
 import com.archimatetool.model.IObjective;
 import com.archimatetool.model.IOutcome;
@@ -259,6 +261,8 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.CITY_ACTOR: return createCityActor();
 			case IArchimatePackage.CITY_ROLE: return createCityRole();
 			case IArchimatePackage.CITY_OBJECT: return createCityObject();
+			case IArchimatePackage.MIDDLEWARE: return createMiddleware();
+			case IArchimatePackage.CITY_SERVICE: return createCityService();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1249,6 +1253,28 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public ICityObject createCityObject() {
 		CityObject cityObject = new CityObject();
 		return cityObject;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IMiddleware createMiddleware() {
+		Middleware middleware = new Middleware();
+		return middleware;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public ICityService createCityService() {
+		CityService cityService = new CityService();
+		return cityService;
 	}
 
 				/* (non-Javadoc)
