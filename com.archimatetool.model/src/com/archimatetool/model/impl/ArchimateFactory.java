@@ -83,6 +83,7 @@ import com.archimatetool.model.IJunction;
 import com.archimatetool.model.ILocation;
 import com.archimatetool.model.IMaterial;
 import com.archimatetool.model.IMeaning;
+import com.archimatetool.model.IMeasureRelationship;
 import com.archimatetool.model.IMetadata;
 import com.archimatetool.model.IMiddleware;
 import com.archimatetool.model.INode;
@@ -94,6 +95,7 @@ import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperty;
 import com.archimatetool.model.IQualityApplicationService;
+import com.archimatetool.model.IQuantifyRelationship;
 import com.archimatetool.model.IRealizationRelationship;
 import com.archimatetool.model.IRepresentation;
 import com.archimatetool.model.IRequirement;
@@ -263,6 +265,8 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.CITY_OBJECT: return createCityObject();
 			case IArchimatePackage.MIDDLEWARE: return createMiddleware();
 			case IArchimatePackage.CITY_SERVICE: return createCityService();
+			case IArchimatePackage.QUANTIFY_RELATIONSHIP: return createQuantifyRelationship();
+			case IArchimatePackage.MEASURE_RELATIONSHIP: return createMeasureRelationship();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1275,6 +1279,28 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public ICityService createCityService() {
 		CityService cityService = new CityService();
 		return cityService;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IQuantifyRelationship createQuantifyRelationship() {
+		QuantifyRelationship quantifyRelationship = new QuantifyRelationship();
+		return quantifyRelationship;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IMeasureRelationship createMeasureRelationship() {
+		MeasureRelationship measureRelationship = new MeasureRelationship();
+		return measureRelationship;
 	}
 
 				/* (non-Javadoc)

@@ -106,6 +106,7 @@ import com.archimatetool.model.ILocation;
 import com.archimatetool.model.ILockable;
 import com.archimatetool.model.IMaterial;
 import com.archimatetool.model.IMeaning;
+import com.archimatetool.model.IMeasureRelationship;
 import com.archimatetool.model.IMetadata;
 import com.archimatetool.model.IMiddleware;
 import com.archimatetool.model.IMotivationElement;
@@ -123,6 +124,7 @@ import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperties;
 import com.archimatetool.model.IProperty;
 import com.archimatetool.model.IQualityApplicationService;
+import com.archimatetool.model.IQuantifyRelationship;
 import com.archimatetool.model.IRealizationRelationship;
 import com.archimatetool.model.IRepresentation;
 import com.archimatetool.model.IRequirement;
@@ -878,6 +880,20 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 	 * @generated
 	 */
 	private EClass cityServiceEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass quantifyRelationshipEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass measureRelationshipEClass = null;
 
 				/**
 	 * <!-- begin-user-doc -->
@@ -2854,6 +2870,26 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 				/**
 	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getQuantifyRelationship() {
+		return quantifyRelationshipEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getMeasureRelationship() {
+		return measureRelationshipEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -3711,6 +3747,10 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 		cityServiceEClass = createEClass(CITY_SERVICE);
 
+		quantifyRelationshipEClass = createEClass(QUANTIFY_RELATIONSHIP);
+
+		measureRelationshipEClass = createEClass(MEASURE_RELATIONSHIP);
+
 		// Create enums
 		folderTypeEEnum = createEEnum(FOLDER_TYPE);
 
@@ -3974,6 +4014,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		middlewareEClass.getESuperTypes().add(this.getActiveStructureElement());
 		cityServiceEClass.getESuperTypes().add(this.getBusinessElement());
 		cityServiceEClass.getESuperTypes().add(this.getBehaviorElement());
+		quantifyRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
+		measureRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
 
 		// Initialize classes and features; add operations and parameters
 		initEClass(adapterEClass, IAdapter.class, "Adapter", IS_ABSTRACT, IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
@@ -4398,6 +4440,10 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		initEClass(middlewareEClass, IMiddleware.class, "Middleware", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		initEClass(cityServiceEClass, ICityService.class, "CityService", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(quantifyRelationshipEClass, IQuantifyRelationship.class, "QuantifyRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(measureRelationshipEClass, IMeasureRelationship.class, "MeasureRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		// Initialize enums and add enum literals
 		initEEnum(folderTypeEEnum, FolderType.class, "FolderType"); //$NON-NLS-1$

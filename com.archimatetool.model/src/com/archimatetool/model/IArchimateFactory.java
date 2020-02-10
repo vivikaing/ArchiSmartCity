@@ -827,6 +827,24 @@ public interface IArchimateFactory extends EFactory {
 	ICityService createCityService();
 
 				/**
+	 * Returns a new object of class '<em>Quantify Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Quantify Relationship</em>'.
+	 * @generated
+	 */
+	IQuantifyRelationship createQuantifyRelationship();
+
+				/**
+	 * Returns a new object of class '<em>Measure Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Measure Relationship</em>'.
+	 * @generated
+	 */
+	IMeasureRelationship createMeasureRelationship();
+
+				/**
      * Create a new Bounds object
      * @param x
      * @param y

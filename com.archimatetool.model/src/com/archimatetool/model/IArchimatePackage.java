@@ -10052,6 +10052,170 @@ public interface IArchimatePackage extends EPackage {
 	int CITY_SERVICE_FEATURE_COUNT = BUSINESS_ELEMENT_FEATURE_COUNT + 0;
 
 				/**
+	 * The meta object id for the '{@link com.archimatetool.model.impl.QuantifyRelationship <em>Quantify Relationship</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.archimatetool.model.impl.QuantifyRelationship
+	 * @see com.archimatetool.model.impl.ArchimatePackage#getQuantifyRelationship()
+	 * @generated
+	 */
+	int QUANTIFY_RELATIONSHIP = 145;
+
+				/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUANTIFY_RELATIONSHIP__NAME = ARCHIMATE_RELATIONSHIP__NAME;
+
+				/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUANTIFY_RELATIONSHIP__ID = ARCHIMATE_RELATIONSHIP__ID;
+
+				/**
+	 * The feature id for the '<em><b>Features</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUANTIFY_RELATIONSHIP__FEATURES = ARCHIMATE_RELATIONSHIP__FEATURES;
+
+				/**
+	 * The feature id for the '<em><b>Documentation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUANTIFY_RELATIONSHIP__DOCUMENTATION = ARCHIMATE_RELATIONSHIP__DOCUMENTATION;
+
+				/**
+	 * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUANTIFY_RELATIONSHIP__PROPERTIES = ARCHIMATE_RELATIONSHIP__PROPERTIES;
+
+				/**
+	 * The feature id for the '<em><b>Source</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUANTIFY_RELATIONSHIP__SOURCE = ARCHIMATE_RELATIONSHIP__SOURCE;
+
+				/**
+	 * The feature id for the '<em><b>Target</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUANTIFY_RELATIONSHIP__TARGET = ARCHIMATE_RELATIONSHIP__TARGET;
+
+				/**
+	 * The number of structural features of the '<em>Quantify Relationship</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int QUANTIFY_RELATIONSHIP_FEATURE_COUNT = ARCHIMATE_RELATIONSHIP_FEATURE_COUNT + 0;
+
+				/**
+	 * The meta object id for the '{@link com.archimatetool.model.impl.MeasureRelationship <em>Measure Relationship</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.archimatetool.model.impl.MeasureRelationship
+	 * @see com.archimatetool.model.impl.ArchimatePackage#getMeasureRelationship()
+	 * @generated
+	 */
+	int MEASURE_RELATIONSHIP = 146;
+
+				/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MEASURE_RELATIONSHIP__NAME = ARCHIMATE_RELATIONSHIP__NAME;
+
+				/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MEASURE_RELATIONSHIP__ID = ARCHIMATE_RELATIONSHIP__ID;
+
+				/**
+	 * The feature id for the '<em><b>Features</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MEASURE_RELATIONSHIP__FEATURES = ARCHIMATE_RELATIONSHIP__FEATURES;
+
+				/**
+	 * The feature id for the '<em><b>Documentation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MEASURE_RELATIONSHIP__DOCUMENTATION = ARCHIMATE_RELATIONSHIP__DOCUMENTATION;
+
+				/**
+	 * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MEASURE_RELATIONSHIP__PROPERTIES = ARCHIMATE_RELATIONSHIP__PROPERTIES;
+
+				/**
+	 * The feature id for the '<em><b>Source</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MEASURE_RELATIONSHIP__SOURCE = ARCHIMATE_RELATIONSHIP__SOURCE;
+
+				/**
+	 * The feature id for the '<em><b>Target</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MEASURE_RELATIONSHIP__TARGET = ARCHIMATE_RELATIONSHIP__TARGET;
+
+				/**
+	 * The number of structural features of the '<em>Measure Relationship</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MEASURE_RELATIONSHIP_FEATURE_COUNT = ARCHIMATE_RELATIONSHIP_FEATURE_COUNT + 0;
+
+				/**
 	 * The meta object id for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -10059,7 +10223,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFolderType()
 	 * @generated
 	 */
-    int FOLDER_TYPE = 145;
+    int FOLDER_TYPE = 147;
 
     /**
 	 * The meta object id for the '<em>File</em>' data type.
@@ -10069,7 +10233,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFile()
 	 * @generated
 	 */
-    int FILE = 146;
+    int FILE = 148;
 
 
     /**
@@ -12183,6 +12347,26 @@ public interface IArchimatePackage extends EPackage {
 	EClass getCityService();
 
 				/**
+	 * Returns the meta object for class '{@link com.archimatetool.model.IQuantifyRelationship <em>Quantify Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Quantify Relationship</em>'.
+	 * @see com.archimatetool.model.IQuantifyRelationship
+	 * @generated
+	 */
+	EClass getQuantifyRelationship();
+
+				/**
+	 * Returns the meta object for class '{@link com.archimatetool.model.IMeasureRelationship <em>Measure Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Measure Relationship</em>'.
+	 * @see com.archimatetool.model.IMeasureRelationship
+	 * @generated
+	 */
+	EClass getMeasureRelationship();
+
+				/**
 	 * Returns the meta object for enum '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}'.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -14154,6 +14338,26 @@ public interface IArchimatePackage extends EPackage {
 		 * @generated
 		 */
 		EClass CITY_SERVICE = eINSTANCE.getCityService();
+
+								/**
+		 * The meta object literal for the '{@link com.archimatetool.model.impl.QuantifyRelationship <em>Quantify Relationship</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.archimatetool.model.impl.QuantifyRelationship
+		 * @see com.archimatetool.model.impl.ArchimatePackage#getQuantifyRelationship()
+		 * @generated
+		 */
+		EClass QUANTIFY_RELATIONSHIP = eINSTANCE.getQuantifyRelationship();
+
+								/**
+		 * The meta object literal for the '{@link com.archimatetool.model.impl.MeasureRelationship <em>Measure Relationship</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.archimatetool.model.impl.MeasureRelationship
+		 * @see com.archimatetool.model.impl.ArchimatePackage#getMeasureRelationship()
+		 * @generated
+		 */
+		EClass MEASURE_RELATIONSHIP = eINSTANCE.getMeasureRelationship();
 
 								/**
 		 * The meta object literal for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.

@@ -304,7 +304,7 @@ public class ArchimateModelUtils {
      */
     public static EClass[] getConnectorClasses() {
         return new EClass[] {
-                IArchimatePackage.eINSTANCE.getJunction()
+                IArchimatePackage.eINSTANCE.getJunction(),
         };
     }
     
@@ -324,6 +324,8 @@ public class ArchimateModelUtils {
                 IArchimatePackage.eINSTANCE.getFlowRelationship(),
                 IArchimatePackage.eINSTANCE.getSpecializationRelationship(),
                 IArchimatePackage.eINSTANCE.getAssociationRelationship(),
+                IArchimatePackage.eINSTANCE.getQuantifyRelationship(),
+                IArchimatePackage.eINSTANCE.getMeasureRelationship(),
         };
     }
 

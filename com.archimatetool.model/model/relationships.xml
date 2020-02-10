@@ -2477,7 +2477,7 @@
       <target concept="Facility" derived="" relations="o" />
       <target concept="Gap" derived="" relations="o" />
       <target concept="Goal" derived="cgn" relations="cgnos" />
-      <target concept="Objective" derived="cgn" relations="cg" />
+      <target concept="Objective" derived="" relations="q" />
       <target concept="Grouping" derived="" relations="cgnos" />
       <target concept="ImplementationEvent" derived="" relations="o" />
       <target concept="Junction" derived="" relations="no" />
@@ -2550,7 +2550,7 @@
       <target concept="Equipment" derived="" relations="o" />
       <target concept="Facility" derived="" relations="o" />
       <target concept="Gap" derived="" relations="cgnos" />
-      <target concept="Goal" derived="cgn" relations="no" />
+      <target concept="Goal" derived="" relations="q" />
       <target concept="Objective" derived="cgn" relations="cgnos" />
       <target concept="Grouping" derived="" relations="cgnos" />
       <target concept="ImplementationEvent" derived="" relations="o" />
@@ -2580,7 +2580,7 @@
       <target concept="Value" derived="n" relations="no" />
       <target concept="WorkPackage" derived="" relations="o" />
       <target concept="Domain" derived="" relations="cgnos" />
-      <target concept="Indicator" derived="n" relations="no" />
+      <target concept="Indicator" derived="" relations="m" />
       <target concept="Decision" derived="" relations="o" />
       <target concept="Dashboard" derived="" relations="o" />
       <target concept="WebService" derived="" relations="o" />
@@ -4697,7 +4697,7 @@
       <target concept="Facility" derived="" relations="o" />
       <target concept="Gap" derived="" relations="o" />
       <target concept="Goal" derived="n" relations="no" />
-      <target concept="Objective" derived="n" relations="no" />
+      <target concept="Objective" derived="" relations="m" />
       <target concept="Grouping" derived="" relations="cgnos" />
       <target concept="ImplementationEvent" derived="" relations="o" />
       <target concept="Junction" derived="" relations="no" />

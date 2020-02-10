@@ -104,6 +104,7 @@ import com.archimatetool.model.ILocation;
 import com.archimatetool.model.ILockable;
 import com.archimatetool.model.IMaterial;
 import com.archimatetool.model.IMeaning;
+import com.archimatetool.model.IMeasureRelationship;
 import com.archimatetool.model.IMetadata;
 import com.archimatetool.model.IMiddleware;
 import com.archimatetool.model.IMotivationElement;
@@ -121,6 +122,7 @@ import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperties;
 import com.archimatetool.model.IProperty;
 import com.archimatetool.model.IQualityApplicationService;
+import com.archimatetool.model.IQuantifyRelationship;
 import com.archimatetool.model.IRealizationRelationship;
 import com.archimatetool.model.IRepresentation;
 import com.archimatetool.model.IRequirement;
@@ -792,6 +794,14 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseCityService(ICityService object) {
 				return createCityServiceAdapter();
+			}
+			@Override
+			public Adapter caseQuantifyRelationship(IQuantifyRelationship object) {
+				return createQuantifyRelationshipAdapter();
+			}
+			@Override
+			public Adapter caseMeasureRelationship(IMeasureRelationship object) {
+				return createMeasureRelationshipAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2224,6 +2234,34 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createCityServiceAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IQuantifyRelationship <em>Quantify Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IQuantifyRelationship
+	 * @generated
+	 */
+	public Adapter createQuantifyRelationshipAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IMeasureRelationship <em>Measure Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IMeasureRelationship
+	 * @generated
+	 */
+	public Adapter createMeasureRelationshipAdapter() {
 		return null;
 	}
 

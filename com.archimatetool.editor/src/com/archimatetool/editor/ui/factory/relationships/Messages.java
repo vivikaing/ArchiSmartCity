@@ -27,6 +27,11 @@ public class Messages extends NLS {
     public static String TriggeringRelationshipUIProvider_0;
 
     public static String ServingRelationshipUIProvider_0;
+    
+    public static String QuantifyRelationshipUIProvider_0;
+    
+    public static String MeasureRelationshipUIProvider_0;
+    
     static {
         // initialize resource bundle
         NLS.initializeMessages(BUNDLE_NAME, Messages.class);

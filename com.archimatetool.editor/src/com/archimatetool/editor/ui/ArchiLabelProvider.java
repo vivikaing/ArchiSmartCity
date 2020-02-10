@@ -224,6 +224,12 @@ public class ArchiLabelProvider {
 
             case IArchimatePackage.INFLUENCE_RELATIONSHIP:
                 return NLS.bind(Messages.ArchiLabelProvider_13, nameSource, nameTarget);
+                
+            case IArchimatePackage.QUANTIFY_RELATIONSHIP:
+                return NLS.bind(Messages.ArchiLabelProvider_36, nameSource, nameTarget);
+            
+            case IArchimatePackage.MEASURE_RELATIONSHIP:
+                return NLS.bind(Messages.ArchiLabelProvider_39, nameSource, nameTarget);
 
             default:
                 return ""; //$NON-NLS-1$
@@ -273,6 +279,12 @@ public class ArchiLabelProvider {
 
             case IArchimatePackage.INFLUENCE_RELATIONSHIP:
                 return reverseDirection ? Messages.ArchiLabelProvider_34 : Messages.ArchiLabelProvider_35;
+            
+            case IArchimatePackage.QUANTIFY_RELATIONSHIP:
+                return reverseDirection ? Messages.ArchiLabelProvider_37 : Messages.ArchiLabelProvider_38;
+            
+            case IArchimatePackage.MEASURE_RELATIONSHIP:
+                return reverseDirection ? Messages.ArchiLabelProvider_40 : Messages.ArchiLabelProvider_41;
 
             default:
                 return ""; //$NON-NLS-1$

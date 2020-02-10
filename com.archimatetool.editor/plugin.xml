@@ -1195,6 +1195,14 @@
             id="com.archimatetool.editor.SpecializationRelationshipUIProvider">
       </uiProvider>
       <uiProvider
+            class="com.archimatetool.editor.ui.factory.relationships.QuantifyRelationshipUIProvider"
+            id="com.archimatetool.editor.QuantifyRelationshipUIProvider">
+      </uiProvider>
+      <uiProvider
+            class="com.archimatetool.editor.ui.factory.relationships.MeasureRelationshipUIProvider"
+            id="com.archimatetool.editor.MeasureRelationshipUIProvider">
+      </uiProvider>
+      <uiProvider
             class="com.archimatetool.editor.ui.factory.relationships.TriggeringRelationshipUIProvider"
             id="com.archimatetool.editor.TriggeringRelationshipUIProvider">
       </uiProvider>

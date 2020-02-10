@@ -104,6 +104,7 @@ import com.archimatetool.model.ILocation;
 import com.archimatetool.model.ILockable;
 import com.archimatetool.model.IMaterial;
 import com.archimatetool.model.IMeaning;
+import com.archimatetool.model.IMeasureRelationship;
 import com.archimatetool.model.IMetadata;
 import com.archimatetool.model.IMiddleware;
 import com.archimatetool.model.IMotivationElement;
@@ -121,6 +122,7 @@ import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperties;
 import com.archimatetool.model.IProperty;
 import com.archimatetool.model.IQualityApplicationService;
+import com.archimatetool.model.IQuantifyRelationship;
 import com.archimatetool.model.IRealizationRelationship;
 import com.archimatetool.model.IRepresentation;
 import com.archimatetool.model.IRequirement;
@@ -2508,6 +2510,38 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.QUANTIFY_RELATIONSHIP: {
+				IQuantifyRelationship quantifyRelationship = (IQuantifyRelationship)theEObject;
+				T result = caseQuantifyRelationship(quantifyRelationship);
+				if (result == null) result = caseArchimateRelationship(quantifyRelationship);
+				if (result == null) result = caseArchimateConcept(quantifyRelationship);
+				if (result == null) result = caseArchimateModelObject(quantifyRelationship);
+				if (result == null) result = caseCloneable(quantifyRelationship);
+				if (result == null) result = caseDocumentable(quantifyRelationship);
+				if (result == null) result = caseProperties(quantifyRelationship);
+				if (result == null) result = caseAdapter(quantifyRelationship);
+				if (result == null) result = caseNameable(quantifyRelationship);
+				if (result == null) result = caseIdentifier(quantifyRelationship);
+				if (result == null) result = caseFeatures(quantifyRelationship);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case IArchimatePackage.MEASURE_RELATIONSHIP: {
+				IMeasureRelationship measureRelationship = (IMeasureRelationship)theEObject;
+				T result = caseMeasureRelationship(measureRelationship);
+				if (result == null) result = caseArchimateRelationship(measureRelationship);
+				if (result == null) result = caseArchimateConcept(measureRelationship);
+				if (result == null) result = caseArchimateModelObject(measureRelationship);
+				if (result == null) result = caseCloneable(measureRelationship);
+				if (result == null) result = caseDocumentable(measureRelationship);
+				if (result == null) result = caseProperties(measureRelationship);
+				if (result == null) result = caseAdapter(measureRelationship);
+				if (result == null) result = caseNameable(measureRelationship);
+				if (result == null) result = caseIdentifier(measureRelationship);
+				if (result == null) result = caseFeatures(measureRelationship);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -4024,6 +4058,36 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseCityService(ICityService object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Quantify Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Quantify Relationship</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseQuantifyRelationship(IQuantifyRelationship object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Measure Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Measure Relationship</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseMeasureRelationship(IMeasureRelationship object) {
 		return null;
 	}
 

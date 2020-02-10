@@ -12,4 +12,6 @@
 	<key char="s" relationship="SpecializationRelationship" />
 	<key char="t" relationship="TriggeringRelationship" />
 	<key char="v" relationship="ServingRelationship" />
+	<key char="q" relationship="QuantifyRelationship" />
+	<key char="m" relationship="MeasureRelationship" />
 </relationshipskeys>

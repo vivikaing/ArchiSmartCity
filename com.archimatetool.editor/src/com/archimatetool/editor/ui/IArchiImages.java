@@ -146,12 +146,13 @@ public interface IArchiImages {
     String ICON_SPECIALIZATION_RELATION = ARCHIMATE_IMGPATH + "specialization.png"; //$NON-NLS-1$
     String ICON_TRIGGERING_RELATION = ARCHIMATE_IMGPATH + "triggering.png"; //$NON-NLS-1$
     String ICON_SERVING_RELATION = ARCHIMATE_IMGPATH + "serving.png"; //$NON-NLS-1$
+    String ICON_QUANTIFY_RELATION = ARCHIMATE_IMGPATH + "quantify.png"; //$NON-NLS-1$
+    String ICON_MEASURE_RELATION = ARCHIMATE_IMGPATH + "measure.png"; //$NON-NLS-1$
     
     // Junctions
     String ICON_AND_JUNCTION = ARCHIMATE_IMGPATH + "and-junction.png"; //$NON-NLS-1$
     String ICON_OR_JUNCTION = ARCHIMATE_IMGPATH + "or-junction.png"; //$NON-NLS-1$
     
-
     
     // Other
     String ICON_ALIGN_TEXT_LEFT = IMGPATH + "alignleft.gif"; //$NON-NLS-1$

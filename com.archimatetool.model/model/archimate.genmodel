@@ -330,5 +330,7 @@
     <genClasses ecoreClass="archimate.ecore#//CityObject"/>
     <genClasses ecoreClass="archimate.ecore#//Middleware"/>
     <genClasses ecoreClass="archimate.ecore#//CityService"/>
+    <genClasses ecoreClass="archimate.ecore#//QuantifyRelationship"/>
+    <genClasses ecoreClass="archimate.ecore#//MeasureRelationship"/>
   </genPackages>
 </genmodel:GenModel>
