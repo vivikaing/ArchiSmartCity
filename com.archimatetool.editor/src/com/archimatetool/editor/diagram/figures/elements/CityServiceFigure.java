@@ -96,7 +96,7 @@ public class CityServiceFigure extends AbstractTextControlContainerFigure {
 
 		int w = image.getImageData().width;
 		int h = image.getImageData().height;
-		graphics.drawImage(image, 0, 0, w, h, pt.x, pt.y, 20, 20);
+		graphics.drawImage(image, 0, 0, w, h, pt.x, pt.y, 17, 17);
 		graphics.popState();
 		image.dispose();
 	}
@@ -107,7 +107,7 @@ public class CityServiceFigure extends AbstractTextControlContainerFigure {
      */
     protected Point getIconOrigin() {
         Rectangle bounds = getBounds();
-        return new Point(bounds.x + bounds.width - 24, bounds.y + 6);
+        return new Point(bounds.x + bounds.width - 22, bounds.y + 6);
     }
     
     @Override
