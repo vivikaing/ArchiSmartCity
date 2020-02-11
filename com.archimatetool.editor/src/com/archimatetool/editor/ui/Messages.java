@@ -92,8 +92,14 @@ public class Messages extends NLS {
     public static String ArchiLabelProvider_46;
     
     public static String ArchiLabelProvider_47;
+    
+    public static String ArchiLabelProvider_48;
+    
+    public static String ArchiLabelProvider_49;
 
     public static String ArchiLabelProvider_5;
+    
+    public static String ArchiLabelProvider_50;
 
     public static String ArchiLabelProvider_6;
 

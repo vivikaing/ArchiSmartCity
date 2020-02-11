@@ -1211,6 +1211,10 @@
             id="com.archimatetool.editor.PerformanceRelationshipUIProvider">
       </uiProvider>
       <uiProvider
+            class="com.archimatetool.editor.ui.factory.relationships.OfferRelationshipUIProvider"
+            id="com.archimatetool.editor.OfferRelationshipUIProvider">
+      </uiProvider>
+      <uiProvider
             class="com.archimatetool.editor.ui.factory.relationships.TriggeringRelationshipUIProvider"
             id="com.archimatetool.editor.TriggeringRelationshipUIProvider">
       </uiProvider>

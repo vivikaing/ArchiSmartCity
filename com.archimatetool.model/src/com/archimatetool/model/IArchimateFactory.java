@@ -863,6 +863,15 @@ public interface IArchimateFactory extends EFactory {
 	IPerformanceRelationship createPerformanceRelationship();
 
 				/**
+	 * Returns a new object of class '<em>Offer Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Offer Relationship</em>'.
+	 * @generated
+	 */
+	IOfferRelationship createOfferRelationship();
+
+				/**
      * Create a new Bounds object
      * @param x
      * @param y

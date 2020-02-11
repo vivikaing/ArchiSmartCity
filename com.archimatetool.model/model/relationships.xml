@@ -2885,6 +2885,7 @@
       <target concept="CityRole" derived="cfgirtv" relations="cfgiortv" />
       <target concept="CityObject" derived="acg" relations="acgo" />
       <target concept="Middleware" derived="cfgirtv" relations="cfgiortv" />
+      <target concept="CityService" derived="e" relations="e" />
    </source>
    <source concept="Material">
       <target concept="ApplicationCollaboration" derived="" relations="o" />

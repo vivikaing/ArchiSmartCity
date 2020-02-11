@@ -112,6 +112,7 @@ import com.archimatetool.model.IMotivationElement;
 import com.archimatetool.model.INameable;
 import com.archimatetool.model.INode;
 import com.archimatetool.model.IObjective;
+import com.archimatetool.model.IOfferRelationship;
 import com.archimatetool.model.IOtherRelationship;
 import com.archimatetool.model.IOutcome;
 import com.archimatetool.model.IPassiveStructureElement;
@@ -2577,6 +2578,22 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.OFFER_RELATIONSHIP: {
+				IOfferRelationship offerRelationship = (IOfferRelationship)theEObject;
+				T result = caseOfferRelationship(offerRelationship);
+				if (result == null) result = caseArchimateRelationship(offerRelationship);
+				if (result == null) result = caseArchimateConcept(offerRelationship);
+				if (result == null) result = caseArchimateModelObject(offerRelationship);
+				if (result == null) result = caseCloneable(offerRelationship);
+				if (result == null) result = caseDocumentable(offerRelationship);
+				if (result == null) result = caseProperties(offerRelationship);
+				if (result == null) result = caseAdapter(offerRelationship);
+				if (result == null) result = caseNameable(offerRelationship);
+				if (result == null) result = caseIdentifier(offerRelationship);
+				if (result == null) result = caseFeatures(offerRelationship);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -4153,6 +4170,21 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T casePerformanceRelationship(IPerformanceRelationship object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Offer Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Offer Relationship</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseOfferRelationship(IOfferRelationship object) {
 		return null;
 	}
 

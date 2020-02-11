@@ -112,6 +112,7 @@ import com.archimatetool.model.IMotivationElement;
 import com.archimatetool.model.INameable;
 import com.archimatetool.model.INode;
 import com.archimatetool.model.IObjective;
+import com.archimatetool.model.IOfferRelationship;
 import com.archimatetool.model.IOtherRelationship;
 import com.archimatetool.model.IOutcome;
 import com.archimatetool.model.IPassiveStructureElement;
@@ -812,6 +813,10 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter casePerformanceRelationship(IPerformanceRelationship object) {
 				return createPerformanceRelationshipAdapter();
+			}
+			@Override
+			public Adapter caseOfferRelationship(IOfferRelationship object) {
+				return createOfferRelationshipAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2300,6 +2305,20 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createPerformanceRelationshipAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IOfferRelationship <em>Offer Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IOfferRelationship
+	 * @generated
+	 */
+	public Adapter createOfferRelationshipAdapter() {
 		return null;
 	}
 

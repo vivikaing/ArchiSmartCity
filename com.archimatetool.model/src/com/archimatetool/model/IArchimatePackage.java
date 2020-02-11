@@ -10380,6 +10380,88 @@ public interface IArchimatePackage extends EPackage {
 	int PERFORMANCE_RELATIONSHIP_FEATURE_COUNT = ARCHIMATE_RELATIONSHIP_FEATURE_COUNT + 0;
 
 				/**
+	 * The meta object id for the '{@link com.archimatetool.model.impl.OfferRelationship <em>Offer Relationship</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.archimatetool.model.impl.OfferRelationship
+	 * @see com.archimatetool.model.impl.ArchimatePackage#getOfferRelationship()
+	 * @generated
+	 */
+	int OFFER_RELATIONSHIP = 149;
+
+				/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OFFER_RELATIONSHIP__NAME = ARCHIMATE_RELATIONSHIP__NAME;
+
+				/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OFFER_RELATIONSHIP__ID = ARCHIMATE_RELATIONSHIP__ID;
+
+				/**
+	 * The feature id for the '<em><b>Features</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OFFER_RELATIONSHIP__FEATURES = ARCHIMATE_RELATIONSHIP__FEATURES;
+
+				/**
+	 * The feature id for the '<em><b>Documentation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OFFER_RELATIONSHIP__DOCUMENTATION = ARCHIMATE_RELATIONSHIP__DOCUMENTATION;
+
+				/**
+	 * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OFFER_RELATIONSHIP__PROPERTIES = ARCHIMATE_RELATIONSHIP__PROPERTIES;
+
+				/**
+	 * The feature id for the '<em><b>Source</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OFFER_RELATIONSHIP__SOURCE = ARCHIMATE_RELATIONSHIP__SOURCE;
+
+				/**
+	 * The feature id for the '<em><b>Target</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OFFER_RELATIONSHIP__TARGET = ARCHIMATE_RELATIONSHIP__TARGET;
+
+				/**
+	 * The number of structural features of the '<em>Offer Relationship</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OFFER_RELATIONSHIP_FEATURE_COUNT = ARCHIMATE_RELATIONSHIP_FEATURE_COUNT + 0;
+
+				/**
 	 * The meta object id for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -10387,7 +10469,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFolderType()
 	 * @generated
 	 */
-    int FOLDER_TYPE = 149;
+    int FOLDER_TYPE = 150;
 
     /**
 	 * The meta object id for the '<em>File</em>' data type.
@@ -10397,7 +10479,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFile()
 	 * @generated
 	 */
-    int FILE = 150;
+    int FILE = 151;
 
 
     /**
@@ -12551,6 +12633,16 @@ public interface IArchimatePackage extends EPackage {
 	EClass getPerformanceRelationship();
 
 				/**
+	 * Returns the meta object for class '{@link com.archimatetool.model.IOfferRelationship <em>Offer Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Offer Relationship</em>'.
+	 * @see com.archimatetool.model.IOfferRelationship
+	 * @generated
+	 */
+	EClass getOfferRelationship();
+
+				/**
 	 * Returns the meta object for enum '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}'.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -14562,6 +14654,16 @@ public interface IArchimatePackage extends EPackage {
 		 * @generated
 		 */
 		EClass PERFORMANCE_RELATIONSHIP = eINSTANCE.getPerformanceRelationship();
+
+								/**
+		 * The meta object literal for the '{@link com.archimatetool.model.impl.OfferRelationship <em>Offer Relationship</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.archimatetool.model.impl.OfferRelationship
+		 * @see com.archimatetool.model.impl.ArchimatePackage#getOfferRelationship()
+		 * @generated
+		 */
+		EClass OFFER_RELATIONSHIP = eINSTANCE.getOfferRelationship();
 
 								/**
 		 * The meta object literal for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.

@@ -89,6 +89,7 @@ import com.archimatetool.model.IMetadata;
 import com.archimatetool.model.IMiddleware;
 import com.archimatetool.model.INode;
 import com.archimatetool.model.IObjective;
+import com.archimatetool.model.IOfferRelationship;
 import com.archimatetool.model.IOutcome;
 import com.archimatetool.model.IPath;
 import com.archimatetool.model.IPerformanceRelationship;
@@ -271,6 +272,7 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.MEASURE_RELATIONSHIP: return createMeasureRelationship();
 			case IArchimatePackage.BELONGING_RELATIONSHIP: return createBelongingRelationship();
 			case IArchimatePackage.PERFORMANCE_RELATIONSHIP: return createPerformanceRelationship();
+			case IArchimatePackage.OFFER_RELATIONSHIP: return createOfferRelationship();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1327,6 +1329,17 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public IPerformanceRelationship createPerformanceRelationship() {
 		PerformanceRelationship performanceRelationship = new PerformanceRelationship();
 		return performanceRelationship;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IOfferRelationship createOfferRelationship() {
+		OfferRelationship offerRelationship = new OfferRelationship();
+		return offerRelationship;
 	}
 
 				/* (non-Javadoc)
