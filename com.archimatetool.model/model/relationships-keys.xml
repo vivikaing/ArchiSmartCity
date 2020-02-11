@@ -15,4 +15,5 @@
 	<key char="q" relationship="QuantifyRelationship" />
 	<key char="m" relationship="MeasureRelationship" />
 	<key char="b" relationship="BelongingRelationship" />
+	<key char="p" relationship="PerformanceRelationship" />
 </relationshipskeys>

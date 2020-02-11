@@ -854,6 +854,15 @@ public interface IArchimateFactory extends EFactory {
 	IBelongingRelationship createBelongingRelationship();
 
 				/**
+	 * Returns a new object of class '<em>Performance Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Performance Relationship</em>'.
+	 * @generated
+	 */
+	IPerformanceRelationship createPerformanceRelationship();
+
+				/**
      * Create a new Bounds object
      * @param x
      * @param y

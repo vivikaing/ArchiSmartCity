@@ -116,6 +116,7 @@ import com.archimatetool.model.IOtherRelationship;
 import com.archimatetool.model.IOutcome;
 import com.archimatetool.model.IPassiveStructureElement;
 import com.archimatetool.model.IPath;
+import com.archimatetool.model.IPerformanceRelationship;
 import com.archimatetool.model.IPhysicalElement;
 import com.archimatetool.model.IPlateau;
 import com.archimatetool.model.IPrinciple;
@@ -2560,6 +2561,22 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.PERFORMANCE_RELATIONSHIP: {
+				IPerformanceRelationship performanceRelationship = (IPerformanceRelationship)theEObject;
+				T result = casePerformanceRelationship(performanceRelationship);
+				if (result == null) result = caseArchimateRelationship(performanceRelationship);
+				if (result == null) result = caseArchimateConcept(performanceRelationship);
+				if (result == null) result = caseArchimateModelObject(performanceRelationship);
+				if (result == null) result = caseCloneable(performanceRelationship);
+				if (result == null) result = caseDocumentable(performanceRelationship);
+				if (result == null) result = caseProperties(performanceRelationship);
+				if (result == null) result = caseAdapter(performanceRelationship);
+				if (result == null) result = caseNameable(performanceRelationship);
+				if (result == null) result = caseIdentifier(performanceRelationship);
+				if (result == null) result = caseFeatures(performanceRelationship);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -4121,6 +4138,21 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseBelongingRelationship(IBelongingRelationship object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Performance Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Performance Relationship</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T casePerformanceRelationship(IPerformanceRelationship object) {
 		return null;
 	}
 

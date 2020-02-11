@@ -4664,6 +4664,7 @@
       <target concept="CityRole" derived="" relations="o" />
       <target concept="CityObject" derived="" relations="o" />
       <target concept="Middleware" derived="" relations="o" />
+      <target concept="CityService" derived="p" relations="p" />
    </source>
    <source concept="Decision">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />

@@ -116,6 +116,7 @@ import com.archimatetool.model.IOtherRelationship;
 import com.archimatetool.model.IOutcome;
 import com.archimatetool.model.IPassiveStructureElement;
 import com.archimatetool.model.IPath;
+import com.archimatetool.model.IPerformanceRelationship;
 import com.archimatetool.model.IPhysicalElement;
 import com.archimatetool.model.IPlateau;
 import com.archimatetool.model.IPrinciple;
@@ -807,6 +808,10 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseBelongingRelationship(IBelongingRelationship object) {
 				return createBelongingRelationshipAdapter();
+			}
+			@Override
+			public Adapter casePerformanceRelationship(IPerformanceRelationship object) {
+				return createPerformanceRelationshipAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2281,6 +2286,20 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createBelongingRelationshipAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IPerformanceRelationship <em>Performance Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IPerformanceRelationship
+	 * @generated
+	 */
+	public Adapter createPerformanceRelationshipAdapter() {
 		return null;
 	}
 
