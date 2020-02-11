@@ -30,6 +30,7 @@ import com.archimatetool.model.IAssessment;
 import com.archimatetool.model.IAssignmentRelationship;
 import com.archimatetool.model.IAssociationRelationship;
 import com.archimatetool.model.IBehaviorElement;
+import com.archimatetool.model.IBelongingRelationship;
 import com.archimatetool.model.IBorderObject;
 import com.archimatetool.model.IBorderType;
 import com.archimatetool.model.IBounds;
@@ -802,6 +803,10 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseMeasureRelationship(IMeasureRelationship object) {
 				return createMeasureRelationshipAdapter();
+			}
+			@Override
+			public Adapter caseBelongingRelationship(IBelongingRelationship object) {
+				return createBelongingRelationshipAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2262,6 +2267,20 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createMeasureRelationshipAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IBelongingRelationship <em>Belonging Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IBelongingRelationship
+	 * @generated
+	 */
+	public Adapter createBelongingRelationshipAdapter() {
 		return null;
 	}
 

@@ -20,6 +20,7 @@ import com.archimatetool.model.IArchimateDiagramModel;
 import com.archimatetool.model.IArchimateElement;
 import com.archimatetool.model.IArchimateRelationship;
 import com.archimatetool.model.IAssignmentRelationship;
+import com.archimatetool.model.IBelongingRelationship;
 import com.archimatetool.model.ICompositionRelationship;
 import com.archimatetool.model.IDiagramModelArchimateObject;
 import com.archimatetool.model.IDiagramModelObject;
@@ -99,7 +100,7 @@ public class NestedElementsChecker implements IChecker {
                 if(relation instanceof ICompositionRelationship || relation instanceof IAggregationRelationship 
                         || relation instanceof ISpecializationRelationship
                         || relation instanceof IAssignmentRelationship || relation instanceof IRealizationRelationship
-                        || relation instanceof IAccessRelationship) {
+                        || relation instanceof IAccessRelationship  || relation instanceof IBelongingRelationship) {
                     return false;
                 }
             }

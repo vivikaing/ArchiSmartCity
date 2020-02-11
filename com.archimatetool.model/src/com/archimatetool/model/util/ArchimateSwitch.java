@@ -30,6 +30,7 @@ import com.archimatetool.model.IAssessment;
 import com.archimatetool.model.IAssignmentRelationship;
 import com.archimatetool.model.IAssociationRelationship;
 import com.archimatetool.model.IBehaviorElement;
+import com.archimatetool.model.IBelongingRelationship;
 import com.archimatetool.model.IBorderObject;
 import com.archimatetool.model.IBorderType;
 import com.archimatetool.model.IBounds;
@@ -2542,6 +2543,23 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.BELONGING_RELATIONSHIP: {
+				IBelongingRelationship belongingRelationship = (IBelongingRelationship)theEObject;
+				T result = caseBelongingRelationship(belongingRelationship);
+				if (result == null) result = caseStructuralRelationship(belongingRelationship);
+				if (result == null) result = caseArchimateRelationship(belongingRelationship);
+				if (result == null) result = caseArchimateConcept(belongingRelationship);
+				if (result == null) result = caseArchimateModelObject(belongingRelationship);
+				if (result == null) result = caseCloneable(belongingRelationship);
+				if (result == null) result = caseDocumentable(belongingRelationship);
+				if (result == null) result = caseProperties(belongingRelationship);
+				if (result == null) result = caseAdapter(belongingRelationship);
+				if (result == null) result = caseNameable(belongingRelationship);
+				if (result == null) result = caseIdentifier(belongingRelationship);
+				if (result == null) result = caseFeatures(belongingRelationship);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -4088,6 +4106,21 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseMeasureRelationship(IMeasureRelationship object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Belonging Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Belonging Relationship</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseBelongingRelationship(IBelongingRelationship object) {
 		return null;
 	}
 

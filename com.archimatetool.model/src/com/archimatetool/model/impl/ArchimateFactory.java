@@ -31,6 +31,7 @@ import com.archimatetool.model.IArtifact;
 import com.archimatetool.model.IAssessment;
 import com.archimatetool.model.IAssignmentRelationship;
 import com.archimatetool.model.IAssociationRelationship;
+import com.archimatetool.model.IBelongingRelationship;
 import com.archimatetool.model.IBounds;
 import com.archimatetool.model.IBusinessActor;
 import com.archimatetool.model.IBusinessCollaboration;
@@ -267,6 +268,7 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.CITY_SERVICE: return createCityService();
 			case IArchimatePackage.QUANTIFY_RELATIONSHIP: return createQuantifyRelationship();
 			case IArchimatePackage.MEASURE_RELATIONSHIP: return createMeasureRelationship();
+			case IArchimatePackage.BELONGING_RELATIONSHIP: return createBelongingRelationship();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1301,6 +1303,17 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public IMeasureRelationship createMeasureRelationship() {
 		MeasureRelationship measureRelationship = new MeasureRelationship();
 		return measureRelationship;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IBelongingRelationship createBelongingRelationship() {
+		BelongingRelationship belongingRelationship = new BelongingRelationship();
+		return belongingRelationship;
 	}
 
 				/* (non-Javadoc)

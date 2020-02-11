@@ -581,7 +581,7 @@
       <target concept="TechnologyService" derived="ftv" relations="fotv" />
       <target concept="Value" derived="n" relations="no" />
       <target concept="WorkPackage" derived="" relations="o" />
-      <target concept="Domain" derived="" relations="acfgnorstv" />
+      <target concept="Domain" derived="b" relations="b" />
       <target concept="Indicator" derived="n" relations="no" />
       <target concept="Decision" derived="ftv" relations="fotv" />
       <target concept="Dashboard" derived="ftv" relations="fotv" />
@@ -2505,7 +2505,7 @@
       <target concept="TechnologyService" derived="" relations="o" />
       <target concept="Value" derived="n" relations="no" />
       <target concept="WorkPackage" derived="" relations="o" />
-      <target concept="Domain" derived="" relations="cgnos" />
+      <target concept="Domain" derived="b" relations="b" />
       <target concept="Indicator" derived="n" relations="no" />
       <target concept="Decision" derived="" relations="o" />
       <target concept="Dashboard" derived="" relations="o" />
@@ -2579,7 +2579,7 @@
       <target concept="TechnologyService" derived="" relations="o" />
       <target concept="Value" derived="n" relations="no" />
       <target concept="WorkPackage" derived="" relations="o" />
-      <target concept="Domain" derived="" relations="cgnos" />
+      <target concept="Domain" derived="b" relations="b" />
       <target concept="Indicator" derived="" relations="m" />
       <target concept="Decision" derived="" relations="o" />
       <target concept="Dashboard" derived="" relations="o" />
@@ -2875,7 +2875,7 @@
       <target concept="TechnologyService" derived="cfgirtv" relations="cfgiortv" />
       <target concept="Value" derived="cgn" relations="cgno" />
       <target concept="WorkPackage" derived="cg" relations="cgo" />
-      <target concept="Domain" derived="" relations="acfginorstv" />
+      <target concept="Domain" derived="b" relations="b" />
       <target concept="Indicator" derived="cgn" relations="cgno" />
       <target concept="Decision" derived="cfgirtv" relations="cfgiortv" />
       <target concept="Dashboard" derived="cfgrtv" relations="cfgortv" />
@@ -3837,7 +3837,7 @@
       <target concept="TechnologyService" derived="" relations="o" />
       <target concept="Value" derived="" relations="o" />
       <target concept="WorkPackage" derived="" relations="o" />
-      <target concept="Domain" derived="" relations="cgnos" />
+      <target concept="Domain" derived="b" relations="b" />
       <target concept="Indicator" derived="" relations="o" />
       <target concept="Decision" derived="" relations="o" />
       <target concept="Dashboard" derived="" relations="o" />
@@ -4589,78 +4589,7 @@
       <target concept="Middleware" derived="r" relations="or" />
    </source>
    <source concept="Domain">
-      <target concept="ApplicationCollaboration" derived="" relations="cfgorstv" />
-      <target concept="ApplicationComponent" derived="" relations="cfgorstv" />
-      <target concept="ApplicationEvent" derived="" relations="cfgiorstv" />
-      <target concept="ApplicationFunction" derived="" relations="cfgiorstv" />
-      <target concept="ApplicationInteraction" derived="" relations="cfgiorstv" />
-      <target concept="ApplicationInterface" derived="" relations="cfgorstv" />
-      <target concept="ApplicationProcess" derived="" relations="cfgiorstv" />
-      <target concept="ApplicationService" derived="" relations="cfgiorstv" />
-      <target concept="Artifact" derived="" relations="acgiors" />
-      <target concept="Assessment" derived="" relations="cgnos" />
-      <target concept="BusinessActor" derived="" relations="cfgiorstv" />
-      <target concept="BusinessCollaboration" derived="" relations="cfgorstv" />
-      <target concept="BusinessEvent" derived="" relations="cfgiorstv" />
-      <target concept="BusinessFunction" derived="" relations="cfgiorstv" />
-      <target concept="BusinessInteraction" derived="" relations="cfgiorstv" />
-      <target concept="BusinessInterface" derived="" relations="cfgiorstv" />
-      <target concept="BusinessObject" derived="" relations="acgors" />
-      <target concept="BusinessProcess" derived="" relations="cfgiorstv" />
-      <target concept="BusinessRole" derived="" relations="cfgiorstv" />
-      <target concept="BusinessService" derived="" relations="cfgiorstv" />
-      <target concept="Capability" derived="" relations="cfgiorstv" />
-      <target concept="CommunicationNetwork" derived="" relations="cfgorst" />
-      <target concept="Constraint" derived="" relations="cgnors" />
-      <target concept="Contract" derived="" relations="acgors" />
-      <target concept="CourseOfAction" derived="" relations="cfgorstv" />
-      <target concept="DataObject" derived="" relations="acgors" />
-      <target concept="Deliverable" derived="" relations="acgors" />
-      <target concept="Device" derived="" relations="cfgiorstv" />
-      <target concept="DistributionNetwork" derived="" relations="cfgorst" />
-      <target concept="Driver" derived="" relations="cgnos" />
-      <target concept="Equipment" derived="" relations="cfgiorstv" />
-      <target concept="Facility" derived="" relations="cfgiorstv" />
-      <target concept="Gap" derived="" relations="cgos" />
-      <target concept="Goal" derived="" relations="cgnors" />
-      <target concept="Objective" derived="" relations="cgnors" />
-      <target concept="Grouping" derived="" relations="cfginorstv" />
-      <target concept="ImplementationEvent" derived="" relations="cfgiost" />
-      <target concept="Junction" derived="" relations="afinortv" />
-      <target concept="Location" derived="" relations="cfgorst" />
-      <target concept="Material" derived="" relations="acgiors" />
-      <target concept="Meaning" derived="" relations="cgnos" />
-      <target concept="Node" derived="" relations="cfgiorstv" />
-      <target concept="Outcome" derived="" relations="cgnors" />
-      <target concept="Path" derived="" relations="cfgorst" />
-      <target concept="Plateau" derived="" relations="cgorst" />
-      <target concept="Principle" derived="" relations="cgnors" />
-      <target concept="Product" derived="" relations="cfgors" />
-      <target concept="Relationship" derived="" relations="cgo" />
-      <target concept="Representation" derived="" relations="acgors" />
-      <target concept="Requirement" derived="" relations="cgnors" />
-      <target concept="Resource" derived="" relations="cfgorst" />
-      <target concept="Stakeholder" derived="" relations="cginors" />
-      <target concept="SystemSoftware" derived="" relations="cfgiorstv" />
-      <target concept="TechnologyCollaboration" derived="" relations="cfgiorstv" />
-      <target concept="TechnologyEvent" derived="" relations="cfgiorstv" />
-      <target concept="TechnologyFunction" derived="" relations="cfgiorstv" />
-      <target concept="TechnologyInteraction" derived="" relations="cfgiorstv" />
-      <target concept="TechnologyInterface" derived="" relations="cfgiorstv" />
-      <target concept="TechnologyProcess" derived="" relations="cfgiorstv" />
-      <target concept="TechnologyService" derived="" relations="cfgiorstv" />
-      <target concept="Value" derived="" relations="cgnos" />
-      <target concept="WorkPackage" derived="" relations="cfgiost" />
       <target concept="Domain" derived="" relations="acfginorstv" />
-      <target concept="Indicator" derived="" relations="cgnos" />
-      <target concept="Decision" derived="" relations="cfgiorstv" />
-      <target concept="Dashboard" derived="" relations="cfgorstv" />
-      <target concept="WebService" derived="" relations="cfgorstv" />
-      <target concept="QualityApplicationService" derived="" relations="acgors" />
-      <target concept="CityActor" derived="" relations="cfgiorstv" />
-      <target concept="CityRole" derived="" relations="cfgiorstv" />
-      <target concept="CityObject" derived="" relations="acgors" />
-      <target concept="Middleware" derived="" relations="cfgiorstv" />
    </source>
    <source concept="Indicator">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -4725,7 +4654,7 @@
       <target concept="TechnologyService" derived="" relations="o" />
       <target concept="Value" derived="n" relations="no" />
       <target concept="WorkPackage" derived="" relations="o" />
-      <target concept="Domain" derived="" relations="cgnos" />
+      <target concept="Domain" derived="b" relations="b" />
       <target concept="Indicator" derived="cgn" relations="cgnos" />
       <target concept="Decision" derived="" relations="o" />
       <target concept="Dashboard" derived="" relations="o" />
@@ -4873,7 +4802,7 @@
       <target concept="TechnologyService" derived="ftv" relations="fotv" />
       <target concept="Value" derived="n" relations="no" />
       <target concept="WorkPackage" derived="" relations="o" />
-      <target concept="Domain" derived="" relations="acfginorstv" />
+      <target concept="Domain" derived="b" relations="b" />
       <target concept="Indicator" derived="n" relations="no" />
       <target concept="Decision" derived="ftv" relations="fotv" />
       <target concept="Dashboard" derived="cfgtv" relations="cfgostv" />
@@ -5169,7 +5098,7 @@
       <target concept="TechnologyService" derived="ftv" relations="fotv" />
       <target concept="Value" derived="n" relations="no" />
       <target concept="WorkPackage" derived="i" relations="io" />
-      <target concept="Domain" derived="" relations="acfginorstv" />
+      <target concept="Domain" derived="b" relations="b" />
       <target concept="Indicator" derived="n" relations="no" />
       <target concept="Decision" derived="fitv" relations="fiotv" />
       <target concept="Dashboard" derived="ftv" relations="fotv" />
@@ -5330,5 +5259,6 @@
    </source>
    <source concept="CityService">
       <target concept="CityService" derived="cfgtv" relations="cfgostv" />
+      <target concept="Domain" derived="b" relations="b" />
    </source>
  </relationships>

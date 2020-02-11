@@ -462,4 +462,5 @@
   <eClassifiers xsi:type="ecore:EClass" name="CityService" eSuperTypes="#//BusinessElement #//BehaviorElement"/>
   <eClassifiers xsi:type="ecore:EClass" name="QuantifyRelationship" eSuperTypes="#//ArchimateRelationship"/>
   <eClassifiers xsi:type="ecore:EClass" name="MeasureRelationship" eSuperTypes="#//ArchimateRelationship"/>
+  <eClassifiers xsi:type="ecore:EClass" name="BelongingRelationship" eSuperTypes="#//StructuralRelationship"/>
 </ecore:EPackage>

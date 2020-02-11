@@ -32,6 +32,7 @@ import com.archimatetool.model.IAssessment;
 import com.archimatetool.model.IAssignmentRelationship;
 import com.archimatetool.model.IAssociationRelationship;
 import com.archimatetool.model.IBehaviorElement;
+import com.archimatetool.model.IBelongingRelationship;
 import com.archimatetool.model.IBorderObject;
 import com.archimatetool.model.IBorderType;
 import com.archimatetool.model.IBounds;
@@ -894,6 +895,13 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 	 * @generated
 	 */
 	private EClass measureRelationshipEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass belongingRelationshipEClass = null;
 
 				/**
 	 * <!-- begin-user-doc -->
@@ -2890,6 +2898,16 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 				/**
 	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getBelongingRelationship() {
+		return belongingRelationshipEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -3751,6 +3769,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 		measureRelationshipEClass = createEClass(MEASURE_RELATIONSHIP);
 
+		belongingRelationshipEClass = createEClass(BELONGING_RELATIONSHIP);
+
 		// Create enums
 		folderTypeEEnum = createEEnum(FOLDER_TYPE);
 
@@ -4016,6 +4036,7 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		cityServiceEClass.getESuperTypes().add(this.getBehaviorElement());
 		quantifyRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
 		measureRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
+		belongingRelationshipEClass.getESuperTypes().add(this.getStructuralRelationship());
 
 		// Initialize classes and features; add operations and parameters
 		initEClass(adapterEClass, IAdapter.class, "Adapter", IS_ABSTRACT, IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
@@ -4444,6 +4465,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		initEClass(quantifyRelationshipEClass, IQuantifyRelationship.class, "QuantifyRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		initEClass(measureRelationshipEClass, IMeasureRelationship.class, "MeasureRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(belongingRelationshipEClass, IBelongingRelationship.class, "BelongingRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		// Initialize enums and add enum literals
 		initEEnum(folderTypeEEnum, FolderType.class, "FolderType"); //$NON-NLS-1$

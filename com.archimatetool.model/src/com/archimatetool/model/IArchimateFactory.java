@@ -845,6 +845,15 @@ public interface IArchimateFactory extends EFactory {
 	IMeasureRelationship createMeasureRelationship();
 
 				/**
+	 * Returns a new object of class '<em>Belonging Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Belonging Relationship</em>'.
+	 * @generated
+	 */
+	IBelongingRelationship createBelongingRelationship();
+
+				/**
      * Create a new Bounds object
      * @param x
      * @param y

@@ -332,5 +332,6 @@
     <genClasses ecoreClass="archimate.ecore#//CityService"/>
     <genClasses ecoreClass="archimate.ecore#//QuantifyRelationship"/>
     <genClasses ecoreClass="archimate.ecore#//MeasureRelationship"/>
+    <genClasses ecoreClass="archimate.ecore#//BelongingRelationship"/>
   </genPackages>
 </genmodel:GenModel>

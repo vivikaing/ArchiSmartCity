@@ -10216,6 +10216,88 @@ public interface IArchimatePackage extends EPackage {
 	int MEASURE_RELATIONSHIP_FEATURE_COUNT = ARCHIMATE_RELATIONSHIP_FEATURE_COUNT + 0;
 
 				/**
+	 * The meta object id for the '{@link com.archimatetool.model.impl.BelongingRelationship <em>Belonging Relationship</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.archimatetool.model.impl.BelongingRelationship
+	 * @see com.archimatetool.model.impl.ArchimatePackage#getBelongingRelationship()
+	 * @generated
+	 */
+	int BELONGING_RELATIONSHIP = 147;
+
+				/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int BELONGING_RELATIONSHIP__NAME = STRUCTURAL_RELATIONSHIP__NAME;
+
+				/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int BELONGING_RELATIONSHIP__ID = STRUCTURAL_RELATIONSHIP__ID;
+
+				/**
+	 * The feature id for the '<em><b>Features</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int BELONGING_RELATIONSHIP__FEATURES = STRUCTURAL_RELATIONSHIP__FEATURES;
+
+				/**
+	 * The feature id for the '<em><b>Documentation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int BELONGING_RELATIONSHIP__DOCUMENTATION = STRUCTURAL_RELATIONSHIP__DOCUMENTATION;
+
+				/**
+	 * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int BELONGING_RELATIONSHIP__PROPERTIES = STRUCTURAL_RELATIONSHIP__PROPERTIES;
+
+				/**
+	 * The feature id for the '<em><b>Source</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int BELONGING_RELATIONSHIP__SOURCE = STRUCTURAL_RELATIONSHIP__SOURCE;
+
+				/**
+	 * The feature id for the '<em><b>Target</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int BELONGING_RELATIONSHIP__TARGET = STRUCTURAL_RELATIONSHIP__TARGET;
+
+				/**
+	 * The number of structural features of the '<em>Belonging Relationship</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int BELONGING_RELATIONSHIP_FEATURE_COUNT = STRUCTURAL_RELATIONSHIP_FEATURE_COUNT + 0;
+
+				/**
 	 * The meta object id for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -10223,7 +10305,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFolderType()
 	 * @generated
 	 */
-    int FOLDER_TYPE = 147;
+    int FOLDER_TYPE = 148;
 
     /**
 	 * The meta object id for the '<em>File</em>' data type.
@@ -10233,7 +10315,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFile()
 	 * @generated
 	 */
-    int FILE = 148;
+    int FILE = 149;
 
 
     /**
@@ -12367,6 +12449,16 @@ public interface IArchimatePackage extends EPackage {
 	EClass getMeasureRelationship();
 
 				/**
+	 * Returns the meta object for class '{@link com.archimatetool.model.IBelongingRelationship <em>Belonging Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Belonging Relationship</em>'.
+	 * @see com.archimatetool.model.IBelongingRelationship
+	 * @generated
+	 */
+	EClass getBelongingRelationship();
+
+				/**
 	 * Returns the meta object for enum '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}'.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -14358,6 +14450,16 @@ public interface IArchimatePackage extends EPackage {
 		 * @generated
 		 */
 		EClass MEASURE_RELATIONSHIP = eINSTANCE.getMeasureRelationship();
+
+								/**
+		 * The meta object literal for the '{@link com.archimatetool.model.impl.BelongingRelationship <em>Belonging Relationship</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.archimatetool.model.impl.BelongingRelationship
+		 * @see com.archimatetool.model.impl.ArchimatePackage#getBelongingRelationship()
+		 * @generated
+		 */
+		EClass BELONGING_RELATIONSHIP = eINSTANCE.getBelongingRelationship();
 
 								/**
 		 * The meta object literal for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.
