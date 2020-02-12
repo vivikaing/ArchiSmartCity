@@ -338,5 +338,6 @@
     <genClasses ecoreClass="archimate.ecore#//OfferRelationship"/>
     <genClasses ecoreClass="archimate.ecore#//RequireRelationship"/>
     <genClasses ecoreClass="archimate.ecore#//SupportRelationship"/>
+    <genClasses ecoreClass="archimate.ecore#//PlayRelationship"/>
   </genPackages>
 </genmodel:GenModel>

@@ -122,6 +122,7 @@ import com.archimatetool.model.IPath;
 import com.archimatetool.model.IPerformanceRelationship;
 import com.archimatetool.model.IPhysicalElement;
 import com.archimatetool.model.IPlateau;
+import com.archimatetool.model.IPlayRelationship;
 import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperties;
@@ -942,6 +943,13 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 	 * @generated
 	 */
 	private EClass supportRelationshipEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass playRelationshipEClass = null;
 
 				/**
 	 * <!-- begin-user-doc -->
@@ -2998,6 +3006,16 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 				/**
 	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getPlayRelationship() {
+		return playRelationshipEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -3871,6 +3889,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 		supportRelationshipEClass = createEClass(SUPPORT_RELATIONSHIP);
 
+		playRelationshipEClass = createEClass(PLAY_RELATIONSHIP);
+
 		// Create enums
 		folderTypeEEnum = createEEnum(FOLDER_TYPE);
 
@@ -4142,6 +4162,7 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		offerRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
 		requireRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
 		supportRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
+		playRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
 
 		// Initialize classes and features; add operations and parameters
 		initEClass(adapterEClass, IAdapter.class, "Adapter", IS_ABSTRACT, IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
@@ -4582,6 +4603,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		initEClass(requireRelationshipEClass, IRequireRelationship.class, "RequireRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		initEClass(supportRelationshipEClass, ISupportRelationship.class, "SupportRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(playRelationshipEClass, IPlayRelationship.class, "PlayRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		// Initialize enums and add enum literals
 		initEEnum(folderTypeEEnum, FolderType.class, "FolderType"); //$NON-NLS-1$

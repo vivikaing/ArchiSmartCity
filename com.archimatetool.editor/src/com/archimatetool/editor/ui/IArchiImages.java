@@ -154,6 +154,7 @@ public interface IArchiImages {
     String ICON_USE_RELATION = ARCHIMATE_IMGPATH + "use.png"; //$NON-NLS-1$
     String ICON_REQUIRE_RELATION = ARCHIMATE_IMGPATH + "require.png"; //$NON-NLS-1$
     String ICON_SUPPORT_RELATION = ARCHIMATE_IMGPATH + "support.png"; //$NON-NLS-1$
+    String ICON_PLAY_RELATION = ARCHIMATE_IMGPATH + "play.png"; //$NON-NLS-1$
 
     
     // Junctions

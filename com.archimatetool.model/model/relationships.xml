@@ -5034,7 +5034,7 @@
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="cfgtv" relations="cfgostv" />
-      <target concept="CityRole" derived="fitv" relations="fiotv" />
+      <target concept="CityRole" derived="y" relations="y" />
       <target concept="CityObject" derived="a" relations="ao" />
       <target concept="Middleware" derived="ftv" relations="fotv" />
    </source>
@@ -5107,7 +5107,6 @@
       <target concept="Dashboard" derived="ftv" relations="fotv" />
       <target concept="WebService" derived="ftv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />
-      <target concept="CityActor" derived="ftv" relations="fotv" />
       <target concept="CityRole" derived="cfgtv" relations="cfgostv" />
       <target concept="CityObject" derived="a" relations="ao" />
       <target concept="Middleware" derived="ftv" relations="fotv" />

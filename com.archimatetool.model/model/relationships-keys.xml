@@ -20,4 +20,5 @@
 	<key char="u" relationship="UseRelationship" />
 	<key char="w" relationship="RequireRelationship" />
 	<key char="k" relationship="SupportRelationship" />
+    <key char="y" relationship="PlayRelationship" />
 </relationshipskeys>

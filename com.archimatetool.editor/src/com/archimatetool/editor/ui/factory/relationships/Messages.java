@@ -44,6 +44,9 @@ public class Messages extends NLS {
     
     public static String SupportRelationshipUIProvider_0;
     
+    public static String PlayRelationshipUIProvider_0;
+
+    
     static {
         // initialize resource bundle
         NLS.initializeMessages(BUNDLE_NAME, Messages.class);

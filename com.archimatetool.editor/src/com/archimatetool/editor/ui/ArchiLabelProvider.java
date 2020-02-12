@@ -248,7 +248,10 @@ public class ArchiLabelProvider {
                 
             case IArchimatePackage.SUPPORT_RELATIONSHIP:
                 return NLS.bind(Messages.ArchiLabelProvider_57, nameSource, nameTarget);
-
+                
+            case IArchimatePackage.PLAY_RELATIONSHIP:
+                return NLS.bind(Messages.ArchiLabelProvider_60, nameSource, nameTarget);
+                
             default:
                 return ""; //$NON-NLS-1$
         }
@@ -322,7 +325,8 @@ public class ArchiLabelProvider {
             case IArchimatePackage.SUPPORT_RELATIONSHIP:
                 return reverseDirection ? Messages.ArchiLabelProvider_58 : Messages.ArchiLabelProvider_59;
             
-            
+            case IArchimatePackage.PLAY_RELATIONSHIP:
+                return reverseDirection ? Messages.ArchiLabelProvider_61 : Messages.ArchiLabelProvider_62;
             default:
                 return ""; //$NON-NLS-1$
         }

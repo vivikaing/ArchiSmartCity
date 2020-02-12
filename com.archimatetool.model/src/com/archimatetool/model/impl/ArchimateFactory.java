@@ -94,6 +94,7 @@ import com.archimatetool.model.IOutcome;
 import com.archimatetool.model.IPath;
 import com.archimatetool.model.IPerformanceRelationship;
 import com.archimatetool.model.IPlateau;
+import com.archimatetool.model.IPlayRelationship;
 import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperty;
@@ -279,6 +280,7 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.OFFER_RELATIONSHIP: return createOfferRelationship();
 			case IArchimatePackage.REQUIRE_RELATIONSHIP: return createRequireRelationship();
 			case IArchimatePackage.SUPPORT_RELATIONSHIP: return createSupportRelationship();
+			case IArchimatePackage.PLAY_RELATIONSHIP: return createPlayRelationship();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1379,6 +1381,17 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public ISupportRelationship createSupportRelationship() {
 		SupportRelationship supportRelationship = new SupportRelationship();
 		return supportRelationship;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IPlayRelationship createPlayRelationship() {
+		PlayRelationship playRelationship = new PlayRelationship();
+		return playRelationship;
 	}
 
 				/* (non-Javadoc)

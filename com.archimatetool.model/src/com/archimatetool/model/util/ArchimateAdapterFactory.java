@@ -120,6 +120,7 @@ import com.archimatetool.model.IPath;
 import com.archimatetool.model.IPerformanceRelationship;
 import com.archimatetool.model.IPhysicalElement;
 import com.archimatetool.model.IPlateau;
+import com.archimatetool.model.IPlayRelationship;
 import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperties;
@@ -832,6 +833,10 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseSupportRelationship(ISupportRelationship object) {
 				return createSupportRelationshipAdapter();
+			}
+			@Override
+			public Adapter casePlayRelationship(IPlayRelationship object) {
+				return createPlayRelationshipAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2376,6 +2381,20 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createSupportRelationshipAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IPlayRelationship <em>Play Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IPlayRelationship
+	 * @generated
+	 */
+	public Adapter createPlayRelationshipAdapter() {
 		return null;
 	}
 

@@ -120,6 +120,7 @@ import com.archimatetool.model.IPath;
 import com.archimatetool.model.IPerformanceRelationship;
 import com.archimatetool.model.IPhysicalElement;
 import com.archimatetool.model.IPlateau;
+import com.archimatetool.model.IPlayRelationship;
 import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperties;
@@ -2645,6 +2646,22 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.PLAY_RELATIONSHIP: {
+				IPlayRelationship playRelationship = (IPlayRelationship)theEObject;
+				T result = casePlayRelationship(playRelationship);
+				if (result == null) result = caseArchimateRelationship(playRelationship);
+				if (result == null) result = caseArchimateConcept(playRelationship);
+				if (result == null) result = caseArchimateModelObject(playRelationship);
+				if (result == null) result = caseCloneable(playRelationship);
+				if (result == null) result = caseDocumentable(playRelationship);
+				if (result == null) result = caseProperties(playRelationship);
+				if (result == null) result = caseAdapter(playRelationship);
+				if (result == null) result = caseNameable(playRelationship);
+				if (result == null) result = caseIdentifier(playRelationship);
+				if (result == null) result = caseFeatures(playRelationship);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -4281,6 +4298,21 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseSupportRelationship(ISupportRelationship object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Play Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Play Relationship</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T casePlayRelationship(IPlayRelationship object) {
 		return null;
 	}
 
