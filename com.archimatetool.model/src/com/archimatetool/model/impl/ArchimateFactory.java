@@ -118,6 +118,7 @@ import com.archimatetool.model.ITechnologyInterface;
 import com.archimatetool.model.ITechnologyProcess;
 import com.archimatetool.model.ITechnologyService;
 import com.archimatetool.model.ITriggeringRelationship;
+import com.archimatetool.model.IUseRelationship;
 import com.archimatetool.model.IValue;
 import com.archimatetool.model.IWebService;
 import com.archimatetool.model.IWorkPackage;
@@ -272,6 +273,7 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.MEASURE_RELATIONSHIP: return createMeasureRelationship();
 			case IArchimatePackage.BELONGING_RELATIONSHIP: return createBelongingRelationship();
 			case IArchimatePackage.PERFORMANCE_RELATIONSHIP: return createPerformanceRelationship();
+			case IArchimatePackage.USE_RELATIONSHIP: return createUseRelationship();
 			case IArchimatePackage.OFFER_RELATIONSHIP: return createOfferRelationship();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
@@ -1329,6 +1331,17 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public IPerformanceRelationship createPerformanceRelationship() {
 		PerformanceRelationship performanceRelationship = new PerformanceRelationship();
 		return performanceRelationship;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IUseRelationship createUseRelationship() {
+		UseRelationship useRelationship = new UseRelationship();
+		return useRelationship;
 	}
 
 				/**

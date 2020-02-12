@@ -155,6 +155,7 @@ import com.archimatetool.model.ITextAlignment;
 import com.archimatetool.model.ITextContent;
 import com.archimatetool.model.ITextPosition;
 import com.archimatetool.model.ITriggeringRelationship;
+import com.archimatetool.model.IUseRelationship;
 import com.archimatetool.model.IValue;
 import com.archimatetool.model.IWebService;
 import com.archimatetool.model.IWorkPackage;
@@ -911,6 +912,13 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 	 * @generated
 	 */
 	private EClass performanceRelationshipEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass useRelationshipEClass = null;
 
 				/**
 	 * <!-- begin-user-doc -->
@@ -2938,6 +2946,16 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 	 * @generated
 	 */
 	@Override
+	public EClass getUseRelationship() {
+		return useRelationshipEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public EClass getOfferRelationship() {
 		return offerRelationshipEClass;
 	}
@@ -3809,6 +3827,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 		performanceRelationshipEClass = createEClass(PERFORMANCE_RELATIONSHIP);
 
+		useRelationshipEClass = createEClass(USE_RELATIONSHIP);
+
 		offerRelationshipEClass = createEClass(OFFER_RELATIONSHIP);
 
 		// Create enums
@@ -4078,6 +4098,7 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		measureRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
 		belongingRelationshipEClass.getESuperTypes().add(this.getStructuralRelationship());
 		performanceRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
+		useRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
 		offerRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
 
 		// Initialize classes and features; add operations and parameters
@@ -4511,6 +4532,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		initEClass(belongingRelationshipEClass, IBelongingRelationship.class, "BelongingRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		initEClass(performanceRelationshipEClass, IPerformanceRelationship.class, "PerformanceRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(useRelationshipEClass, IUseRelationship.class, "UseRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		initEClass(offerRelationshipEClass, IOfferRelationship.class, "OfferRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 

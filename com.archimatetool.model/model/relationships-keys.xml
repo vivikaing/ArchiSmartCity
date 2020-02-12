@@ -17,4 +17,5 @@
 	<key char="b" relationship="BelongingRelationship" />
 	<key char="p" relationship="PerformanceRelationship" />
 	<key char="e" relationship="OfferRelationship" />
+	<key char="u" relationship="UseRelationship" />
 </relationshipskeys>

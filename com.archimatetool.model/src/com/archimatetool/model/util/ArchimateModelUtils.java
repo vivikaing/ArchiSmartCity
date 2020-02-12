@@ -329,6 +329,7 @@ public class ArchimateModelUtils {
                 IArchimatePackage.eINSTANCE.getBelongingRelationship(),
                 IArchimatePackage.eINSTANCE.getPerformanceRelationship(),
                 IArchimatePackage.eINSTANCE.getOfferRelationship(),
+                IArchimatePackage.eINSTANCE.getUseRelationship(),
         };
     }
 

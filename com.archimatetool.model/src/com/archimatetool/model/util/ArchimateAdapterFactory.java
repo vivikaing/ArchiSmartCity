@@ -153,6 +153,7 @@ import com.archimatetool.model.ITextAlignment;
 import com.archimatetool.model.ITextContent;
 import com.archimatetool.model.ITextPosition;
 import com.archimatetool.model.ITriggeringRelationship;
+import com.archimatetool.model.IUseRelationship;
 import com.archimatetool.model.IValue;
 import com.archimatetool.model.IWebService;
 import com.archimatetool.model.IWorkPackage;
@@ -813,6 +814,10 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter casePerformanceRelationship(IPerformanceRelationship object) {
 				return createPerformanceRelationshipAdapter();
+			}
+			@Override
+			public Adapter caseUseRelationship(IUseRelationship object) {
+				return createUseRelationshipAdapter();
 			}
 			@Override
 			public Adapter caseOfferRelationship(IOfferRelationship object) {
@@ -2305,6 +2310,20 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createPerformanceRelationshipAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IUseRelationship <em>Use Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IUseRelationship
+	 * @generated
+	 */
+	public Adapter createUseRelationshipAdapter() {
 		return null;
 	}
 

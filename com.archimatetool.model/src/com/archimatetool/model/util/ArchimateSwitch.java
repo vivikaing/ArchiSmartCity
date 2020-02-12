@@ -153,6 +153,7 @@ import com.archimatetool.model.ITextAlignment;
 import com.archimatetool.model.ITextContent;
 import com.archimatetool.model.ITextPosition;
 import com.archimatetool.model.ITriggeringRelationship;
+import com.archimatetool.model.IUseRelationship;
 import com.archimatetool.model.IValue;
 import com.archimatetool.model.IWebService;
 import com.archimatetool.model.IWorkPackage;
@@ -2578,6 +2579,22 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.USE_RELATIONSHIP: {
+				IUseRelationship useRelationship = (IUseRelationship)theEObject;
+				T result = caseUseRelationship(useRelationship);
+				if (result == null) result = caseArchimateRelationship(useRelationship);
+				if (result == null) result = caseArchimateConcept(useRelationship);
+				if (result == null) result = caseArchimateModelObject(useRelationship);
+				if (result == null) result = caseCloneable(useRelationship);
+				if (result == null) result = caseDocumentable(useRelationship);
+				if (result == null) result = caseProperties(useRelationship);
+				if (result == null) result = caseAdapter(useRelationship);
+				if (result == null) result = caseNameable(useRelationship);
+				if (result == null) result = caseIdentifier(useRelationship);
+				if (result == null) result = caseFeatures(useRelationship);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			case IArchimatePackage.OFFER_RELATIONSHIP: {
 				IOfferRelationship offerRelationship = (IOfferRelationship)theEObject;
 				T result = caseOfferRelationship(offerRelationship);
@@ -4170,6 +4187,21 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T casePerformanceRelationship(IPerformanceRelationship object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Use Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Use Relationship</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseUseRelationship(IUseRelationship object) {
 		return null;
 	}
 

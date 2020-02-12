@@ -334,6 +334,7 @@
     <genClasses ecoreClass="archimate.ecore#//MeasureRelationship"/>
     <genClasses ecoreClass="archimate.ecore#//BelongingRelationship"/>
     <genClasses ecoreClass="archimate.ecore#//PerformanceRelationship"/>
+    <genClasses ecoreClass="archimate.ecore#//UseRelationship"/>
     <genClasses ecoreClass="archimate.ecore#//OfferRelationship"/>
   </genPackages>
 </genmodel:GenModel>

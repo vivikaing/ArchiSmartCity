@@ -4590,7 +4590,7 @@
       <target concept="Middleware" derived="r" relations="or" />
    </source>
    <source concept="Domain">
-      <target concept="Domain" derived="" relations="acfginorstv" />
+      <target concept="Domain" derived="b" relations="b" />
    </source>
    <source concept="Indicator">
       <target concept="ApplicationCollaboration" derived="" relations="o" />
@@ -5262,5 +5262,6 @@
    <source concept="CityService">
       <target concept="CityService" derived="cfgtv" relations="cfgostv" />
       <target concept="Domain" derived="b" relations="b" />
+      <target concept="CityObject" derived="u" relations="u" />
    </source>
  </relationships>

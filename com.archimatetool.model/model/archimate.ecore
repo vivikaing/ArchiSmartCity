@@ -464,5 +464,6 @@
   <eClassifiers xsi:type="ecore:EClass" name="MeasureRelationship" eSuperTypes="#//ArchimateRelationship"/>
   <eClassifiers xsi:type="ecore:EClass" name="BelongingRelationship" eSuperTypes="#//StructuralRelationship"/>
   <eClassifiers xsi:type="ecore:EClass" name="PerformanceRelationship" eSuperTypes="#//ArchimateRelationship"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UseRelationship" eSuperTypes="#//ArchimateRelationship"/>
   <eClassifiers xsi:type="ecore:EClass" name="OfferRelationship" eSuperTypes="#//ArchimateRelationship"/>
 </ecore:EPackage>

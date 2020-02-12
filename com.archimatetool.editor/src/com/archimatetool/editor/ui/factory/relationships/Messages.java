@@ -38,6 +38,8 @@ public class Messages extends NLS {
     
     public static String OfferRelationshipUIProvider_0;
     
+    public static String UseRelationshipUIProvider_0;
+    
     static {
         // initialize resource bundle
         NLS.initializeMessages(BUNDLE_NAME, Messages.class);

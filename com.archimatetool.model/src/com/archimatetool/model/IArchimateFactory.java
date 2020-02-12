@@ -863,6 +863,15 @@ public interface IArchimateFactory extends EFactory {
 	IPerformanceRelationship createPerformanceRelationship();
 
 				/**
+	 * Returns a new object of class '<em>Use Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Use Relationship</em>'.
+	 * @generated
+	 */
+	IUseRelationship createUseRelationship();
+
+				/**
 	 * Returns a new object of class '<em>Offer Relationship</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
