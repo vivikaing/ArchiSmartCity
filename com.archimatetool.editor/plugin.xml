@@ -1223,6 +1223,10 @@
             id="com.archimatetool.editor.RequireRelationshipUIProvider">
       </uiProvider>
       <uiProvider
+            class="com.archimatetool.editor.ui.factory.relationships.SupportRelationshipUIProvider"
+            id="com.archimatetool.editor.SupportRelationshipUIProvider">
+      </uiProvider>
+      <uiProvider
             class="com.archimatetool.editor.ui.factory.relationships.TriggeringRelationshipUIProvider"
             id="com.archimatetool.editor.TriggeringRelationshipUIProvider">
       </uiProvider>

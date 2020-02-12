@@ -19,4 +19,5 @@
 	<key char="e" relationship="OfferRelationship" />
 	<key char="u" relationship="UseRelationship" />
 	<key char="w" relationship="RequireRelationship" />
+	<key char="k" relationship="SupportRelationship" />
 </relationshipskeys>

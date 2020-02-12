@@ -110,6 +110,7 @@ import com.archimatetool.model.ISketchModelActor;
 import com.archimatetool.model.ISketchModelSticky;
 import com.archimatetool.model.ISpecializationRelationship;
 import com.archimatetool.model.IStakeholder;
+import com.archimatetool.model.ISupportRelationship;
 import com.archimatetool.model.ISystemSoftware;
 import com.archimatetool.model.ITechnologyCollaboration;
 import com.archimatetool.model.ITechnologyEvent;
@@ -277,6 +278,7 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.USE_RELATIONSHIP: return createUseRelationship();
 			case IArchimatePackage.OFFER_RELATIONSHIP: return createOfferRelationship();
 			case IArchimatePackage.REQUIRE_RELATIONSHIP: return createRequireRelationship();
+			case IArchimatePackage.SUPPORT_RELATIONSHIP: return createSupportRelationship();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1366,6 +1368,17 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public IRequireRelationship createRequireRelationship() {
 		RequireRelationship requireRelationship = new RequireRelationship();
 		return requireRelationship;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public ISupportRelationship createSupportRelationship() {
+		SupportRelationship supportRelationship = new SupportRelationship();
+		return supportRelationship;
 	}
 
 				/* (non-Javadoc)

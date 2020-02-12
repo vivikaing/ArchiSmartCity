@@ -140,6 +140,7 @@ import com.archimatetool.model.IStakeholder;
 import com.archimatetool.model.IStrategyElement;
 import com.archimatetool.model.IStructuralRelationship;
 import com.archimatetool.model.IStructureElement;
+import com.archimatetool.model.ISupportRelationship;
 import com.archimatetool.model.ISystemSoftware;
 import com.archimatetool.model.ITechnologyCollaboration;
 import com.archimatetool.model.ITechnologyElement;
@@ -2628,6 +2629,22 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.SUPPORT_RELATIONSHIP: {
+				ISupportRelationship supportRelationship = (ISupportRelationship)theEObject;
+				T result = caseSupportRelationship(supportRelationship);
+				if (result == null) result = caseArchimateRelationship(supportRelationship);
+				if (result == null) result = caseArchimateConcept(supportRelationship);
+				if (result == null) result = caseArchimateModelObject(supportRelationship);
+				if (result == null) result = caseCloneable(supportRelationship);
+				if (result == null) result = caseDocumentable(supportRelationship);
+				if (result == null) result = caseProperties(supportRelationship);
+				if (result == null) result = caseAdapter(supportRelationship);
+				if (result == null) result = caseNameable(supportRelationship);
+				if (result == null) result = caseIdentifier(supportRelationship);
+				if (result == null) result = caseFeatures(supportRelationship);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -4249,6 +4266,21 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseRequireRelationship(IRequireRelationship object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Support Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Support Relationship</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseSupportRelationship(ISupportRelationship object) {
 		return null;
 	}
 

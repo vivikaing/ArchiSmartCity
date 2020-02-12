@@ -145,6 +145,7 @@
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
       <target concept="CityRole" derived="ftv" relations="fotv" />
+      <target concept="CityService" derived="k" relations="k" />
       <target concept="CityObject" derived="a" relations="ao" />
       <target concept="Middleware" derived="ftv" relations="fotv" />
    </source>
@@ -4806,7 +4807,7 @@
       <target concept="WorkPackage" derived="" relations="o" />
       <target concept="Domain" derived="b" relations="b" />
       <target concept="Indicator" derived="n" relations="no" />
-      <target concept="Decision" derived="ftv" relations="fotv" />
+      <target concept="Decision" derived="k" relations="k" />
       <target concept="Dashboard" derived="cfgtv" relations="cfgostv" />
       <target concept="WebService" derived="cfgtv" relations="fotv" />
       <target concept="QualityApplicationService" derived="a" relations="ao" />

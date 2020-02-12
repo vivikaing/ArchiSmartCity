@@ -140,6 +140,7 @@ import com.archimatetool.model.IStakeholder;
 import com.archimatetool.model.IStrategyElement;
 import com.archimatetool.model.IStructuralRelationship;
 import com.archimatetool.model.IStructureElement;
+import com.archimatetool.model.ISupportRelationship;
 import com.archimatetool.model.ISystemSoftware;
 import com.archimatetool.model.ITechnologyCollaboration;
 import com.archimatetool.model.ITechnologyElement;
@@ -827,6 +828,10 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseRequireRelationship(IRequireRelationship object) {
 				return createRequireRelationshipAdapter();
+			}
+			@Override
+			public Adapter caseSupportRelationship(ISupportRelationship object) {
+				return createSupportRelationshipAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2357,6 +2362,20 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createRequireRelationshipAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.ISupportRelationship <em>Support Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.ISupportRelationship
+	 * @generated
+	 */
+	public Adapter createSupportRelationshipAdapter() {
 		return null;
 	}
 

@@ -890,6 +890,15 @@ public interface IArchimateFactory extends EFactory {
 	IRequireRelationship createRequireRelationship();
 
 				/**
+	 * Returns a new object of class '<em>Support Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Support Relationship</em>'.
+	 * @generated
+	 */
+	ISupportRelationship createSupportRelationship();
+
+				/**
      * Create a new Bounds object
      * @param x
      * @param y
