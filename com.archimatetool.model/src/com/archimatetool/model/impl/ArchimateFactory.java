@@ -91,6 +91,7 @@ import com.archimatetool.model.INode;
 import com.archimatetool.model.IObjective;
 import com.archimatetool.model.IOfferRelationship;
 import com.archimatetool.model.IOutcome;
+import com.archimatetool.model.IParticipateRelationship;
 import com.archimatetool.model.IPath;
 import com.archimatetool.model.IPerformanceRelationship;
 import com.archimatetool.model.IPlateau;
@@ -98,6 +99,7 @@ import com.archimatetool.model.IPlayRelationship;
 import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperty;
+import com.archimatetool.model.IProvideRelationship;
 import com.archimatetool.model.IQualityApplicationService;
 import com.archimatetool.model.IQuantifyRelationship;
 import com.archimatetool.model.IRealizationRelationship;
@@ -281,6 +283,8 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.REQUIRE_RELATIONSHIP: return createRequireRelationship();
 			case IArchimatePackage.SUPPORT_RELATIONSHIP: return createSupportRelationship();
 			case IArchimatePackage.PLAY_RELATIONSHIP: return createPlayRelationship();
+			case IArchimatePackage.PROVIDE_RELATIONSHIP: return createProvideRelationship();
+			case IArchimatePackage.PARTICIPATE_RELATIONSHIP: return createParticipateRelationship();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1392,6 +1396,28 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public IPlayRelationship createPlayRelationship() {
 		PlayRelationship playRelationship = new PlayRelationship();
 		return playRelationship;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IProvideRelationship createProvideRelationship() {
+		ProvideRelationship provideRelationship = new ProvideRelationship();
+		return provideRelationship;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IParticipateRelationship createParticipateRelationship() {
+		ParticipateRelationship participateRelationship = new ParticipateRelationship();
+		return participateRelationship;
 	}
 
 				/* (non-Javadoc)

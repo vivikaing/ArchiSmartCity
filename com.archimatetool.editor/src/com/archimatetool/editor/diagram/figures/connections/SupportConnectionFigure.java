@@ -4,7 +4,7 @@ import org.eclipse.draw2d.PolylineDecoration;
 import org.eclipse.draw2d.RotatableDecoration;
 
 /**
- * Serving Connection Figure class
+ * Connection Figure class
  * 
  * @author Viviana Bastidas
  */

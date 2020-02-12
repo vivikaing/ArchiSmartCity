@@ -117,6 +117,7 @@ import com.archimatetool.model.IObjective;
 import com.archimatetool.model.IOfferRelationship;
 import com.archimatetool.model.IOtherRelationship;
 import com.archimatetool.model.IOutcome;
+import com.archimatetool.model.IParticipateRelationship;
 import com.archimatetool.model.IPassiveStructureElement;
 import com.archimatetool.model.IPath;
 import com.archimatetool.model.IPerformanceRelationship;
@@ -127,6 +128,7 @@ import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperties;
 import com.archimatetool.model.IProperty;
+import com.archimatetool.model.IProvideRelationship;
 import com.archimatetool.model.IQualityApplicationService;
 import com.archimatetool.model.IQuantifyRelationship;
 import com.archimatetool.model.IRealizationRelationship;
@@ -950,6 +952,20 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 	 * @generated
 	 */
 	private EClass playRelationshipEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass provideRelationshipEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass participateRelationshipEClass = null;
 
 				/**
 	 * <!-- begin-user-doc -->
@@ -3016,6 +3032,26 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 				/**
 	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getProvideRelationship() {
+		return provideRelationshipEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getParticipateRelationship() {
+		return participateRelationshipEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -3891,6 +3927,10 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 		playRelationshipEClass = createEClass(PLAY_RELATIONSHIP);
 
+		provideRelationshipEClass = createEClass(PROVIDE_RELATIONSHIP);
+
+		participateRelationshipEClass = createEClass(PARTICIPATE_RELATIONSHIP);
+
 		// Create enums
 		folderTypeEEnum = createEEnum(FOLDER_TYPE);
 
@@ -4163,6 +4203,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		requireRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
 		supportRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
 		playRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
+		provideRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
+		participateRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
 
 		// Initialize classes and features; add operations and parameters
 		initEClass(adapterEClass, IAdapter.class, "Adapter", IS_ABSTRACT, IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
@@ -4605,6 +4647,10 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		initEClass(supportRelationshipEClass, ISupportRelationship.class, "SupportRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		initEClass(playRelationshipEClass, IPlayRelationship.class, "PlayRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(provideRelationshipEClass, IProvideRelationship.class, "ProvideRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(participateRelationshipEClass, IParticipateRelationship.class, "ParticipateRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		// Initialize enums and add enum literals
 		initEEnum(folderTypeEEnum, FolderType.class, "FolderType"); //$NON-NLS-1$

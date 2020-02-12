@@ -45,6 +45,10 @@ public class Messages extends NLS {
     public static String SupportRelationshipUIProvider_0;
     
     public static String PlayRelationshipUIProvider_0;
+    
+    public static String ParticipateRelationshipUIProvider_0;
+    
+    public static String ProvideRelationshipUIProvider_0;
 
     
     static {

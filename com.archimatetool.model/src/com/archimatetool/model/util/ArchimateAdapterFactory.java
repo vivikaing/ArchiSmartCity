@@ -115,6 +115,7 @@ import com.archimatetool.model.IObjective;
 import com.archimatetool.model.IOfferRelationship;
 import com.archimatetool.model.IOtherRelationship;
 import com.archimatetool.model.IOutcome;
+import com.archimatetool.model.IParticipateRelationship;
 import com.archimatetool.model.IPassiveStructureElement;
 import com.archimatetool.model.IPath;
 import com.archimatetool.model.IPerformanceRelationship;
@@ -125,6 +126,7 @@ import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperties;
 import com.archimatetool.model.IProperty;
+import com.archimatetool.model.IProvideRelationship;
 import com.archimatetool.model.IQualityApplicationService;
 import com.archimatetool.model.IQuantifyRelationship;
 import com.archimatetool.model.IRealizationRelationship;
@@ -837,6 +839,14 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter casePlayRelationship(IPlayRelationship object) {
 				return createPlayRelationshipAdapter();
+			}
+			@Override
+			public Adapter caseProvideRelationship(IProvideRelationship object) {
+				return createProvideRelationshipAdapter();
+			}
+			@Override
+			public Adapter caseParticipateRelationship(IParticipateRelationship object) {
+				return createParticipateRelationshipAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2395,6 +2405,34 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createPlayRelationshipAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IProvideRelationship <em>Provide Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IProvideRelationship
+	 * @generated
+	 */
+	public Adapter createProvideRelationshipAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IParticipateRelationship <em>Participate Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IParticipateRelationship
+	 * @generated
+	 */
+	public Adapter createParticipateRelationshipAdapter() {
 		return null;
 	}
 

@@ -908,6 +908,24 @@ public interface IArchimateFactory extends EFactory {
 	IPlayRelationship createPlayRelationship();
 
 				/**
+	 * Returns a new object of class '<em>Provide Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Provide Relationship</em>'.
+	 * @generated
+	 */
+	IProvideRelationship createProvideRelationship();
+
+				/**
+	 * Returns a new object of class '<em>Participate Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Participate Relationship</em>'.
+	 * @generated
+	 */
+	IParticipateRelationship createParticipateRelationship();
+
+				/**
      * Create a new Bounds object
      * @param x
      * @param y

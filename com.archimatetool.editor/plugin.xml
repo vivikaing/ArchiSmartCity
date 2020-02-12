@@ -1226,9 +1226,17 @@
             class="com.archimatetool.editor.ui.factory.relationships.SupportRelationshipUIProvider"
             id="com.archimatetool.editor.SupportRelationshipUIProvider">
       </uiProvider>
-       <uiProvider
+      <uiProvider
             class="com.archimatetool.editor.ui.factory.relationships.PlayRelationshipUIProvider"
             id="com.archimatetool.editor.PlayRelationshipUIProvider">
+      </uiProvider>
+      <uiProvider
+            class="com.archimatetool.editor.ui.factory.relationships.ParticipateRelationshipUIProvider"
+            id="com.archimatetool.editor.ParticipateRelationshipUIProvider">
+      </uiProvider>
+      <uiProvider
+            class="com.archimatetool.editor.ui.factory.relationships.ProvideRelationshipUIProvider"
+            id="com.archimatetool.editor.ProvideRelationshipUIProvider">
       </uiProvider>
       <uiProvider
             class="com.archimatetool.editor.ui.factory.relationships.TriggeringRelationshipUIProvider"

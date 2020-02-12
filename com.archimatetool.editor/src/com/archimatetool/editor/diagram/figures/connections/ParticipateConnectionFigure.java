@@ -1,13 +1,14 @@
 package com.archimatetool.editor.diagram.figures.connections;
+
+import org.eclipse.draw2d.PolylineDecoration;
+import org.eclipse.draw2d.RotatableDecoration;
+
 /**
  * Connection Figure class
  * 
  * @author Viviana Bastidas
  */
-import org.eclipse.draw2d.PolylineDecoration;
-import org.eclipse.draw2d.RotatableDecoration;
-
-public class UseConnectionFigure extends AbstractArchimateConnectionFigure {
+public class ParticipateConnectionFigure extends AbstractArchimateConnectionFigure {
 	/**
      * @return Decoration to use on Target Node
      */
@@ -15,7 +16,7 @@ public class UseConnectionFigure extends AbstractArchimateConnectionFigure {
         return new PolylineDecoration();
     }
     
-    public UseConnectionFigure() {
+    public ParticipateConnectionFigure() {
     }
 
     @Override
@@ -23,3 +24,5 @@ public class UseConnectionFigure extends AbstractArchimateConnectionFigure {
         setTargetDecoration(createFigureTargetDecoration()); // arrow at target endpoint 
     }
 }
+
+

@@ -21,4 +21,6 @@
 	<key char="w" relationship="RequireRelationship" />
 	<key char="k" relationship="SupportRelationship" />
     <key char="y" relationship="PlayRelationship" />
+    <key char="x" relationship="ParticipateRelationship" />
+    <key char="z" relationship="ProvideRelationship" />
 </relationshipskeys>

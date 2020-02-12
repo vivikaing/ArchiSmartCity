@@ -115,6 +115,7 @@ import com.archimatetool.model.IObjective;
 import com.archimatetool.model.IOfferRelationship;
 import com.archimatetool.model.IOtherRelationship;
 import com.archimatetool.model.IOutcome;
+import com.archimatetool.model.IParticipateRelationship;
 import com.archimatetool.model.IPassiveStructureElement;
 import com.archimatetool.model.IPath;
 import com.archimatetool.model.IPerformanceRelationship;
@@ -125,6 +126,7 @@ import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperties;
 import com.archimatetool.model.IProperty;
+import com.archimatetool.model.IProvideRelationship;
 import com.archimatetool.model.IQualityApplicationService;
 import com.archimatetool.model.IQuantifyRelationship;
 import com.archimatetool.model.IRealizationRelationship;
@@ -2662,6 +2664,38 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.PROVIDE_RELATIONSHIP: {
+				IProvideRelationship provideRelationship = (IProvideRelationship)theEObject;
+				T result = caseProvideRelationship(provideRelationship);
+				if (result == null) result = caseArchimateRelationship(provideRelationship);
+				if (result == null) result = caseArchimateConcept(provideRelationship);
+				if (result == null) result = caseArchimateModelObject(provideRelationship);
+				if (result == null) result = caseCloneable(provideRelationship);
+				if (result == null) result = caseDocumentable(provideRelationship);
+				if (result == null) result = caseProperties(provideRelationship);
+				if (result == null) result = caseAdapter(provideRelationship);
+				if (result == null) result = caseNameable(provideRelationship);
+				if (result == null) result = caseIdentifier(provideRelationship);
+				if (result == null) result = caseFeatures(provideRelationship);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case IArchimatePackage.PARTICIPATE_RELATIONSHIP: {
+				IParticipateRelationship participateRelationship = (IParticipateRelationship)theEObject;
+				T result = caseParticipateRelationship(participateRelationship);
+				if (result == null) result = caseArchimateRelationship(participateRelationship);
+				if (result == null) result = caseArchimateConcept(participateRelationship);
+				if (result == null) result = caseArchimateModelObject(participateRelationship);
+				if (result == null) result = caseCloneable(participateRelationship);
+				if (result == null) result = caseDocumentable(participateRelationship);
+				if (result == null) result = caseProperties(participateRelationship);
+				if (result == null) result = caseAdapter(participateRelationship);
+				if (result == null) result = caseNameable(participateRelationship);
+				if (result == null) result = caseIdentifier(participateRelationship);
+				if (result == null) result = caseFeatures(participateRelationship);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -4313,6 +4347,36 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T casePlayRelationship(IPlayRelationship object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Provide Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Provide Relationship</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseProvideRelationship(IProvideRelationship object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Participate Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Participate Relationship</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseParticipateRelationship(IParticipateRelationship object) {
 		return null;
 	}
 
