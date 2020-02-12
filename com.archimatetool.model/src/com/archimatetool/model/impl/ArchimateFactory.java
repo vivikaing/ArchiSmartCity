@@ -101,6 +101,7 @@ import com.archimatetool.model.IQualityApplicationService;
 import com.archimatetool.model.IQuantifyRelationship;
 import com.archimatetool.model.IRealizationRelationship;
 import com.archimatetool.model.IRepresentation;
+import com.archimatetool.model.IRequireRelationship;
 import com.archimatetool.model.IRequirement;
 import com.archimatetool.model.IResource;
 import com.archimatetool.model.IServingRelationship;
@@ -275,6 +276,7 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.PERFORMANCE_RELATIONSHIP: return createPerformanceRelationship();
 			case IArchimatePackage.USE_RELATIONSHIP: return createUseRelationship();
 			case IArchimatePackage.OFFER_RELATIONSHIP: return createOfferRelationship();
+			case IArchimatePackage.REQUIRE_RELATIONSHIP: return createRequireRelationship();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1353,6 +1355,17 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public IOfferRelationship createOfferRelationship() {
 		OfferRelationship offerRelationship = new OfferRelationship();
 		return offerRelationship;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IRequireRelationship createRequireRelationship() {
+		RequireRelationship requireRelationship = new RequireRelationship();
+		return requireRelationship;
 	}
 
 				/* (non-Javadoc)

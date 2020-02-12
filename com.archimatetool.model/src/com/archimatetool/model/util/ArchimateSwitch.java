@@ -128,6 +128,7 @@ import com.archimatetool.model.IQualityApplicationService;
 import com.archimatetool.model.IQuantifyRelationship;
 import com.archimatetool.model.IRealizationRelationship;
 import com.archimatetool.model.IRepresentation;
+import com.archimatetool.model.IRequireRelationship;
 import com.archimatetool.model.IRequirement;
 import com.archimatetool.model.IResource;
 import com.archimatetool.model.IServingRelationship;
@@ -2611,6 +2612,22 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.REQUIRE_RELATIONSHIP: {
+				IRequireRelationship requireRelationship = (IRequireRelationship)theEObject;
+				T result = caseRequireRelationship(requireRelationship);
+				if (result == null) result = caseArchimateRelationship(requireRelationship);
+				if (result == null) result = caseArchimateConcept(requireRelationship);
+				if (result == null) result = caseArchimateModelObject(requireRelationship);
+				if (result == null) result = caseCloneable(requireRelationship);
+				if (result == null) result = caseDocumentable(requireRelationship);
+				if (result == null) result = caseProperties(requireRelationship);
+				if (result == null) result = caseAdapter(requireRelationship);
+				if (result == null) result = caseNameable(requireRelationship);
+				if (result == null) result = caseIdentifier(requireRelationship);
+				if (result == null) result = caseFeatures(requireRelationship);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -4217,6 +4234,21 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseOfferRelationship(IOfferRelationship object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Require Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Require Relationship</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseRequireRelationship(IRequireRelationship object) {
 		return null;
 	}
 

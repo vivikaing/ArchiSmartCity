@@ -4693,7 +4693,7 @@
       <target concept="Constraint" derived="nr" relations="nor" />
       <target concept="Contract" derived="a" relations="ao" />
       <target concept="CourseOfAction" derived="r" relations="or" />
-      <target concept="DataObject" derived="a" relations="ao" />
+      <target concept="DataObject" derived="wao" relations="wao" />
       <target concept="Deliverable" derived="" relations="o" />
       <target concept="Device" derived="ftv" relations="fotv" />
       <target concept="DistributionNetwork" derived="ft" relations="fot" />
@@ -4738,7 +4738,7 @@
       <target concept="QualityApplicationService" derived="a" relations="ao" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
       <target concept="CityRole" derived="ftv" relations="fotv" />
-      <target concept="CityObject" derived="a" relations="ao" />
+      <target concept="CityObject" derived="w" relations="w" />
       <target concept="Middleware" derived="ftv" relations="fotv" />
    </source>
    <source concept="Dashboard">

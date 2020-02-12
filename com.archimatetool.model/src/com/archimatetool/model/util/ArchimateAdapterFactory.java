@@ -128,6 +128,7 @@ import com.archimatetool.model.IQualityApplicationService;
 import com.archimatetool.model.IQuantifyRelationship;
 import com.archimatetool.model.IRealizationRelationship;
 import com.archimatetool.model.IRepresentation;
+import com.archimatetool.model.IRequireRelationship;
 import com.archimatetool.model.IRequirement;
 import com.archimatetool.model.IResource;
 import com.archimatetool.model.IServingRelationship;
@@ -822,6 +823,10 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseOfferRelationship(IOfferRelationship object) {
 				return createOfferRelationshipAdapter();
+			}
+			@Override
+			public Adapter caseRequireRelationship(IRequireRelationship object) {
+				return createRequireRelationshipAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2338,6 +2343,20 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createOfferRelationshipAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IRequireRelationship <em>Require Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IRequireRelationship
+	 * @generated
+	 */
+	public Adapter createRequireRelationshipAdapter() {
 		return null;
 	}
 

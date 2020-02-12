@@ -1219,6 +1219,10 @@
             id="com.archimatetool.editor.UseRelationshipUIProvider">
       </uiProvider>
       <uiProvider
+            class="com.archimatetool.editor.ui.factory.relationships.RequireRelationshipUIProvider"
+            id="com.archimatetool.editor.RequireRelationshipUIProvider">
+      </uiProvider>
+      <uiProvider
             class="com.archimatetool.editor.ui.factory.relationships.TriggeringRelationshipUIProvider"
             id="com.archimatetool.editor.TriggeringRelationshipUIProvider">
       </uiProvider>

@@ -10544,6 +10544,88 @@ public interface IArchimatePackage extends EPackage {
 	int OFFER_RELATIONSHIP_FEATURE_COUNT = ARCHIMATE_RELATIONSHIP_FEATURE_COUNT + 0;
 
 				/**
+	 * The meta object id for the '{@link com.archimatetool.model.impl.RequireRelationship <em>Require Relationship</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.archimatetool.model.impl.RequireRelationship
+	 * @see com.archimatetool.model.impl.ArchimatePackage#getRequireRelationship()
+	 * @generated
+	 */
+	int REQUIRE_RELATIONSHIP = 151;
+
+				/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int REQUIRE_RELATIONSHIP__NAME = ARCHIMATE_RELATIONSHIP__NAME;
+
+				/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int REQUIRE_RELATIONSHIP__ID = ARCHIMATE_RELATIONSHIP__ID;
+
+				/**
+	 * The feature id for the '<em><b>Features</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int REQUIRE_RELATIONSHIP__FEATURES = ARCHIMATE_RELATIONSHIP__FEATURES;
+
+				/**
+	 * The feature id for the '<em><b>Documentation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int REQUIRE_RELATIONSHIP__DOCUMENTATION = ARCHIMATE_RELATIONSHIP__DOCUMENTATION;
+
+				/**
+	 * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int REQUIRE_RELATIONSHIP__PROPERTIES = ARCHIMATE_RELATIONSHIP__PROPERTIES;
+
+				/**
+	 * The feature id for the '<em><b>Source</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int REQUIRE_RELATIONSHIP__SOURCE = ARCHIMATE_RELATIONSHIP__SOURCE;
+
+				/**
+	 * The feature id for the '<em><b>Target</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int REQUIRE_RELATIONSHIP__TARGET = ARCHIMATE_RELATIONSHIP__TARGET;
+
+				/**
+	 * The number of structural features of the '<em>Require Relationship</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int REQUIRE_RELATIONSHIP_FEATURE_COUNT = ARCHIMATE_RELATIONSHIP_FEATURE_COUNT + 0;
+
+				/**
 	 * The meta object id for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -10551,7 +10633,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFolderType()
 	 * @generated
 	 */
-    int FOLDER_TYPE = 151;
+    int FOLDER_TYPE = 152;
 
     /**
 	 * The meta object id for the '<em>File</em>' data type.
@@ -10561,7 +10643,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFile()
 	 * @generated
 	 */
-    int FILE = 152;
+    int FILE = 153;
 
 
     /**
@@ -12735,6 +12817,16 @@ public interface IArchimatePackage extends EPackage {
 	EClass getOfferRelationship();
 
 				/**
+	 * Returns the meta object for class '{@link com.archimatetool.model.IRequireRelationship <em>Require Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Require Relationship</em>'.
+	 * @see com.archimatetool.model.IRequireRelationship
+	 * @generated
+	 */
+	EClass getRequireRelationship();
+
+				/**
 	 * Returns the meta object for enum '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}'.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -14766,6 +14858,16 @@ public interface IArchimatePackage extends EPackage {
 		 * @generated
 		 */
 		EClass OFFER_RELATIONSHIP = eINSTANCE.getOfferRelationship();
+
+								/**
+		 * The meta object literal for the '{@link com.archimatetool.model.impl.RequireRelationship <em>Require Relationship</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.archimatetool.model.impl.RequireRelationship
+		 * @see com.archimatetool.model.impl.ArchimatePackage#getRequireRelationship()
+		 * @generated
+		 */
+		EClass REQUIRE_RELATIONSHIP = eINSTANCE.getRequireRelationship();
 
 								/**
 		 * The meta object literal for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.
