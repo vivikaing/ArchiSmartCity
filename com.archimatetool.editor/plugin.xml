@@ -1238,6 +1238,18 @@
             class="com.archimatetool.editor.ui.factory.relationships.ProvideRelationshipUIProvider"
             id="com.archimatetool.editor.ProvideRelationshipUIProvider">
       </uiProvider>
+       <uiProvider
+            class="com.archimatetool.editor.ui.factory.relationships.AutomateRelationshipUIProvider"
+            id="com.archimatetool.editor.AutomateRelationshipUIProvider">
+      </uiProvider>
+       <uiProvider
+            class="com.archimatetool.editor.ui.factory.relationships.MeetRelationshipUIProvider"
+            id="com.archimatetool.editor.MeetRelationshipUIProvider">
+      </uiProvider>
+       <uiProvider
+            class="com.archimatetool.editor.ui.factory.relationships.InterfaceRelationshipUIProvider"
+            id="com.archimatetool.editor.InterfaceRelationshipUIProvider">
+      </uiProvider>
       <uiProvider
             class="com.archimatetool.editor.ui.factory.relationships.TriggeringRelationshipUIProvider"
             id="com.archimatetool.editor.TriggeringRelationshipUIProvider">

@@ -10954,6 +10954,252 @@ public interface IArchimatePackage extends EPackage {
 	int PARTICIPATE_RELATIONSHIP_FEATURE_COUNT = ARCHIMATE_RELATIONSHIP_FEATURE_COUNT + 0;
 
 				/**
+	 * The meta object id for the '{@link com.archimatetool.model.impl.AutomateRelationship <em>Automate Relationship</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.archimatetool.model.impl.AutomateRelationship
+	 * @see com.archimatetool.model.impl.ArchimatePackage#getAutomateRelationship()
+	 * @generated
+	 */
+	int AUTOMATE_RELATIONSHIP = 156;
+
+				/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int AUTOMATE_RELATIONSHIP__NAME = ARCHIMATE_RELATIONSHIP__NAME;
+
+				/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int AUTOMATE_RELATIONSHIP__ID = ARCHIMATE_RELATIONSHIP__ID;
+
+				/**
+	 * The feature id for the '<em><b>Features</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int AUTOMATE_RELATIONSHIP__FEATURES = ARCHIMATE_RELATIONSHIP__FEATURES;
+
+				/**
+	 * The feature id for the '<em><b>Documentation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int AUTOMATE_RELATIONSHIP__DOCUMENTATION = ARCHIMATE_RELATIONSHIP__DOCUMENTATION;
+
+				/**
+	 * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int AUTOMATE_RELATIONSHIP__PROPERTIES = ARCHIMATE_RELATIONSHIP__PROPERTIES;
+
+				/**
+	 * The feature id for the '<em><b>Source</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int AUTOMATE_RELATIONSHIP__SOURCE = ARCHIMATE_RELATIONSHIP__SOURCE;
+
+				/**
+	 * The feature id for the '<em><b>Target</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int AUTOMATE_RELATIONSHIP__TARGET = ARCHIMATE_RELATIONSHIP__TARGET;
+
+				/**
+	 * The number of structural features of the '<em>Automate Relationship</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int AUTOMATE_RELATIONSHIP_FEATURE_COUNT = ARCHIMATE_RELATIONSHIP_FEATURE_COUNT + 0;
+
+				/**
+	 * The meta object id for the '{@link com.archimatetool.model.impl.MeetRelationship <em>Meet Relationship</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.archimatetool.model.impl.MeetRelationship
+	 * @see com.archimatetool.model.impl.ArchimatePackage#getMeetRelationship()
+	 * @generated
+	 */
+	int MEET_RELATIONSHIP = 157;
+
+				/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MEET_RELATIONSHIP__NAME = ARCHIMATE_RELATIONSHIP__NAME;
+
+				/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MEET_RELATIONSHIP__ID = ARCHIMATE_RELATIONSHIP__ID;
+
+				/**
+	 * The feature id for the '<em><b>Features</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MEET_RELATIONSHIP__FEATURES = ARCHIMATE_RELATIONSHIP__FEATURES;
+
+				/**
+	 * The feature id for the '<em><b>Documentation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MEET_RELATIONSHIP__DOCUMENTATION = ARCHIMATE_RELATIONSHIP__DOCUMENTATION;
+
+				/**
+	 * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MEET_RELATIONSHIP__PROPERTIES = ARCHIMATE_RELATIONSHIP__PROPERTIES;
+
+				/**
+	 * The feature id for the '<em><b>Source</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MEET_RELATIONSHIP__SOURCE = ARCHIMATE_RELATIONSHIP__SOURCE;
+
+				/**
+	 * The feature id for the '<em><b>Target</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MEET_RELATIONSHIP__TARGET = ARCHIMATE_RELATIONSHIP__TARGET;
+
+				/**
+	 * The number of structural features of the '<em>Meet Relationship</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int MEET_RELATIONSHIP_FEATURE_COUNT = ARCHIMATE_RELATIONSHIP_FEATURE_COUNT + 0;
+
+				/**
+	 * The meta object id for the '{@link com.archimatetool.model.impl.InterfaceRelationship <em>Interface Relationship</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see com.archimatetool.model.impl.InterfaceRelationship
+	 * @see com.archimatetool.model.impl.ArchimatePackage#getInterfaceRelationship()
+	 * @generated
+	 */
+	int INTERFACE_RELATIONSHIP = 158;
+
+				/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INTERFACE_RELATIONSHIP__NAME = ARCHIMATE_RELATIONSHIP__NAME;
+
+				/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INTERFACE_RELATIONSHIP__ID = ARCHIMATE_RELATIONSHIP__ID;
+
+				/**
+	 * The feature id for the '<em><b>Features</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INTERFACE_RELATIONSHIP__FEATURES = ARCHIMATE_RELATIONSHIP__FEATURES;
+
+				/**
+	 * The feature id for the '<em><b>Documentation</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INTERFACE_RELATIONSHIP__DOCUMENTATION = ARCHIMATE_RELATIONSHIP__DOCUMENTATION;
+
+				/**
+	 * The feature id for the '<em><b>Properties</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INTERFACE_RELATIONSHIP__PROPERTIES = ARCHIMATE_RELATIONSHIP__PROPERTIES;
+
+				/**
+	 * The feature id for the '<em><b>Source</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INTERFACE_RELATIONSHIP__SOURCE = ARCHIMATE_RELATIONSHIP__SOURCE;
+
+				/**
+	 * The feature id for the '<em><b>Target</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INTERFACE_RELATIONSHIP__TARGET = ARCHIMATE_RELATIONSHIP__TARGET;
+
+				/**
+	 * The number of structural features of the '<em>Interface Relationship</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INTERFACE_RELATIONSHIP_FEATURE_COUNT = ARCHIMATE_RELATIONSHIP_FEATURE_COUNT + 0;
+
+				/**
 	 * The meta object id for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -10961,7 +11207,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFolderType()
 	 * @generated
 	 */
-    int FOLDER_TYPE = 156;
+    int FOLDER_TYPE = 159;
 
     /**
 	 * The meta object id for the '<em>File</em>' data type.
@@ -10971,7 +11217,7 @@ public interface IArchimatePackage extends EPackage {
 	 * @see com.archimatetool.model.impl.ArchimatePackage#getFile()
 	 * @generated
 	 */
-    int FILE = 157;
+    int FILE = 160;
 
 
     /**
@@ -13195,6 +13441,36 @@ public interface IArchimatePackage extends EPackage {
 	EClass getParticipateRelationship();
 
 				/**
+	 * Returns the meta object for class '{@link com.archimatetool.model.IAutomateRelationship <em>Automate Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Automate Relationship</em>'.
+	 * @see com.archimatetool.model.IAutomateRelationship
+	 * @generated
+	 */
+	EClass getAutomateRelationship();
+
+				/**
+	 * Returns the meta object for class '{@link com.archimatetool.model.IMeetRelationship <em>Meet Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Meet Relationship</em>'.
+	 * @see com.archimatetool.model.IMeetRelationship
+	 * @generated
+	 */
+	EClass getMeetRelationship();
+
+				/**
+	 * Returns the meta object for class '{@link com.archimatetool.model.IInterfaceRelationship <em>Interface Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Interface Relationship</em>'.
+	 * @see com.archimatetool.model.IInterfaceRelationship
+	 * @generated
+	 */
+	EClass getInterfaceRelationship();
+
+				/**
 	 * Returns the meta object for enum '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}'.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -15276,6 +15552,36 @@ public interface IArchimatePackage extends EPackage {
 		 * @generated
 		 */
 		EClass PARTICIPATE_RELATIONSHIP = eINSTANCE.getParticipateRelationship();
+
+								/**
+		 * The meta object literal for the '{@link com.archimatetool.model.impl.AutomateRelationship <em>Automate Relationship</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.archimatetool.model.impl.AutomateRelationship
+		 * @see com.archimatetool.model.impl.ArchimatePackage#getAutomateRelationship()
+		 * @generated
+		 */
+		EClass AUTOMATE_RELATIONSHIP = eINSTANCE.getAutomateRelationship();
+
+								/**
+		 * The meta object literal for the '{@link com.archimatetool.model.impl.MeetRelationship <em>Meet Relationship</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.archimatetool.model.impl.MeetRelationship
+		 * @see com.archimatetool.model.impl.ArchimatePackage#getMeetRelationship()
+		 * @generated
+		 */
+		EClass MEET_RELATIONSHIP = eINSTANCE.getMeetRelationship();
+
+								/**
+		 * The meta object literal for the '{@link com.archimatetool.model.impl.InterfaceRelationship <em>Interface Relationship</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see com.archimatetool.model.impl.InterfaceRelationship
+		 * @see com.archimatetool.model.impl.ArchimatePackage#getInterfaceRelationship()
+		 * @generated
+		 */
+		EClass INTERFACE_RELATIONSHIP = eINSTANCE.getInterfaceRelationship();
 
 								/**
 		 * The meta object literal for the '{@link com.archimatetool.model.FolderType <em>Folder Type</em>}' enum.

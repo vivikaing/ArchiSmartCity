@@ -335,6 +335,9 @@ public class ArchimateModelUtils {
                 IArchimatePackage.eINSTANCE.getPlayRelationship(),
                 IArchimatePackage.eINSTANCE.getParticipateRelationship(),
                 IArchimatePackage.eINSTANCE.getProvideRelationship(),
+                IArchimatePackage.eINSTANCE.getAutomateRelationship(),
+                IArchimatePackage.eINSTANCE.getMeetRelationship(),
+                IArchimatePackage.eINSTANCE.getInterfaceRelationship(),
         };
     }
 

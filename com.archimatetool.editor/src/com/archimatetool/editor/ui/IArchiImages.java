@@ -157,7 +157,11 @@ public interface IArchiImages {
     String ICON_PLAY_RELATION = ARCHIMATE_IMGPATH + "play.png"; //$NON-NLS-1$
     String ICON_PARTICIPATE_RELATION = ARCHIMATE_IMGPATH + "participate.png"; //$NON-NLS-1$
     String ICON_PROVIDE_RELATION = ARCHIMATE_IMGPATH + "provide.png"; //$NON-NLS-1$
+    String ICON_AUTOMATE_RELATION = ARCHIMATE_IMGPATH + "automate.png"; //$NON-NLS-1$
+    String ICON_MEET_RELATION = ARCHIMATE_IMGPATH + "meet.png"; //$NON-NLS-1$
+    String ICON_INTERFACE_RELATION = ARCHIMATE_IMGPATH + "interface.png"; //$NON-NLS-1$
 
+    
     
     // Junctions
     String ICON_AND_JUNCTION = ARCHIMATE_IMGPATH + "and-junction.png"; //$NON-NLS-1$

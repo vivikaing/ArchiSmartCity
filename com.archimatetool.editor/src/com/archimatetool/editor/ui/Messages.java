@@ -138,8 +138,26 @@ public class Messages extends NLS {
     public static String ArchiLabelProvider_67;
     
     public static String ArchiLabelProvider_68;
+    
+    public static String ArchiLabelProvider_69;
 
     public static String ArchiLabelProvider_7;
+    
+    public static String ArchiLabelProvider_70;
+    
+    public static String ArchiLabelProvider_71;
+    
+    public static String ArchiLabelProvider_72;
+    
+    public static String ArchiLabelProvider_73;
+    
+    public static String ArchiLabelProvider_74;
+
+    public static String ArchiLabelProvider_75;
+    
+    public static String ArchiLabelProvider_76;
+    
+    public static String ArchiLabelProvider_77;
 
     public static String ArchiLabelProvider_8;
 

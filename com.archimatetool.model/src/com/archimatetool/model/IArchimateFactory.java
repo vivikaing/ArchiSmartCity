@@ -926,6 +926,33 @@ public interface IArchimateFactory extends EFactory {
 	IParticipateRelationship createParticipateRelationship();
 
 				/**
+	 * Returns a new object of class '<em>Automate Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Automate Relationship</em>'.
+	 * @generated
+	 */
+	IAutomateRelationship createAutomateRelationship();
+
+				/**
+	 * Returns a new object of class '<em>Meet Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Meet Relationship</em>'.
+	 * @generated
+	 */
+	IMeetRelationship createMeetRelationship();
+
+				/**
+	 * Returns a new object of class '<em>Interface Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Interface Relationship</em>'.
+	 * @generated
+	 */
+	IInterfaceRelationship createInterfaceRelationship();
+
+				/**
      * Create a new Bounds object
      * @param x
      * @param y

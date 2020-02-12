@@ -586,11 +586,11 @@
       <target concept="Indicator" derived="n" relations="no" />
       <target concept="Decision" derived="ftv" relations="fotv" />
       <target concept="Dashboard" derived="ftv" relations="fotv" />
-      <target concept="WebService" derived="ftv" relations="fotv" />
-      <target concept="QualityApplicationService" derived="a" relations="ao" />
+      <target concept="QualityApplicationService" derived="l" relations="l" />
       <target concept="CityActor" derived="ftv" relations="fotv" />
       <target concept="CityRole" derived="ftv" relations="fotv" />
       <target concept="CityObject" derived="a" relations="ao" />
+      <target concept="CityService" derived="j" relations="j" />
       <target concept="Middleware" derived="ftv" relations="fotv" />
    </source>
    <source concept="Artifact">
@@ -4825,7 +4825,7 @@
       <target concept="ApplicationInteraction" derived="ftv" relations="fotv" />
       <target concept="ApplicationInterface" derived="cfgtv" relations="fotv" />
       <target concept="ApplicationProcess" derived="ftv" relations="fotv" />
-      <target concept="ApplicationService" derived="fitv" relations="fiotv" />
+      <target concept="ApplicationService" derived="d" relations="d" />
       <target concept="Artifact" derived="a" relations="ao" />
       <target concept="Assessment" derived="n" relations="no" />
       <target concept="BusinessActor" derived="ftv" relations="fotv" />

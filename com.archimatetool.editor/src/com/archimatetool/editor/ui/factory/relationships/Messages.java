@@ -49,6 +49,12 @@ public class Messages extends NLS {
     public static String ParticipateRelationshipUIProvider_0;
     
     public static String ProvideRelationshipUIProvider_0;
+    
+    public static String AutomateRelationshipUIProvider_0;
+
+    public static String MeetRelationshipUIProvider_0;
+
+    public static String InterfaceRelationshipUIProvider_0;
 
     
     static {

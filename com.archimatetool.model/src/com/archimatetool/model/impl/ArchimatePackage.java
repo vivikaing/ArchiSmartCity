@@ -31,6 +31,7 @@ import com.archimatetool.model.IArtifact;
 import com.archimatetool.model.IAssessment;
 import com.archimatetool.model.IAssignmentRelationship;
 import com.archimatetool.model.IAssociationRelationship;
+import com.archimatetool.model.IAutomateRelationship;
 import com.archimatetool.model.IBehaviorElement;
 import com.archimatetool.model.IBelongingRelationship;
 import com.archimatetool.model.IBorderObject;
@@ -101,6 +102,8 @@ import com.archimatetool.model.IImplementationEvent;
 import com.archimatetool.model.IImplementationMigrationElement;
 import com.archimatetool.model.IIndicator;
 import com.archimatetool.model.IInfluenceRelationship;
+import com.archimatetool.model.IInterface;
+import com.archimatetool.model.IInterfaceRelationship;
 import com.archimatetool.model.IJunction;
 import com.archimatetool.model.ILineObject;
 import com.archimatetool.model.ILocation;
@@ -108,6 +111,7 @@ import com.archimatetool.model.ILockable;
 import com.archimatetool.model.IMaterial;
 import com.archimatetool.model.IMeaning;
 import com.archimatetool.model.IMeasureRelationship;
+import com.archimatetool.model.IMeetRelationship;
 import com.archimatetool.model.IMetadata;
 import com.archimatetool.model.IMiddleware;
 import com.archimatetool.model.IMotivationElement;
@@ -128,6 +132,7 @@ import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperties;
 import com.archimatetool.model.IProperty;
+import com.archimatetool.model.IProvideInterface;
 import com.archimatetool.model.IProvideRelationship;
 import com.archimatetool.model.IQualityApplicationService;
 import com.archimatetool.model.IQuantifyRelationship;
@@ -966,6 +971,27 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 	 * @generated
 	 */
 	private EClass participateRelationshipEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass automateRelationshipEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass meetRelationshipEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass interfaceRelationshipEClass = null;
 
 				/**
 	 * <!-- begin-user-doc -->
@@ -3052,6 +3078,36 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 				/**
 	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getAutomateRelationship() {
+		return automateRelationshipEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getMeetRelationship() {
+		return meetRelationshipEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getInterfaceRelationship() {
+		return interfaceRelationshipEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -3931,6 +3987,12 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 		participateRelationshipEClass = createEClass(PARTICIPATE_RELATIONSHIP);
 
+		automateRelationshipEClass = createEClass(AUTOMATE_RELATIONSHIP);
+
+		meetRelationshipEClass = createEClass(MEET_RELATIONSHIP);
+
+		interfaceRelationshipEClass = createEClass(INTERFACE_RELATIONSHIP);
+
 		// Create enums
 		folderTypeEEnum = createEEnum(FOLDER_TYPE);
 
@@ -4205,6 +4267,9 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		playRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
 		provideRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
 		participateRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
+		automateRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
+		meetRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
+		interfaceRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
 
 		// Initialize classes and features; add operations and parameters
 		initEClass(adapterEClass, IAdapter.class, "Adapter", IS_ABSTRACT, IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
@@ -4651,6 +4716,12 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		initEClass(provideRelationshipEClass, IProvideRelationship.class, "ProvideRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		initEClass(participateRelationshipEClass, IParticipateRelationship.class, "ParticipateRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(automateRelationshipEClass, IAutomateRelationship.class, "AutomateRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(meetRelationshipEClass, IMeetRelationship.class, "MeetRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(interfaceRelationshipEClass, IInterfaceRelationship.class, "InterfaceRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		// Initialize enums and add enum literals
 		initEEnum(folderTypeEEnum, FolderType.class, "FolderType"); //$NON-NLS-1$

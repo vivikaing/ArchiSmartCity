@@ -29,6 +29,7 @@ import com.archimatetool.model.IArtifact;
 import com.archimatetool.model.IAssessment;
 import com.archimatetool.model.IAssignmentRelationship;
 import com.archimatetool.model.IAssociationRelationship;
+import com.archimatetool.model.IAutomateRelationship;
 import com.archimatetool.model.IBehaviorElement;
 import com.archimatetool.model.IBelongingRelationship;
 import com.archimatetool.model.IBorderObject;
@@ -99,6 +100,8 @@ import com.archimatetool.model.IImplementationEvent;
 import com.archimatetool.model.IImplementationMigrationElement;
 import com.archimatetool.model.IIndicator;
 import com.archimatetool.model.IInfluenceRelationship;
+import com.archimatetool.model.IInterface;
+import com.archimatetool.model.IInterfaceRelationship;
 import com.archimatetool.model.IJunction;
 import com.archimatetool.model.ILineObject;
 import com.archimatetool.model.ILocation;
@@ -106,6 +109,7 @@ import com.archimatetool.model.ILockable;
 import com.archimatetool.model.IMaterial;
 import com.archimatetool.model.IMeaning;
 import com.archimatetool.model.IMeasureRelationship;
+import com.archimatetool.model.IMeetRelationship;
 import com.archimatetool.model.IMetadata;
 import com.archimatetool.model.IMiddleware;
 import com.archimatetool.model.IMotivationElement;
@@ -126,6 +130,7 @@ import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperties;
 import com.archimatetool.model.IProperty;
+import com.archimatetool.model.IProvideInterface;
 import com.archimatetool.model.IProvideRelationship;
 import com.archimatetool.model.IQualityApplicationService;
 import com.archimatetool.model.IQuantifyRelationship;
@@ -847,6 +852,18 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseParticipateRelationship(IParticipateRelationship object) {
 				return createParticipateRelationshipAdapter();
+			}
+			@Override
+			public Adapter caseAutomateRelationship(IAutomateRelationship object) {
+				return createAutomateRelationshipAdapter();
+			}
+			@Override
+			public Adapter caseMeetRelationship(IMeetRelationship object) {
+				return createMeetRelationshipAdapter();
+			}
+			@Override
+			public Adapter caseInterfaceRelationship(IInterfaceRelationship object) {
+				return createInterfaceRelationshipAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2433,6 +2450,48 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createParticipateRelationshipAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IAutomateRelationship <em>Automate Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IAutomateRelationship
+	 * @generated
+	 */
+	public Adapter createAutomateRelationshipAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IMeetRelationship <em>Meet Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IMeetRelationship
+	 * @generated
+	 */
+	public Adapter createMeetRelationshipAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IInterfaceRelationship <em>Interface Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IInterfaceRelationship
+	 * @generated
+	 */
+	public Adapter createInterfaceRelationshipAdapter() {
 		return null;
 	}
 

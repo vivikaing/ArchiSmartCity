@@ -23,4 +23,7 @@
     <key char="y" relationship="PlayRelationship" />
     <key char="x" relationship="ParticipateRelationship" />
     <key char="z" relationship="ProvideRelationship" />
+    <key char="j" relationship="AutomateRelationship" />
+    <key char="l" relationship="MeetRelationship" />
+    <key char="d" relationship="InterfaceRelationship" />
 </relationshipskeys>

@@ -29,6 +29,7 @@ import com.archimatetool.model.IArtifact;
 import com.archimatetool.model.IAssessment;
 import com.archimatetool.model.IAssignmentRelationship;
 import com.archimatetool.model.IAssociationRelationship;
+import com.archimatetool.model.IAutomateRelationship;
 import com.archimatetool.model.IBehaviorElement;
 import com.archimatetool.model.IBelongingRelationship;
 import com.archimatetool.model.IBorderObject;
@@ -99,6 +100,8 @@ import com.archimatetool.model.IImplementationEvent;
 import com.archimatetool.model.IImplementationMigrationElement;
 import com.archimatetool.model.IIndicator;
 import com.archimatetool.model.IInfluenceRelationship;
+import com.archimatetool.model.IInterface;
+import com.archimatetool.model.IInterfaceRelationship;
 import com.archimatetool.model.IJunction;
 import com.archimatetool.model.ILineObject;
 import com.archimatetool.model.ILocation;
@@ -106,6 +109,7 @@ import com.archimatetool.model.ILockable;
 import com.archimatetool.model.IMaterial;
 import com.archimatetool.model.IMeaning;
 import com.archimatetool.model.IMeasureRelationship;
+import com.archimatetool.model.IMeetRelationship;
 import com.archimatetool.model.IMetadata;
 import com.archimatetool.model.IMiddleware;
 import com.archimatetool.model.IMotivationElement;
@@ -126,6 +130,7 @@ import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperties;
 import com.archimatetool.model.IProperty;
+import com.archimatetool.model.IProvideInterface;
 import com.archimatetool.model.IProvideRelationship;
 import com.archimatetool.model.IQualityApplicationService;
 import com.archimatetool.model.IQuantifyRelationship;
@@ -2696,6 +2701,54 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.AUTOMATE_RELATIONSHIP: {
+				IAutomateRelationship automateRelationship = (IAutomateRelationship)theEObject;
+				T result = caseAutomateRelationship(automateRelationship);
+				if (result == null) result = caseArchimateRelationship(automateRelationship);
+				if (result == null) result = caseArchimateConcept(automateRelationship);
+				if (result == null) result = caseArchimateModelObject(automateRelationship);
+				if (result == null) result = caseCloneable(automateRelationship);
+				if (result == null) result = caseDocumentable(automateRelationship);
+				if (result == null) result = caseProperties(automateRelationship);
+				if (result == null) result = caseAdapter(automateRelationship);
+				if (result == null) result = caseNameable(automateRelationship);
+				if (result == null) result = caseIdentifier(automateRelationship);
+				if (result == null) result = caseFeatures(automateRelationship);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case IArchimatePackage.MEET_RELATIONSHIP: {
+				IMeetRelationship meetRelationship = (IMeetRelationship)theEObject;
+				T result = caseMeetRelationship(meetRelationship);
+				if (result == null) result = caseArchimateRelationship(meetRelationship);
+				if (result == null) result = caseArchimateConcept(meetRelationship);
+				if (result == null) result = caseArchimateModelObject(meetRelationship);
+				if (result == null) result = caseCloneable(meetRelationship);
+				if (result == null) result = caseDocumentable(meetRelationship);
+				if (result == null) result = caseProperties(meetRelationship);
+				if (result == null) result = caseAdapter(meetRelationship);
+				if (result == null) result = caseNameable(meetRelationship);
+				if (result == null) result = caseIdentifier(meetRelationship);
+				if (result == null) result = caseFeatures(meetRelationship);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
+			case IArchimatePackage.INTERFACE_RELATIONSHIP: {
+				IInterfaceRelationship interfaceRelationship = (IInterfaceRelationship)theEObject;
+				T result = caseInterfaceRelationship(interfaceRelationship);
+				if (result == null) result = caseArchimateRelationship(interfaceRelationship);
+				if (result == null) result = caseArchimateConcept(interfaceRelationship);
+				if (result == null) result = caseArchimateModelObject(interfaceRelationship);
+				if (result == null) result = caseCloneable(interfaceRelationship);
+				if (result == null) result = caseDocumentable(interfaceRelationship);
+				if (result == null) result = caseProperties(interfaceRelationship);
+				if (result == null) result = caseAdapter(interfaceRelationship);
+				if (result == null) result = caseNameable(interfaceRelationship);
+				if (result == null) result = caseIdentifier(interfaceRelationship);
+				if (result == null) result = caseFeatures(interfaceRelationship);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -4377,6 +4430,51 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseParticipateRelationship(IParticipateRelationship object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Automate Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Automate Relationship</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseAutomateRelationship(IAutomateRelationship object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Meet Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Meet Relationship</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseMeetRelationship(IMeetRelationship object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Interface Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Interface Relationship</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseInterfaceRelationship(IInterfaceRelationship object) {
 		return null;
 	}
 

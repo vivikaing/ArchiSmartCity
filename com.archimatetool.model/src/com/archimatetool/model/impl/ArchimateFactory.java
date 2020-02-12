@@ -31,6 +31,7 @@ import com.archimatetool.model.IArtifact;
 import com.archimatetool.model.IAssessment;
 import com.archimatetool.model.IAssignmentRelationship;
 import com.archimatetool.model.IAssociationRelationship;
+import com.archimatetool.model.IAutomateRelationship;
 import com.archimatetool.model.IBelongingRelationship;
 import com.archimatetool.model.IBounds;
 import com.archimatetool.model.IBusinessActor;
@@ -80,11 +81,14 @@ import com.archimatetool.model.IGrouping;
 import com.archimatetool.model.IImplementationEvent;
 import com.archimatetool.model.IIndicator;
 import com.archimatetool.model.IInfluenceRelationship;
+import com.archimatetool.model.IInterface;
+import com.archimatetool.model.IInterfaceRelationship;
 import com.archimatetool.model.IJunction;
 import com.archimatetool.model.ILocation;
 import com.archimatetool.model.IMaterial;
 import com.archimatetool.model.IMeaning;
 import com.archimatetool.model.IMeasureRelationship;
+import com.archimatetool.model.IMeetRelationship;
 import com.archimatetool.model.IMetadata;
 import com.archimatetool.model.IMiddleware;
 import com.archimatetool.model.INode;
@@ -99,6 +103,7 @@ import com.archimatetool.model.IPlayRelationship;
 import com.archimatetool.model.IPrinciple;
 import com.archimatetool.model.IProduct;
 import com.archimatetool.model.IProperty;
+import com.archimatetool.model.IProvideInterface;
 import com.archimatetool.model.IProvideRelationship;
 import com.archimatetool.model.IQualityApplicationService;
 import com.archimatetool.model.IQuantifyRelationship;
@@ -285,6 +290,9 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.PLAY_RELATIONSHIP: return createPlayRelationship();
 			case IArchimatePackage.PROVIDE_RELATIONSHIP: return createProvideRelationship();
 			case IArchimatePackage.PARTICIPATE_RELATIONSHIP: return createParticipateRelationship();
+			case IArchimatePackage.AUTOMATE_RELATIONSHIP: return createAutomateRelationship();
+			case IArchimatePackage.MEET_RELATIONSHIP: return createMeetRelationship();
+			case IArchimatePackage.INTERFACE_RELATIONSHIP: return createInterfaceRelationship();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1418,6 +1426,39 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public IParticipateRelationship createParticipateRelationship() {
 		ParticipateRelationship participateRelationship = new ParticipateRelationship();
 		return participateRelationship;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IAutomateRelationship createAutomateRelationship() {
+		AutomateRelationship automateRelationship = new AutomateRelationship();
+		return automateRelationship;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IMeetRelationship createMeetRelationship() {
+		MeetRelationship meetRelationship = new MeetRelationship();
+		return meetRelationship;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IInterfaceRelationship createInterfaceRelationship() {
+		InterfaceRelationship interfaceRelationship = new InterfaceRelationship();
+		return interfaceRelationship;
 	}
 
 				/* (non-Javadoc)

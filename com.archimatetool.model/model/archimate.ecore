@@ -471,4 +471,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="PlayRelationship" eSuperTypes="#//ArchimateRelationship"/>
   <eClassifiers xsi:type="ecore:EClass" name="ProvideRelationship" eSuperTypes="#//ArchimateRelationship"/>
   <eClassifiers xsi:type="ecore:EClass" name="ParticipateRelationship" eSuperTypes="#//ArchimateRelationship"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AutomateRelationship" eSuperTypes="#//ArchimateRelationship"/>
+  <eClassifiers xsi:type="ecore:EClass" name="MeetRelationship" eSuperTypes="#//ArchimateRelationship"/>
+  <eClassifiers xsi:type="ecore:EClass" name="InterfaceRelationship" eSuperTypes="#//ArchimateRelationship"/>
 </ecore:EPackage>

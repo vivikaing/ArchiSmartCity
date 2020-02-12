@@ -9,7 +9,11 @@ import com.archimatetool.editor.diagram.editparts.ArchimateRelationshipEditPart;
 import com.archimatetool.editor.diagram.figures.connections.SupportConnectionFigure;
 import com.archimatetool.editor.ui.IArchiImages;
 import com.archimatetool.model.IArchimatePackage;
-
+/**
+ * Relationship UI Provider
+ * 
+ * @author Viviana Bastidas
+ */
 public class SupportRelationshipUIProvider extends AbstractArchimateRelationshipUIProvider {
 
 	 @Override

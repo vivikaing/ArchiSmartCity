@@ -12,7 +12,7 @@ import com.archimatetool.editor.ui.IArchiImages;
 import com.archimatetool.model.IArchimatePackage;
 
 /**
- * Serving Relationship UI Provider
+ * Relationship UI Provider
  * 
  * @author Viviana Bastidas
  */

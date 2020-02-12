@@ -341,5 +341,8 @@
     <genClasses ecoreClass="archimate.ecore#//PlayRelationship"/>
     <genClasses ecoreClass="archimate.ecore#//ProvideRelationship"/>
     <genClasses ecoreClass="archimate.ecore#//ParticipateRelationship"/>
+    <genClasses ecoreClass="archimate.ecore#//AutomateRelationship"/>
+    <genClasses ecoreClass="archimate.ecore#//MeetRelationship"/>
+    <genClasses ecoreClass="archimate.ecore#//InterfaceRelationship"/>
   </genPackages>
 </genmodel:GenModel>
