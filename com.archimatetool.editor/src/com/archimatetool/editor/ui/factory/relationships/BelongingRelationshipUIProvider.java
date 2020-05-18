@@ -6,7 +6,6 @@ import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.swt.graphics.Image;
 
 import com.archimatetool.editor.diagram.editparts.ArchimateRelationshipEditPart;
-import com.archimatetool.editor.diagram.figures.connections.AggregationConnectionFigure;
 import com.archimatetool.editor.diagram.figures.connections.BelongingConnectionFigure;
 import com.archimatetool.editor.ui.IArchiImages;
 import com.archimatetool.model.IArchimatePackage;

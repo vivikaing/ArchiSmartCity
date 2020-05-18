@@ -2479,7 +2479,6 @@
       <target concept="Facility" derived="" relations="o" />
       <target concept="Gap" derived="" relations="o" />
       <target concept="Goal" derived="cgn" relations="cgnos" />
-      <target concept="Objective" derived="" relations="q" />
       <target concept="Grouping" derived="" relations="cgnos" />
       <target concept="ImplementationEvent" derived="" relations="o" />
       <target concept="Junction" derived="" relations="no" />
@@ -2582,7 +2581,6 @@
       <target concept="Value" derived="n" relations="no" />
       <target concept="WorkPackage" derived="" relations="o" />
       <target concept="Domain" derived="b" relations="b" />
-      <target concept="Indicator" derived="" relations="m" />
       <target concept="Decision" derived="" relations="o" />
       <target concept="Dashboard" derived="" relations="o" />
       <target concept="WebService" derived="" relations="o" />
@@ -4629,7 +4627,6 @@
       <target concept="Facility" derived="" relations="o" />
       <target concept="Gap" derived="" relations="o" />
       <target concept="Goal" derived="n" relations="no" />
-      <target concept="Objective" derived="" relations="m" />
       <target concept="Grouping" derived="" relations="cgnos" />
       <target concept="ImplementationEvent" derived="" relations="o" />
       <target concept="Junction" derived="" relations="no" />
@@ -4658,6 +4655,7 @@
       <target concept="Value" derived="n" relations="no" />
       <target concept="WorkPackage" derived="" relations="o" />
       <target concept="Domain" derived="b" relations="b" />
+      <target concept="Objective" derived="" relations="m" />
       <target concept="Indicator" derived="cgn" relations="cgnos" />
       <target concept="Decision" derived="" relations="o" />
       <target concept="Dashboard" derived="" relations="o" />
