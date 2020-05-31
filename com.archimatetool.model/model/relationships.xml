@@ -5263,4 +5263,9 @@
       <target concept="Domain" derived="b" relations="b" />
       <target concept="CityObject" derived="u" relations="u" />      
    </source>
+   <source concept="QualityLifeDimension">
+      <target concept="QualityLifeDimension" derived="cfgtv" relations="cfgostv" />
+      <target concept="Indicator" derived="b" relations="b" />
+   </source>
+   
  </relationships>

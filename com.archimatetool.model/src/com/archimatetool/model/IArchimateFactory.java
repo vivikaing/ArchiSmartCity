@@ -953,6 +953,15 @@ public interface IArchimateFactory extends EFactory {
 	IInterfaceRelationship createInterfaceRelationship();
 
 				/**
+	 * Returns a new object of class '<em>Quality Life Dimension</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Quality Life Dimension</em>'.
+	 * @generated
+	 */
+	IQualityLifeDimension createQualityLifeDimension();
+
+				/**
      * Create a new Bounds object
      * @param x
      * @param y

@@ -13,7 +13,7 @@ import com.archimatetool.editor.ui.IArchiImages;
 import com.archimatetool.model.IArchimatePackage;
 
 /**
- * Business Process UI Provider
+ * CityRole UI Provider
  * 
  * @author Viviana Bastidas
  */

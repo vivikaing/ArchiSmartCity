@@ -133,6 +133,7 @@ import com.archimatetool.model.IProperty;
 import com.archimatetool.model.IProvideInterface;
 import com.archimatetool.model.IProvideRelationship;
 import com.archimatetool.model.IQualityApplicationService;
+import com.archimatetool.model.IQualityLifeDimension;
 import com.archimatetool.model.IQuantifyRelationship;
 import com.archimatetool.model.IRealizationRelationship;
 import com.archimatetool.model.IRepresentation;
@@ -2749,6 +2750,25 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.QUALITY_LIFE_DIMENSION: {
+				IQualityLifeDimension qualityLifeDimension = (IQualityLifeDimension)theEObject;
+				T result = caseQualityLifeDimension(qualityLifeDimension);
+				if (result == null) result = caseBusinessElement(qualityLifeDimension);
+				if (result == null) result = casePassiveStructureElement(qualityLifeDimension);
+				if (result == null) result = caseStructureElement(qualityLifeDimension);
+				if (result == null) result = caseArchimateElement(qualityLifeDimension);
+				if (result == null) result = caseArchimateConcept(qualityLifeDimension);
+				if (result == null) result = caseArchimateModelObject(qualityLifeDimension);
+				if (result == null) result = caseCloneable(qualityLifeDimension);
+				if (result == null) result = caseDocumentable(qualityLifeDimension);
+				if (result == null) result = caseProperties(qualityLifeDimension);
+				if (result == null) result = caseAdapter(qualityLifeDimension);
+				if (result == null) result = caseNameable(qualityLifeDimension);
+				if (result == null) result = caseIdentifier(qualityLifeDimension);
+				if (result == null) result = caseFeatures(qualityLifeDimension);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -4475,6 +4495,21 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseInterfaceRelationship(IInterfaceRelationship object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Quality Life Dimension</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Quality Life Dimension</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseQualityLifeDimension(IQualityLifeDimension object) {
 		return null;
 	}
 

@@ -1,7 +1,6 @@
 package com.archimatetool.editor.diagram.figures.elements;
 
 import java.io.File;
-
 import org.eclipse.draw2d.ColorConstants;
 import org.eclipse.draw2d.Graphics;
 import org.eclipse.draw2d.geometry.Point;
@@ -14,6 +13,12 @@ import org.eclipse.swt.widgets.Display;
 import com.archimatetool.editor.diagram.figures.AbstractTextControlContainerFigure;
 import com.archimatetool.editor.diagram.figures.RectangleFigureDelegate;
 import com.archimatetool.editor.ui.IArchiImages;
+
+/**
+ * CityObject Figure
+ * 
+ * @author Viviana Bastidas
+ */
 
 public class CityObjectFigure extends AbstractTextControlContainerFigure {
 

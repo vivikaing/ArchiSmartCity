@@ -106,6 +106,7 @@ import com.archimatetool.model.IProperty;
 import com.archimatetool.model.IProvideInterface;
 import com.archimatetool.model.IProvideRelationship;
 import com.archimatetool.model.IQualityApplicationService;
+import com.archimatetool.model.IQualityLifeDimension;
 import com.archimatetool.model.IQuantifyRelationship;
 import com.archimatetool.model.IRealizationRelationship;
 import com.archimatetool.model.IRepresentation;
@@ -293,6 +294,7 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.AUTOMATE_RELATIONSHIP: return createAutomateRelationship();
 			case IArchimatePackage.MEET_RELATIONSHIP: return createMeetRelationship();
 			case IArchimatePackage.INTERFACE_RELATIONSHIP: return createInterfaceRelationship();
+			case IArchimatePackage.QUALITY_LIFE_DIMENSION: return createQualityLifeDimension();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1459,6 +1461,17 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public IInterfaceRelationship createInterfaceRelationship() {
 		InterfaceRelationship interfaceRelationship = new InterfaceRelationship();
 		return interfaceRelationship;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IQualityLifeDimension createQualityLifeDimension() {
+		QualityLifeDimension qualityLifeDimension = new QualityLifeDimension();
+		return qualityLifeDimension;
 	}
 
 				/* (non-Javadoc)

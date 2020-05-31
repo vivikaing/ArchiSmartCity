@@ -117,6 +117,8 @@ public interface IArchiImages {
     String ICON_PRODUCT = ARCHIMATE_IMGPATH + "product.png"; //$NON-NLS-1$
     String ICON_QUALITY_APPLICATION_SERVICE = ARCHIMATE_IMGPATH + "quality-application-service.png"; //$NON-NLS-1$
     String ICON_QUALITY_APPLICATION_SERVICE_IMAGE = ARCHIMATE_IMGPATH + "quality-application-service@2x.png"; //$NON-NLS-1$
+    String ICON_QUALITY_LIFE_DIMENSION = ARCHIMATE_IMGPATH + "quality-life-dimension.png"; //$NON-NLS-1$
+    String ICON_QUALITY_LIFE_DIMENSION_IMAGE = ARCHIMATE_IMGPATH + "quality-life-dimension@2x.png"; //$NON-NLS-1$
     String ICON_REPRESENTATION = ARCHIMATE_IMGPATH + "representation.png"; //$NON-NLS-1$
     String ICON_RESOURCE = ARCHIMATE_IMGPATH + "resource.png"; //$NON-NLS-1$
     String ICON_REQUIREMENT = ARCHIMATE_IMGPATH + "requirement.png"; //$NON-NLS-1$

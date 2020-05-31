@@ -1089,7 +1089,10 @@
             class="com.archimatetool.editor.ui.factory.elements.QualityApplicationServiceUIProvider"
             id="com.archimatetool.editor.QualityApplicationServiceUIProvider">
       </uiProvider>
-      
+      <uiProvider
+            class="com.archimatetool.editor.ui.factory.elements.QualityLifeDimensionUIProvider"
+            id="com.archimatetool.editor.QualityLifeDimensionUIProvider">
+      </uiProvider>
       <uiProvider
             class="com.archimatetool.editor.ui.factory.elements.RepresentationUIProvider"
             id="com.archimatetool.editor.RepresentationUIProvider">

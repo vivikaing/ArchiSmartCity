@@ -119,6 +119,8 @@ public class Messages extends NLS {
     public static String ProductUIProvider_0;
     
     public static String QualityApplicationServiceUIProvider_0;
+    
+    public static String QualityLifeDimensionUIProvider_0;
 
     public static String RepresentationUIProvider_0;
 

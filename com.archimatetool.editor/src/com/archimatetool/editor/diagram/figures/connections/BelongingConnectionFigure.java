@@ -16,10 +16,20 @@ import org.eclipse.swt.SWT;
 
 public class BelongingConnectionFigure extends AbstractArchimateConnectionFigure {
 	/**
-     * @return Decoration to use on Target Node
+     * @return Decoration to use on Source Node
      */
     public static RotatableDecoration createFigureTargetDecoration() {
-        PolygonDecoration decoration = new PolygonDecoration() {
+        return new PolygonDecoration() {
+            {
+                setScale(5, 3);
+                PointList decorationPointList = new PointList();
+                decorationPointList.addPoint( 0, 0);
+                decorationPointList.addPoint(-1, 1);
+                decorationPointList.addPoint(-2, 0);
+                decorationPointList.addPoint(-1,-1);
+                setTemplate(decorationPointList);
+            }
+            
             @Override
             protected void fillShape(Graphics g) {
                 // Draw this as white in case it is disabled
@@ -27,10 +37,6 @@ public class BelongingConnectionFigure extends AbstractArchimateConnectionFigure
                 super.fillShape(g);
             }
         };
-        decoration.setScale(10, 7);
-        decoration.setBackgroundColor(ColorConstants.white);
-        
-        return decoration;
     }
     
     public BelongingConnectionFigure() {
@@ -38,19 +44,6 @@ public class BelongingConnectionFigure extends AbstractArchimateConnectionFigure
 
     @Override
     protected void setFigureProperties() {
-        //setTargetDecoration(createFigureTargetDecoration()); // arrow at target endpoint 
-    	setTargetDecoration(createFigureTargetDecoration());
-        
-        setLineStyle(SWT.LINE_CUSTOM); // We have to explitly set this otherwise dashes/dots don't show
-        setLineDash(getLineDashes(1));
-    }
-    
-    @Override
-    public void handleZoomChanged(double newZoomValue) {
-        setLineDash(getLineDashes(newZoomValue));
-    }
-    
-    private float[] getLineDashes(double zoomLevel) {
-        return new float[] { (float)(2 * zoomLevel) }; 
+        setTargetDecoration(createFigureTargetDecoration());
     }
 }

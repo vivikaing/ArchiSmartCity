@@ -344,5 +344,6 @@
     <genClasses ecoreClass="archimate.ecore#//AutomateRelationship"/>
     <genClasses ecoreClass="archimate.ecore#//MeetRelationship"/>
     <genClasses ecoreClass="archimate.ecore#//InterfaceRelationship"/>
+    <genClasses ecoreClass="archimate.ecore#//QualityLifeDimension"/>
   </genPackages>
 </genmodel:GenModel>

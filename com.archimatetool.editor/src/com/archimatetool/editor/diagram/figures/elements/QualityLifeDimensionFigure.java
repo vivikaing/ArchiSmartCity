@@ -16,20 +16,18 @@ import com.archimatetool.editor.diagram.figures.RectangleFigureDelegate;
 import com.archimatetool.editor.ui.IArchiImages;
 
 /**
- * CityActor Figure
+ * QualityLifeDimension Figure
  * 
  * @author Viviana Bastidas
  */
 
-public class CityActorFigure extends AbstractTextControlContainerFigure {
-
-	public CityActorFigure() {
-        super(TEXT_FLOW_CONTROL);
+public class QualityLifeDimensionFigure extends AbstractTextControlContainerFigure {
+	public QualityLifeDimensionFigure() {
+		super(TEXT_FLOW_CONTROL);
         // Use a Rectangle Figure Delegate to Draw
         setFigureDelegate(new RectangleFigureDelegate(this, 17 - getTextControlMarginWidth()));
     }
-    
-    @Override
+	@Override
     protected void drawFigure(Graphics graphics) {
         super.drawFigure(graphics);
         //drawIcon(graphics);
@@ -92,28 +90,26 @@ public class CityActorFigure extends AbstractTextControlContainerFigure {
 		final File path = new File(this.getClass().getProtectionDomain().getCodeSource().getLocation().getPath());
 		final Display display = Display.getDefault();
 
-		ImageData data = new ImageData(path + "/" + IArchiImages.ICON_CITY_ACTOR_IMAGE);
+		ImageData data = new ImageData(path + "/" + IArchiImages.ICON_QUALITY_LIFE_DIMENSION_IMAGE);
 		Image image = new Image(display, data);
 
 		int w = image.getImageData().width;
 		int h = image.getImageData().height;
-		graphics.drawImage(image, 0, 0, w, h, pt.x, pt.y, 14, 14);
+		graphics.drawImage(image, 0, 0, w, h, pt.x, pt.y, 22, 22);
 		graphics.popState();
 		image.dispose();
 	}
-    
     
     /**
      * @return The icon start position
      */
     protected Point getIconOrigin() {
         Rectangle bounds = getBounds();
-        return new Point(bounds.x + bounds.width - 19, bounds.y + 6);
+        return new Point(bounds.x + bounds.width - 24, bounds.y + 6);
     }
     
     @Override
     protected int getIconOffset() {
         return 23;
     }
-
 }

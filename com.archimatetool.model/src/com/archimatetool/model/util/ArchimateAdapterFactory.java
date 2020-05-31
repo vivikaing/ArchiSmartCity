@@ -133,6 +133,7 @@ import com.archimatetool.model.IProperty;
 import com.archimatetool.model.IProvideInterface;
 import com.archimatetool.model.IProvideRelationship;
 import com.archimatetool.model.IQualityApplicationService;
+import com.archimatetool.model.IQualityLifeDimension;
 import com.archimatetool.model.IQuantifyRelationship;
 import com.archimatetool.model.IRealizationRelationship;
 import com.archimatetool.model.IRepresentation;
@@ -864,6 +865,10 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseInterfaceRelationship(IInterfaceRelationship object) {
 				return createInterfaceRelationshipAdapter();
+			}
+			@Override
+			public Adapter caseQualityLifeDimension(IQualityLifeDimension object) {
+				return createQualityLifeDimensionAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2492,6 +2497,20 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createInterfaceRelationshipAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IQualityLifeDimension <em>Quality Life Dimension</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IQualityLifeDimension
+	 * @generated
+	 */
+	public Adapter createQualityLifeDimensionAdapter() {
 		return null;
 	}
 

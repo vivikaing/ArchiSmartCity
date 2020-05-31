@@ -193,6 +193,7 @@ public class ArchimateModelUtils {
                 IArchimatePackage.eINSTANCE.getContract(),
                 IArchimatePackage.eINSTANCE.getRepresentation(),
                 IArchimatePackage.eINSTANCE.getProduct(),
+                IArchimatePackage.eINSTANCE.getQualityLifeDimension(),
                 IArchimatePackage.eINSTANCE.getCityActor(),
                 IArchimatePackage.eINSTANCE.getCityRole(),
                 IArchimatePackage.eINSTANCE.getCityService(),
