@@ -30,9 +30,9 @@ ArchiSmartCity was developed on top of Archi® and the Eclipse Modelling Framewo
 2. In the editor, at the top-right, click "Set as Active Target Platform". NOTE - in some cases this may read "Reload Target Platform"
 3. Eclipse will download all the required dependencies. The progress can be seen in the lower right part of the status bar. NOTE - it can take some time.
 
-4. Run ArchiSmartCity from Eclipse:
-* In Eclipse's Package Explorer find the product file, "com.archimatetool.editor.product/archi.product", and open the file in the Eclipse Product Configuration Editor.
-* In the editor, click "Launch an Eclipse Application in Debug mode" (bottom left of the editor).
+### Run ArchiSmartCity from Eclipse
+1. In Eclipse's Package Explorer find the product file, "com.archimatetool.editor.product/archi.product", and open the file in the Eclipse Product Configuration Editor.
+2. In the editor, click "Launch an Eclipse Application in Debug mode" (bottom left of the editor).
 
 For more information on the installation of the general Archi tool, please visit the [Archi Wiki](https://github.com/archimatetool/archi/wiki) and [the Configuration details](https://github.com/archimatetool/archi/wiki/Running-and-Debugging-Archi)
 
