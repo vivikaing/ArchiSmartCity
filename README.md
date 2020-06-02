@@ -23,13 +23,20 @@ ArchiSmartCity was developed on top of Archi® and the Eclipse Modelling Framewo
 
 1. Set up the Eclipse Environment [Eclipse Environment](https://github.com/archimatetool/archi/wiki/Setting-up-the-Eclipse-Environment)
 2. Download the latest version of ArchiSmartCity [ArchiSmartCity](https://github.com/vivikaing/ArchiSmartCity)
-3. Set up ArchiSmartCity 
-a. In the Eclipse's Package Explorer find the target file, "com.archimatetool.editor.product/archi.target", and open the file in the Eclipse Target Editor
-b. In the editor, at the top-right, click "Set as Active Target Platform". NOTE - in some cases this may read "Reload Target Platform"
-c. Eclipse will download all the required dependencies. The progress can be seen in the lower right part of the status bar. NOTE - it can take some time.
+
+3. Set up ArchiSmartCity.
+
+3.1 In the Eclipse's Package Explorer find the target file, "com.archimatetool.editor.product/archi.target", and open the file in the Eclipse Target Editor.
+
+3.2 In the editor, at the top-right, click "Set as Active Target Platform". NOTE - in some cases this may read "Reload Target Platform"
+
+3.3 Eclipse will download all the required dependencies. The progress can be seen in the lower right part of the status bar. NOTE - it can take some time.
+
 4. Run ArchiSmartCity from Eclipse
-4.1 In Eclipse's Package Explorer find the product file, "com.archimatetool.editor.product/archi.product", and open the file in the Eclipse Product Configuration Editor
-4.2 In the editor, click "Launch an Eclipse Application in Debug mode" (bottom left of the editor)
+
+a. In Eclipse's Package Explorer find the product file, "com.archimatetool.editor.product/archi.product", and open the file in the Eclipse Product Configuration Editor.
+
+b. In the editor, click "Launch an Eclipse Application in Debug mode" (bottom left of the editor).
 
 For more details on the installation of Archi tool, please visit [Archi Wiki](https://github.com/archimatetool/archi/wiki) and [its Configuration](https://github.com/archimatetool/archi/wiki/Running-and-Debugging-Archi)
 
