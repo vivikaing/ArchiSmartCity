@@ -19,8 +19,10 @@ Archi website:
 
 ## Building and running the code
 
-All developer resources are here:
+ArchiSmartCity was developed on top of Archi and the Eclipse Modelling Framework (EMF). Please install Eclipse and ArchiSmartCity by following the next steps:
 
-[https://github.com/archimatetool/archi/wiki/Developer-Documentation](https://github.com/archimatetool/archi/wiki/Developer-Documentation)
+1. Set up the Eclipse Environment [Eclipse Environment](https://github.com/archimatetool/archi/wiki/Setting-up-the-Eclipse-Environment)
+2. Download the latest version of ArchiSmartCity [ArchiSmartCity](https://github.com/vivikaing/ArchiSmartCity)
+3. Run and debug ArchiSmartCity [Set Up and Run Target Platform](https://github.com/archimatetool/archi/wiki/Running-and-Debugging-Archi)
 
 
