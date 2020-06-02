@@ -2,13 +2,13 @@
 
 # Archi - ArchiMate Modelling Editor for Smart Cities
 
-ArchiSmartCity® modelling tool is an extension of Archi® developed for Smart Cities. ArchiSmartCity® is a free and open-source tool and editor to create ArchiMate-based models.
+ArchiSmartCity® is an Enterprise Architecture Modelling Language for Smart Cities based on ArchiMate®. ArchiSmartCity® extends Archi® modelling tool by adding new concepts and relationships of the Smart City domain to supports the alignment with Smart City strategies.
 
-Enterprise Architecture Management for Smart Cities Website:
+The ArchiSmartCity® modelling tool is created to be used by Enterprise Architects and Modellers following TOGAF and our Enterprise Architecture Framework and Methodology for Smart Cities.
 
-[http://scrita.lero.ie/]
+Enterprise Architecture Management for Smart Cities website:
 
-The Archi® modelling tool is targeted toward all levels of Enterprise Architects and Modellers. It provides a low cost to entry solution to users who may be making their first steps in the ArchiMate modelling language, or who are looking for a free, cross-platform ArchiMate modelling tool for their company or institution and wish to engage with the language within a TOGAF® or other Enterprise Architecture framework.
+[http://scrita.lero.ie/](http://scrita.lero.ie/) 
 
 ArchiMate® is an open and independent Enterprise Architecture modelling language that supports the description, analysis and visualization of architecture within and across business domains. ArchiMate is one of the open standards hosted by The Open Group and is fully aligned with TOGAF®.
 
