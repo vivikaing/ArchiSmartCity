@@ -4,7 +4,7 @@
 
 ArchiSmartCity® is an Enterprise Architecture modelling language for Smart Cities based on ArchiMate®. ArchiSmartCity® extends Archi® modelling tool by adding new concepts and relationships of the Smart City domain to support the alignment with Smart City strategies.
 
-The ArchiSmartCity® modelling tool is created to be used by Enterprise Architects and Modellers who want to describe enterprise architectures for Smart Cities.
+The ArchiSmartCity® modelling tool is created to be used by Enterprise Architects and Modellers who want to describe enterprise architectures for Smart Cities. It is a free and open source tool.
 
 Enterprise Architecture Management for Smart Cities website:
 
@@ -24,6 +24,3 @@ All developer resources are here:
 [https://github.com/archimatetool/archi/wiki/Developer-Documentation](https://github.com/archimatetool/archi/wiki/Developer-Documentation)
 
 
-## Contributing code to Archi
-
-Please see [How can I contribute code to Archi?](https://github.com/Phillipus/archi/wiki/How-can-I-contribute-code-to-Archi%3F)
