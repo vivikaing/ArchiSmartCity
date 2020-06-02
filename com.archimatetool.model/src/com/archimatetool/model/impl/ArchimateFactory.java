@@ -78,6 +78,7 @@ import com.archimatetool.model.IFolder;
 import com.archimatetool.model.IGap;
 import com.archimatetool.model.IGoal;
 import com.archimatetool.model.IGrouping;
+import com.archimatetool.model.IImpactRelationship;
 import com.archimatetool.model.IImplementationEvent;
 import com.archimatetool.model.IIndicator;
 import com.archimatetool.model.IInfluenceRelationship;
@@ -295,6 +296,7 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 			case IArchimatePackage.MEET_RELATIONSHIP: return createMeetRelationship();
 			case IArchimatePackage.INTERFACE_RELATIONSHIP: return createInterfaceRelationship();
 			case IArchimatePackage.QUALITY_LIFE_DIMENSION: return createQualityLifeDimension();
+			case IArchimatePackage.IMPACT_RELATIONSHIP: return createImpactRelationship();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier"); //$NON-NLS-1$ //$NON-NLS-2$
 		}
@@ -1472,6 +1474,17 @@ public class ArchimateFactory extends EFactoryImpl implements IArchimateFactory 
 	public IQualityLifeDimension createQualityLifeDimension() {
 		QualityLifeDimension qualityLifeDimension = new QualityLifeDimension();
 		return qualityLifeDimension;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public IImpactRelationship createImpactRelationship() {
+		ImpactRelationship impactRelationship = new ImpactRelationship();
+		return impactRelationship;
 	}
 
 				/* (non-Javadoc)

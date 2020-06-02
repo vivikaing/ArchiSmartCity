@@ -96,6 +96,7 @@ import com.archimatetool.model.IGap;
 import com.archimatetool.model.IGoal;
 import com.archimatetool.model.IGrouping;
 import com.archimatetool.model.IIdentifier;
+import com.archimatetool.model.IImpactRelationship;
 import com.archimatetool.model.IImplementationEvent;
 import com.archimatetool.model.IImplementationMigrationElement;
 import com.archimatetool.model.IIndicator;
@@ -869,6 +870,10 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseQualityLifeDimension(IQualityLifeDimension object) {
 				return createQualityLifeDimensionAdapter();
+			}
+			@Override
+			public Adapter caseImpactRelationship(IImpactRelationship object) {
+				return createImpactRelationshipAdapter();
 			}
 			@Override
 			public Adapter defaultCase(EObject object) {
@@ -2511,6 +2516,20 @@ public class ArchimateAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createQualityLifeDimensionAdapter() {
+		return null;
+	}
+
+				/**
+	 * Creates a new adapter for an object of class '{@link com.archimatetool.model.IImpactRelationship <em>Impact Relationship</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see com.archimatetool.model.IImpactRelationship
+	 * @generated
+	 */
+	public Adapter createImpactRelationshipAdapter() {
 		return null;
 	}
 

@@ -98,6 +98,7 @@ import com.archimatetool.model.IGap;
 import com.archimatetool.model.IGoal;
 import com.archimatetool.model.IGrouping;
 import com.archimatetool.model.IIdentifier;
+import com.archimatetool.model.IImpactRelationship;
 import com.archimatetool.model.IImplementationEvent;
 import com.archimatetool.model.IImplementationMigrationElement;
 import com.archimatetool.model.IIndicator;
@@ -1000,6 +1001,13 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 	 * @generated
 	 */
 	private EClass qualityLifeDimensionEClass = null;
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass impactRelationshipEClass = null;
 
 				/**
 	 * <!-- begin-user-doc -->
@@ -3126,6 +3134,16 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 				/**
 	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getImpactRelationship() {
+		return impactRelationshipEClass;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -4013,6 +4031,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 
 		qualityLifeDimensionEClass = createEClass(QUALITY_LIFE_DIMENSION);
 
+		impactRelationshipEClass = createEClass(IMPACT_RELATIONSHIP);
+
 		// Create enums
 		folderTypeEEnum = createEEnum(FOLDER_TYPE);
 
@@ -4292,6 +4312,7 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		interfaceRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
 		qualityLifeDimensionEClass.getESuperTypes().add(this.getBusinessElement());
 		qualityLifeDimensionEClass.getESuperTypes().add(this.getPassiveStructureElement());
+		impactRelationshipEClass.getESuperTypes().add(this.getArchimateRelationship());
 
 		// Initialize classes and features; add operations and parameters
 		initEClass(adapterEClass, IAdapter.class, "Adapter", IS_ABSTRACT, IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
@@ -4746,6 +4767,8 @@ public class ArchimatePackage extends EPackageImpl implements IArchimatePackage 
 		initEClass(interfaceRelationshipEClass, IInterfaceRelationship.class, "InterfaceRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		initEClass(qualityLifeDimensionEClass, IQualityLifeDimension.class, "QualityLifeDimension", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
+
+		initEClass(impactRelationshipEClass, IImpactRelationship.class, "ImpactRelationship", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS); //$NON-NLS-1$
 
 		// Initialize enums and add enum literals
 		initEEnum(folderTypeEEnum, FolderType.class, "FolderType"); //$NON-NLS-1$

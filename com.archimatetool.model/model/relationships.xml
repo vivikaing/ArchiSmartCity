@@ -4666,6 +4666,8 @@
       <target concept="CityObject" derived="" relations="o" />
       <target concept="Middleware" derived="" relations="o" />
       <target concept="CityService" derived="p" relations="p" />
+      <target concept="QualityLifeDimension" derived="h" relations="h" />
+      
    </source>
    <source concept="Decision">
       <target concept="ApplicationCollaboration" derived="ftv" relations="fotv" />
@@ -5265,7 +5267,6 @@
    </source>
    <source concept="QualityLifeDimension">
       <target concept="QualityLifeDimension" derived="cfgtv" relations="cfgostv" />
-      <target concept="Indicator" derived="b" relations="b" />
    </source>
    
  </relationships>

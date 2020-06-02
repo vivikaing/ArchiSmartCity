@@ -26,4 +26,5 @@
     <key char="j" relationship="AutomateRelationship" />
     <key char="l" relationship="MeetRelationship" />
     <key char="d" relationship="InterfaceRelationship" />
+    <key char="h" relationship="ImpactRelationship" />
 </relationshipskeys>

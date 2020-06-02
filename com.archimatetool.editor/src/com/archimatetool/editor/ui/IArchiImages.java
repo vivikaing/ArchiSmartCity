@@ -162,8 +162,9 @@ public interface IArchiImages {
     String ICON_AUTOMATE_RELATION = ARCHIMATE_IMGPATH + "automate.png"; //$NON-NLS-1$
     String ICON_MEET_RELATION = ARCHIMATE_IMGPATH + "meet.png"; //$NON-NLS-1$
     String ICON_INTERFACE_RELATION = ARCHIMATE_IMGPATH + "interface.png"; //$NON-NLS-1$
+    String ICON_IMPACT_RELATION = ARCHIMATE_IMGPATH + "impact.png"; //$NON-NLS-1$
 
-    
+     
     
     // Junctions
     String ICON_AND_JUNCTION = ARCHIMATE_IMGPATH + "and-junction.png"; //$NON-NLS-1$

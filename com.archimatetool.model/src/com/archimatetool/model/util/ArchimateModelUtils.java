@@ -328,6 +328,7 @@ public class ArchimateModelUtils {
                 IArchimatePackage.eINSTANCE.getQuantifyRelationship(),
                 IArchimatePackage.eINSTANCE.getMeasureRelationship(),
                 IArchimatePackage.eINSTANCE.getBelongingRelationship(),
+                IArchimatePackage.eINSTANCE.getImpactRelationship(),
                 IArchimatePackage.eINSTANCE.getPerformanceRelationship(),
                 IArchimatePackage.eINSTANCE.getOfferRelationship(),
                 IArchimatePackage.eINSTANCE.getUseRelationship(),

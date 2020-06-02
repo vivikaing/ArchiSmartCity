@@ -96,6 +96,7 @@ import com.archimatetool.model.IGap;
 import com.archimatetool.model.IGoal;
 import com.archimatetool.model.IGrouping;
 import com.archimatetool.model.IIdentifier;
+import com.archimatetool.model.IImpactRelationship;
 import com.archimatetool.model.IImplementationEvent;
 import com.archimatetool.model.IImplementationMigrationElement;
 import com.archimatetool.model.IIndicator;
@@ -2769,6 +2770,22 @@ public class ArchimateSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case IArchimatePackage.IMPACT_RELATIONSHIP: {
+				IImpactRelationship impactRelationship = (IImpactRelationship)theEObject;
+				T result = caseImpactRelationship(impactRelationship);
+				if (result == null) result = caseArchimateRelationship(impactRelationship);
+				if (result == null) result = caseArchimateConcept(impactRelationship);
+				if (result == null) result = caseArchimateModelObject(impactRelationship);
+				if (result == null) result = caseCloneable(impactRelationship);
+				if (result == null) result = caseDocumentable(impactRelationship);
+				if (result == null) result = caseProperties(impactRelationship);
+				if (result == null) result = caseAdapter(impactRelationship);
+				if (result == null) result = caseNameable(impactRelationship);
+				if (result == null) result = caseIdentifier(impactRelationship);
+				if (result == null) result = caseFeatures(impactRelationship);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -4510,6 +4527,21 @@ public class ArchimateSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseQualityLifeDimension(IQualityLifeDimension object) {
+		return null;
+	}
+
+				/**
+	 * Returns the result of interpreting the object as an instance of '<em>Impact Relationship</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Impact Relationship</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseImpactRelationship(IImpactRelationship object) {
 		return null;
 	}
 

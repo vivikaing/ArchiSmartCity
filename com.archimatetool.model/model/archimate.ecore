@@ -475,4 +475,5 @@
   <eClassifiers xsi:type="ecore:EClass" name="MeetRelationship" eSuperTypes="#//ArchimateRelationship"/>
   <eClassifiers xsi:type="ecore:EClass" name="InterfaceRelationship" eSuperTypes="#//ArchimateRelationship"/>
   <eClassifiers xsi:type="ecore:EClass" name="QualityLifeDimension" eSuperTypes="#//BusinessElement #//PassiveStructureElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ImpactRelationship" eSuperTypes="#//ArchimateRelationship"/>
 </ecore:EPackage>
