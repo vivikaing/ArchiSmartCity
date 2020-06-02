@@ -33,6 +33,6 @@ ArchiSmartCity was developed on top of Archi® and the Eclipse Modelling Framewo
 * In Eclipse's Package Explorer find the product file, "com.archimatetool.editor.product/archi.product", and open the file in the Eclipse Product Configuration Editor.
 * In the editor, click "Launch an Eclipse Application in Debug mode" (bottom left of the editor).
 
-For more information on the installation of the general Archi tool, please visit the [Archi Wiki](https://github.com/archimatetool/archi/wiki) and [its Configuration details](https://github.com/archimatetool/archi/wiki/Running-and-Debugging-Archi)
+For more information on the installation of the general Archi tool, please visit the [Archi Wiki](https://github.com/archimatetool/archi/wiki) and [the Configuration details](https://github.com/archimatetool/archi/wiki/Running-and-Debugging-Archi)
 
 
