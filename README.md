@@ -1,6 +1,6 @@
 
 
-# Archi - ArchiMate Modelling Editor for Smart Cities
+# ArchiSmartCity - ArchiMate Modelling Editor for Smart Cities
 
 ArchiSmartCity® is an Enterprise Architecture Modelling Language for Smart Cities based on ArchiMate®. ArchiSmartCity® extends Archi® modelling tool by adding new concepts and relationships of the Smart City domain to supports the alignment with Smart City strategies.
 
