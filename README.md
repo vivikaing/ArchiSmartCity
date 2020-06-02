@@ -24,10 +24,11 @@ ArchiSmartCity was developed on top of Archi® and the Eclipse Modelling Framewo
 1. Set up the Eclipse Environment [Eclipse Environment](https://github.com/archimatetool/archi/wiki/Setting-up-the-Eclipse-Environment)
 2. Download the latest version of ArchiSmartCity [ArchiSmartCity](https://github.com/vivikaing/ArchiSmartCity)
 
-3. Set Up ArchiSmartCity:
-* In the Eclipse's Package Explorer find the target file, "com.archimatetool.editor.product/archi.target", and open the file in the Eclipse Target Editor.
-* In the editor, at the top-right, click "Set as Active Target Platform". NOTE - in some cases this may read "Reload Target Platform"
-* Eclipse will download all the required dependencies. The progress can be seen in the lower right part of the status bar. NOTE - it can take some time.
+### Set Up ArchiSmartCity
+
+1. In the Eclipse's Package Explorer find the target file, "com.archimatetool.editor.product/archi.target", and open the file in the Eclipse Target Editor.
+2. In the editor, at the top-right, click "Set as Active Target Platform". NOTE - in some cases this may read "Reload Target Platform"
+3. Eclipse will download all the required dependencies. The progress can be seen in the lower right part of the status bar. NOTE - it can take some time.
 
 4. Run ArchiSmartCity from Eclipse:
 * In Eclipse's Package Explorer find the product file, "com.archimatetool.editor.product/archi.product", and open the file in the Eclipse Product Configuration Editor.
